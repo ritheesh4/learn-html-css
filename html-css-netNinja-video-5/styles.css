@@ -1,0 +1,44 @@
+/* p.first{
+    color: crimson;
+
+}
+p.second {
+    color:blue;
+}
+p.second.third{
+    border: 2px dashed black;
+}
+div#content{
+    background-color: rgba(10, 243, 231, 0.192);
+    padding: 20px;
+}
+
+a[href="https://en.wikipedia.org/wiki/India"]{
+    background-color:rgb(255, 216, 42);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+a[href*="youtube"]{
+    color: grey;
+    border: 2px solid red;
+    text-decoration: none;
+} */
+
+div{
+    color: lightcoral;
+    border: 2px solid lightgrey;
+    margin: 40px;
+}
+div p{
+    border: inherit;
+    margin: inherit;
+    color: green;
+}
+
+p{
+    color:black;
+}
