@@ -133,9 +133,9 @@
           <img src ="image.jpg" alt ="a picture for testing" > 
  ```
  **Syntax**:<br>
-     - Required attributes. Here we have used two attributes.<br>
-     - src: Source attribute[path of the image]. The path of the image has to be added inside of the quotes.<br>
-     - alt: Initially anything what we write in this alt attribute not going to be diplayed anywhere. But if the<br> 
+     -- Required attributes. Here we have used two attributes.<br>
+     -- src: Source attribute[path of the image]. The path of the image has to be added inside of the quotes.<br>
+     -- alt: Initially anything what we write in this alt attribute not going to be diplayed anywhere. But if the<br> 
        image is not displaying at the html page, the content in the alt will be displayed at the place of image.<br>
        
    `<img>` **Video reference** - https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=620
