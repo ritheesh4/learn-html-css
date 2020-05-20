@@ -84,6 +84,11 @@
           </html>
  
 ```  
+ Result:  <ul>
+                  <li>Rithesh</li>
+                  <li>Tony</li>
+                  <li>Emmanuel</li>
+              </ul>   
    `<ul>`**Video reference** : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=259
    
   - `<ol>` : Ordered list. Syntax is same like unordered list. use ol in the place of ul.
