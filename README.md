@@ -76,7 +76,7 @@
           <html>
             <body>
               <ul>
-                  <li>Rithesh</li>
+                  <li>Ritheesh</li>
                   <li>Tony</li>
                   <li>Emmanuel</li>
               </ul>              
@@ -85,7 +85,7 @@
  
 ```  
  Result:  <ul>
-                  <li>Rithesh</li>
+                  <li>Ritheesh</li>
                   <li>Tony</li>
                   <li>Emmanuel</li>
               </ul>   
@@ -96,7 +96,7 @@
           <html>
             <body>
               <ol>
-                  <li>Rithesh</li>
+                  <li>Ritheesh</li>
                   <li>Tony</li>
                   <li>Emmanuel</li>
               </ol>              
@@ -105,7 +105,7 @@
  
 ```   
  Result:  <ol>
-                  <li>Rithesh</li>
+                  <li>Ritheesh</li>
                   <li>Tony</li>
                   <li>Emmanuel</li>
               </ol>              
@@ -118,13 +118,29 @@
               <div>
                   <div>Hi </div>
                   <div>Hello</div>
-                  <div>Welcom</div>
+                  <div>Welcome</div>
               </div>              
             </body>
           </html>
  
 ```   
   `<div>` **Video reference** : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=372
+  - `<span>` : Used for grouping and applying styles to inline elements. The `<span>` tag is used with inline elements whilst
+               the `<div>` tag is used with block-level content.
+  - `<br>`   : Used for line breaks. If our content should go to the next line, use `<br>` tag.
+  - `<img>`  : Used to place images.
+       ```html
+          <img src ="image.jpg" alt ="a picture for testing" > 
+ ```
+  **Syntax:**
+     - Required attributes. Here we have used two attributes.
+     - src: Source attribute[path of the image]. The path of the image has to be added inside of the quotes.
+     - alt: Initially anything what we write in this alt attribute not going to be diplayed anywhere. Buti f the image is 
+       not displaying at the html page, the content in the alt will be displayed at the place of image.
+       
+   `<img>` **Video reference** : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=620
+  
+                            
   
   
   
