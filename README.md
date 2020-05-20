@@ -99,6 +99,11 @@
           </html>
  
 ```   
+ Result:  <ol>
+                  <li>Rithesh</li>
+                  <li>Tony</li>
+                  <li>Emmanuel</li>
+              </ol>              
   `<ol>` **Video reference** : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=310
   
   
