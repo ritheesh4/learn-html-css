@@ -84,7 +84,7 @@
           </html>
  
 ```  
-   `<ul>`Video reference : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=259
+   `<ul>`**Video reference** : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=259
    
   - `<ol>` : Ordered list. Syntax is same like unordered list. use ol in the place of ul.
   ```html
@@ -98,8 +98,8 @@
             </body>
           </html>
  
-``` 
-   `<ol>`Video reference : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=310
+```   
+  `<ol>` **Video reference** : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=310
   
   
   
