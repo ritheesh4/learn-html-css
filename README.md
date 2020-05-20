@@ -111,6 +111,21 @@
               </ol>              
   `<ol>` **Video reference** : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=310
   
+  - `<div>` : Defines a division or a section in an HTML.
+  ```html
+          <html>
+            <body>
+              <div>
+                  <div>Hi </div>
+                  <div>Hello</div>
+                  <div>Welcom</div>
+              </div>              
+            </body>
+          </html>
+ 
+```   
+  `<div>` **Video reference** : https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=372
+  
   
   
   
