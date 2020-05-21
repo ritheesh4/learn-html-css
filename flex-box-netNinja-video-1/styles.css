@@ -5,33 +5,48 @@ body{
 .wrapper {
     width: 100%;
     /* min-width: 300px; */
-    max-width: 100%;
+    width: 100%;
 }
 
 .flex-container{
     display: flex;
     background: #fff;
+    flex-wrap: wrap;
 }
 
 .box{
+    display: flex;
     height: 100px;
-    width: 320px;
+    /* flex-basis: 400px; */
+    flex: 1 0 200px;
 }
 
 .one{
     background: red;
-    /* flex-grow: 5; */
-    flex-shrink: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
 }
 .two{
     background: blue;
-    /* flex-grow: 2px; */
-    flex-shrink: 7;
+    /* flex-grow: 1; */
+    /* flex-shrink: 7; */
 
 }
 
 .three{
     background: green;
-    /* flex-grow: 2; */
-    flex-shrink: 17;
+    /* flex-grow: 1; */
+    /* flex-shrink: 17; */
+}
+.a{
+
+    background: green;
+}
+.b{
+    background: red;
+width: 300px;
+}
+.c{
+    background: rebeccapurple;
+width: 300px;
 }
