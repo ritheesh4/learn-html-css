@@ -4,5 +4,34 @@ body{
 
 .wrapper {
     width: 100%;
-    max-width: 960px;
+    /* min-width: 300px; */
+    max-width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    background: #fff;
+}
+
+.box{
+    height: 100px;
+    width: 320px;
+}
+
+.one{
+    background: red;
+    /* flex-grow: 5; */
+    flex-shrink: 1;
+}
+.two{
+    background: blue;
+    /* flex-grow: 2px; */
+    flex-shrink: 7;
+
+}
+
+.three{
+    background: green;
+    /* flex-grow: 2; */
+    flex-shrink: 17;
 }
