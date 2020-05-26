@@ -330,13 +330,12 @@
     
   ### Rows
   --------
-  
    -`grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
-                                           detects more thatn 200px of height, then automatically set the height.   
-     - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=112
+                                           detects more thatn 200px of height, then automatically set the height.                                              
+    - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=112
    
-  -` gird-template-rows: 200px 300px 400px 200px` : As the value is being assigned, each row will have each height of pixels.  
-     - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=249
+   -` gird-template-rows: 200px 300px 400px 200px` : As the value is being assigned, each row will have each height of pixels.  
+    - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=249
   
    
   - `grid-template-row: repeat(3, minmax(200px,auto)` : Repeat 200px and auto three times for each row.
