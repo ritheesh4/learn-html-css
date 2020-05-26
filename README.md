@@ -145,3 +145,40 @@
   
   
   
+  
+  
+  
+  
+  
+  # CSS FLEX BOX
+  ----------------
+  
+  - FLexbox is a CSS display type designed to help us craft CSS layouts much easier
+  - Controls the position, size and spcing of each other 
+  - Works great responsively
+  ## INTRODUCTION
+  ----------------
+  ### FLEXBOX BASICS
+  -----------------
+  
+  - Apply adisplay type of  flex to the parent continer. The children element in that parent directly become flex items.
+  - There is how we can maked them to grow and shrink accordance with our need.
+ 
+ ###  BENEFITS of using FLEX BOX
+ -------------------------------
+ - Navigation bars & menus
+ - Grid laouts
+ - Bar charts
+ - Equal height columns
+ - Modernizr should use for those browsers do not support flex box.
+ 
+ ## FLEX CONTAINERS
+ ------------------
+   `display:flex`
+ - When using display as flex, the all children get stacked from left to right.
+ 
+ ### FLEX GROW property
+ ----------------------
+ `flex-grow:1` of `flex-grow:100`
+ - This means the the children grow the full space of the parent.
+ - Each element can assign different frow values. So based on that each one take different space on the screeen.
