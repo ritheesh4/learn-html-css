@@ -222,4 +222,17 @@
      
  - Using this, we can avoid the wrapping. By setting the value of flex wrap into nowrap, it will not wrap when size reduced.
    
-   
+ ### FLEX BASIS
+ --------------
+ 
+ `flex-basis: 500px`
+ - Flex basis is like minimum width of the flex box.
+ - The application of use of flex basis is, even the size of the children become reduced below the minimum pixel value, intead  
+   of displaying bottom scroll bar, it will shrink again.
+ - We can add the value of felx grow, flex shrink and flex basis together like below.
+ 
+ `flex: 1 0 200px`
+ 
+ `flex: 1` Basically what happens here is, the flex grow property is 1, flex shrink property is 1 and flex basis is zero.
+ 
+   - Video reference: https://youtu.be/j5RxNRFWMwo?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=232
