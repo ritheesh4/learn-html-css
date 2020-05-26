@@ -171,7 +171,7 @@
  - Equal height columns
  - Modernizr should use for those browsers do not support flex box.
  
- ## FLEX CONTAINERS
+ ### FLEX CONTAINERS
  ------------------
    `display:flex`
  - When using display as flex, the all children get stacked from left to right.
@@ -350,7 +350,7 @@
    `grid-gap :10px` : This makes gap around so combined gap of column and row formed.
      - Video reference: https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=460
      
- ## Grid Lines
+ ### Grid Lines
  -------------
   - `grid-template-columns: repear(6, 1fr);`
     `grid-template- rows :repear(4, minmax(150px,auto));`
@@ -363,5 +363,20 @@
      `grid-column: 1/3;` : 1 sets the starting point and 3 sets the ending ponit of the column.
       
      - Video reference: https://youtu.be/J5GWyiWU2H8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=322
-  
+     
+ ### Nested Grids
+ ---------------
+ 
+  - We can create a grid inside of anothe grid. Create a new div like wrapper inside side of the parent grid and add the items  
+    to make as the child grid.
+    - Example.
+    `display: gird;`
+    `grid-template-columns: 1fr 1fr;
+    `grid-gap:10px`
+  - `grid-column: span 3:`
+    We can increase the width of the child.
+    
+ ### Aligning & Justifying Items
+ ------------------------------
+ 
   
