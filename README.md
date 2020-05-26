@@ -401,6 +401,23 @@
   - `align-self: center`
     `justify-self: center` - Put the element right in the center.
    - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=255
+   
+ ### column grid
+ ---------------
+  - `grid-template-columns: repeat(12, 1fr)` - 12 times , each column with 1 fraction.
+   - Video reference: https://youtu.be/WmwGpjg580o?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=96
+   
+ ### Grid Areas
+ --------------
+  - `grid-template-areas:`
+    `"header header header header"`
+    `"aside aside aside aside"`
+    `"nav nav main nav"` - Here, visually we are placing the tages. The grids will be formed exactly like this order of that  
+                           particular tags.
+    - Video referece:https://youtu.be/tPosqmwIx0w?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=147
+    
+    
+ 
     
    
     
