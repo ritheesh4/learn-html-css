@@ -263,9 +263,9 @@
    - Cross axis(y)
    - When we change the value of the flex flow, we are chagning the direction of the axis. 
    - `flex-flow:row` main axis is the horizontal axis. The children line-up on the main axis. The down vertical axis will be  
-     the cross axis.
+                     the cross axis.
    - `flex-flow: column` main axis is the vertical axis. The children line-up on the main axis. The horizontal axis will be 
-        the cross.
+                     the cross.
    
    - If we use `flex-flow: column` and sets the value of `justify-content:center`, the items wil be aligned to the center 
      horizontally. The reason is, main axis is horizontal.
@@ -303,4 +303,58 @@
   ### Element Order
   -----------------
   `order:0` `order:1` : By assigning orders, the position can be shuffled based on the order values of the elements.
+  
+  
+  
+  # CSS GRID
+  
+  - CSS GRID just read the web page as a grid. Box of rows and columns.
+  
+  ### Columns
+  ------------
+  `display:gird` is used to select the grid display.
+  
+  - `grid-templated-columns: 30% 30% 30%` : Using this, the columns width are begin set to 30%. If there any other elements are 
+    present more than column numbers, here that is 3, the nex items will be moved into the next row and each column will get  
+    30%.
+    
+    - Video reference: https://youtu.be/d-MHl_Q_hp8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=190
+  
+  - `grid-template-columns: 1fr 1fr 1fr` : We are making the columns into the same fraction width.
+  
+    - Video reference: https://youtu.be/d-MHl_Q_hp8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=315
+   
+   
+  - `grid-template-columns: repeat(5, 1fr)` : Here we are delcaring 5 columns with fraction of width as 1fr.
+    - Video reference: https://youtu.be/d-MHl_Q_hp8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=381
+    
+  ### Rows
+  --------
+  
+  -`grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
+                                           detects more thatn 200px of height, then automatically set the height.
+   
+   - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=112
+   
+  -` gird-template-rows: 200px 300px 400px 200px` : As the value is being assigned, each row will have each height of pixels.
+  
+   - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=249
+  
+   
+  - `grid-template-row: repeat(3, minmax(200px,auto)` : Repeat 200px and auto three times for each row.
+  
+  - `grid-column-gap: 10px` : Adding 10px gap between the columns.
+   - Video reference: https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=418
+  
+  - `grid-row-gap :10px` : Adding 10 gap between the rows.
+   - Video reference : https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=444
+   
+  - To combine both the row and column gap property,
+   `grid-gap :10px` : This makes gap around so combined gap of column and row formed.
+   - Video reference: https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=460
+    
+  
+  
+  
+  
   
