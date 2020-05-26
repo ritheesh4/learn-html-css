@@ -379,4 +379,32 @@
  ### Aligning & Justifying Items
  ------------------------------
  
+  - `align-items: start` - All go to the top of the row along with the height of the element and padding.
+   - Video reference : https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=109
+   
+  - `align-items: end` - All go the bottom of the each row along with the height and padding of the element.
+   - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=133
+   
+  - `align-items: stetch` - This is what actually the default value. The element gets streteched with the flex box.
+   - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=142
+   
+  - `justify-itmes: start` - We get the content with the width of the element and positioned at the start of each column.
+   - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=163
+   
+  - `justify-items: end` - We ge the content with the width of the element and positioned at the end of each column.
+   - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=179
+   
+  - `align-items: start;`
+    `justify-items: end;`- Start of the actual rows top and end of each column.
+   - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=186
+   
+  - `align-self: center`
+    `justify-self: center` - Put the element right in the center.
+   - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=255
+    
+   
+    
+  
+   
+  
   
