@@ -236,3 +236,21 @@
  `flex: 1` Basically what happens here is, the flex grow property is 1, flex shrink property is 1 and flex basis is zero.
  
    - Video reference: https://youtu.be/j5RxNRFWMwo?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=232
+   
+   ### OTHER PROPERTIES OF FLEX
+   ---------------
+   `justify-content: center`
+   
+   - This property is used to align the all children to the center of the main body.
+   
+   `justify-content: flex-end`
+   
+   - This property is used to align the all children into the end, probably the right side of the main body.
+   
+   `justify-content: flex-start`
+   
+   - This is the default behaviour of flex box. Items get arranged to the left side of the main body.
+   
+   `justify-content: space-around`
+   
+   - Each side of each element gets spaced.
