@@ -12,14 +12,48 @@
     <div class="header-holder">
         <div class="nav-bar">
             <!-- <div class ="nav-bar-button"></div> -->
-            <div class="nav-bar-logo"><img
-                    src=" https://docs.microsoft.com/_themes/docs.theme/master/en-us/_themes/styles/microsoft-logo-light.c77142eb.png"
-                    class="logo-image"></div>
+            <a class="nav-bar-button">
+                <div class="nav-bar-logo"><img
+                        src=" https://docs.microsoft.com/_themes/docs.theme/master/en-us/_themes/styles/microsoft-logo-light.c77142eb.png"
+                        class="logo-image"></div>
+                <div class="nav-list">
+                    <div class="nav-items">
+                        |
+                    </div>
+                    <div class="nav-items">
+                        <b>Docs</b>
+                    </div>
+                    <div class="nav-items">
+                        Documentation
+                    </div>
+                    <div class="nav-items">
+                        Learn
+                    </div>
+                    <div class="nav-items">
+                        Q&A
+                    </div>
+                    <div class="nav-items">
+                        Code Samples
+                    </div>
+                </div>
+
+            </a>
+
             <div class="nav-menu">
                 <div class="title-menu">
+
                     <span class="nav-title">Documentation</span>
-                    <img src="./icons/menu.svg" alt="menu" class="menu">
+                    <div>
+                        <span><img src="./icons/menu.svg" alt="menu" class="menu"></span>
+                    </div>
                 </div>
+            </div>
+            <div class ="search-sign">
+                <div class ="search">
+                   <div>Search</div>
+                   <img src="icons/search.png" style ="width: 15px;height: 15px;margin-left: 5px;">
+                </div>
+                <div style="color: rgb(94, 94, 224);">Sign in</div>
             </div>
         </div>
         <div class="page-action">
@@ -27,7 +61,12 @@
         </div>
         <div class="documentation-container">
             <div class="doc-heading">
-                <h1>Azur<br>documentation</br></h1>
+                <div class="azure">
+                    <h1>Azure</h1>
+                </div>
+                <div>
+                    <h1>documentation</h1>
+                </div>
             </div>
             <div class="doc-para">
                 Learn how to build and manage powerful applications using Microsoft Azure cloud sevices. Get
@@ -61,7 +100,7 @@
         </div>
         <div class="browse">
             <div class="browse-heading">
-                Browse Azure <br>products
+                Browse Azure products
             </div>
             <div class="list-selection-container">
                 <label for="Featured"></label>
@@ -93,9 +132,9 @@
                 </select>
             </div>
             <div class="blokchain">
-                <h1> Featured
+                <h3> Featured
 
-                </h1>
+                </h3>
                 <ul class="blockchain-list">
                     <li><a href="=" #>Azure Blockchain Service<br>(Preview)</a></li>
                     <li><a href="=" #>Azure Blockchain Tokens<br>(Preview)</a></li>
@@ -105,83 +144,87 @@
                 </ul>
             </div>
         </div>
-        <div class="tools">
+        <div>
             <div class="tools-heading">Languages and Tools</div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/python.svg" class="tools-icons"></div>
-                <div class="tools-names">Python</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/net.png" class="tools-icons"></div>
-                <div class="tools-names">.NET</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/js.svg" class="tools-icons"></div>
-                <div class="tools-names">JavaScript</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/logo_java.svg" class="tools-icons"></div>
-                <div class="tools-names">Java</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/logo_Go-lightblue.svg" class="tools-icons"></div>
-                <div class="tools-names">Go</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/logo_REST.svg" class="tools-icons"></div>
-                <div class="tools-names">REST API</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/logo_powershell.svg" class="tools-icons"></div>
-                <div class="tools-names">Azur CLI</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/logo_CLIgeneric.svg" class="tools-icons"></div>
-                <div class="tools-names">Azure CLI</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/resource-groups.svg" class="tools-icons"></div>
-                <div class="tools-names">ARM templates</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/logo_jenkins.svg" class="tools-icons"></div>
-                <div class="tools-names">Jenkins</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/logo_terraform.svg" class="tools-icons"></div>
-                <div class="tools-names">Terraform</div>
-            </div>
-            <div class="tools-box">
-                <div class="tools-icons"><img src="./icons/ansible.svg" class="tools-icons"></div>
-                <div class="tools-names">Ansible</div>
+            <div class="tools">
+
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/python.svg" class="tools-icons"></div>
+                    <div class="tools-names">Python</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/net.png" class="tools-icons"></div>
+                    <div class="tools-names">.NET</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/js.svg" class="tools-icons"></div>
+                    <div class="tools-names">JavaScript</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/logo_java.svg" class="tools-icons"></div>
+                    <div class="tools-names">Java</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/logo_Go-lightblue.svg" class="tools-icons"></div>
+                    <div class="tools-names">Go</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/logo_REST.svg" class="tools-icons"></div>
+                    <div class="tools-names">REST API</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/logo_powershell.svg" class="tools-icons"></div>
+                    <div class="tools-names">Azur CLI</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/logo_CLIgeneric.svg" class="tools-icons"></div>
+                    <div class="tools-names">Azure CLI</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/resource-groups.svg" class="tools-icons"></div>
+                    <div class="tools-names">ARM templates</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/logo_jenkins.svg" class="tools-icons"></div>
+                    <div class="tools-names">Jenkins</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/logo_terraform.svg" class="tools-icons"></div>
+                    <div class="tools-names">Terraform</div>
+                </div>
+                <div class="tools-box">
+                    <div class="tools-icons"><img src="./icons/ansible.svg" class="tools-icons"></div>
+                    <div class="tools-names">Ansible</div>
+                </div>
             </div>
         </div>
+
         <div class="list-container" style="background: #f2f2f2;">
             <div class="tools-heading clouds">Sovereign clouds</div>
             <div class="list-box">
 
                 <div class="heading-clouds">Azure Government</div>
                 <div class="content-clouds">
-                    A dedicated cloud for U.S.<br>
-                    government agencies and their <br>
+                    A dedicated cloud for U.S.
+                    government agencies and their
                     partners.
                 </div>
             </div>
             <div class="list-box">
                 <div class="heading-clouds">Azure Gernamny</div>
                 <div class="content-clouds">
-                    A dedicateed cloud that adheres to<br>
+                    A dedicateed cloud that adheres to
                     German data-handling regulations.
                 </div>
             </div>
             <div class="list-box">
                 <div class="heading-clouds">Azur China 21Vianet</div>
-                <div class="content-clouds">A dedicated cloud located in China <br>
+                <div class="content-clouds">A dedicated cloud located in China
                     and operated by 21Vianet
                 </div>
             </div>
         </div>
-     
+
         <footer>
             <div class="footer-part1">
                 <ul class="language-theme">
@@ -204,7 +247,7 @@
 
                 </ul>
             </div>
-           
+
         </footer>
 
 </body>
