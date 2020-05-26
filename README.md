@@ -207,15 +207,7 @@
   
   
  - CSS stylesheet: A set of CSS rules/ rule sets
- 
-    ```html
-         div{
-     color: red;
-     background-color: white;
-     }
- 
-``` 
-  
+  `div{color:red}`
   
   
   # CSS FLEX BOX
