@@ -151,13 +151,12 @@
   
   
   # CSS FLEX BOX
-  ----------------
+ 
   
   - FLexbox is a CSS display type designed to help us craft CSS layouts much easier
   - Controls the position, size and spcing of each other 
   - Works great responsively
-  ## INTRODUCTION
-  ----------------
+ 
   ### FLEXBOX BASICS
   -----------------
   
