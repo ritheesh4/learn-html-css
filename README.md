@@ -330,11 +330,11 @@
     
   ### Rows
   --------
-   -`grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
+   - `grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
                                            detects more thatn 200px of height, then automatically set the height.                                              
     - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=112
    
-   -` gird-template-rows: 200px 300px 400px 200px` : As the value is being assigned, each row will have each height of pixels.  
+   - ` gird-template-rows: 200px 300px 400px 200px` : As the value is being assigned, each row will have each height of pixels.  
     - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=249
   
    
@@ -349,9 +349,19 @@
   - To combine both the row and column gap property,
    `grid-gap :10px` : This makes gap around so combined gap of column and row formed.
      - Video reference: https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=460
-    
-  
-  
-  
+     
+ ## Grid Lines
+ -------------
+  - `grid-template-columns: repear(6, 1fr);`
+    `grid-template- rows :repear(4, minmax(150px,auto));`
+     
+     
+     `.one{ grid-column-start:1; grid-column-end: 3}`
+     - Here, the each box width and position can be adjusted. The grid column start of the element one is beign set as 1 and the 
+       width will extent till the coloumn line 3. So the starting and ending position can be set.
+     - It can be simply written as 
+     `grid-column: 1/3;` : 1 sets the starting point and 3 sets the ending ponit of the column.
+      
+     - Video reference: https://youtu.be/J5GWyiWU2H8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=322
   
   
