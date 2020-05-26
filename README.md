@@ -268,4 +268,37 @@
    - `flex-flow: column` main axis is the vertical axis. The children line-up on the main axis. The horizontal axis will be 
         the cross.
    
-  
+   - If we use `flex-flow: column` and sets the value of `justify-content:center`, the items wil be aligned to the center 
+     horizontally. The reason is, main axis is horizontal.
+   - If we use `flex-flow: row` and sets the value of `justify-content: center`, the items will be aligned to the center 
+     vertically. The reason is, main axis is vertical.
+   - `justify-content` always works on the main axis. When we change the flex flow into column and row, we change the main axis.
+   
+   `flex-flow: row-reverse` and `flex-flow: column-reverse`
+   - As per the names, they can be used to reverse the order of the rows and columns. The items order will be reverse. Not only   
+     just the position.
+     
+ ### ALIGN ITEMS ON THE CROSS AXIS
+ ---------------------------------
+   `align-items: center`
+   - Here the `align-items: center` aligns the items center to the cross axis instead of main axis.
+   `justify-content: center`
+   - Here the `justify-content: center` align the itesm center to the main axis. So using align-items and justify-content, we  
+     can position the items perfectly center inside of the parent space.
+     
+     - Video reference: https://youtu.be/WY2itpeUK7Q?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=17
+     
+     
+ ### New tags learned
+ --------------------
+ `<article>` Tag: This tag contains independent content that doesn’t require any other context. So the <article> tag can be   
+                  placed inside the main content. But each of the articles will contain independent content within it.
+          
+`<section>` Tag: This tag is used to split a page into sections like Introduction, Contact Information, Details, etc and each of  
+                 these sections can be in a different <section> tag. The <section> tag is introduced to wrap-up the things in a 
+                 particular section.
+          
+ `transition: flex-basis 0.2s` : This is used to make transitions very soomthly. The time mentioned will be taken to happen from   
+                                 one transition to another.
+ 
+ 
