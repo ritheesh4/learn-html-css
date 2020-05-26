@@ -205,7 +205,7 @@
  - Instead of appearing the bottom scroll bar, we need to wrap the end element in the flex to the next line. So the remaining 
    elements can take the remaining space and can avoid bottom scrolling.
    
-  -  video referece: https://youtu.be/rlZ-fC5eWWk?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
+   -  video referece: https://youtu.be/rlZ-fC5eWWk?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
    
  - The size of the remaning children will be based on how the flex-grow property assigned to each one.
  - Without even using the media query, we can change the position of the children based on the availble space.
@@ -216,10 +216,10 @@
      last element of the flex to the next line, it will go the upper line and remaining elements will become under the last 
      element.
      
-  -   video reference: https://youtu.be/rlZ-fC5eWWk?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=202
+   -   video reference: https://youtu.be/rlZ-fC5eWWk?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=202
      
  `flex wrap: nowarp`
      
- -Using this, we can avoid the wrapping. By setting the value of flex wrap into nowrap, it will not wrap when size reduced.
+ - Using this, we can avoid the wrapping. By setting the value of flex wrap into nowrap, it will not wrap when size reduced.
    
    
