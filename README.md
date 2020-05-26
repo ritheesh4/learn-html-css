@@ -145,7 +145,8 @@
    `<form></form>`- Form tag is used to make forms in html.
    `<input>` - Input field is used to take the input from the user. This would be the are where the user going to type.
    `<id>` - Id has to be defined to identify the the particulr form's input for the further use of input data.
-  ```html
+  
+```html
           <html>
             <body>
               <div>
@@ -155,8 +156,7 @@
               </div>              
             </body>
           </html>
- 
-    ``` 
+     ``` 
    - Video reference:https://youtu.be/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=167
   
   
