@@ -209,6 +209,86 @@
  - CSS stylesheet: A set of CSS rules/ rule sets
   `div{color:red}`
   
+ - We create a seperate file line `styles.css` file inorder to write the css property. Then we will link this css file with
+   the HTML file. To do that, we should link that file in the header of the HTML file.
+   
+   ```html
+         <html>
+                   <head>
+                             <title>basics</title>
+                             <rel ="stylesheet" href ="./styles.css">
+                   </head>
+            <body>
+              <div>
+                  <form>
+                  <label for ="username"></label> 
+                  <input type ="text id ="username">
+                  </form>
+              </div>              
+            </body>
+          </html>
+ 
+```
+ - Video reference :https://youtu.be/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=514
+ 
+### Some of the important properties
+------------------------------------- 
+ - `color` - This css property is used to change the color of the text
+ - `background` - This property is used to change the background colour of the body.
+ - `background-image` - Sets the background image
+ - `display` - Display behavior.
+ - `width` - Element width.
+ - `hegiht` - Element height.
+ - `min-width` - Minimum Width.
+ - `min-height` - Minimum height.
+ - `max-height` -Maximum height.
+ - `margin` - Outter margins property.
+ - `padding` -Inner margin property.
+  - video referece:https://youtu.be/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=1992
+ - `border` - Border property.
+ - `border-color` - Border color.
+ - `border-width` - Border width.
+ - `border-radius` - Radius of the border.
+ - `font`- Font properties.
+ - `font-family` - Defines the font.
+ - `font-style` - Font style.
+ - `font-weight` - Thickness of the font
+ - `position` -Type of positioning used for an element.
+ - `z-index` - Sets the order of overlapping elements.
+ - `text-decoration` - This is used to add decorations to the text.
+ - `text-align` - This changes the alignment of the text.
+ 
+  - Video referece: https://youtu.be/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=479
+  
+ - `Inline Elements` - Do not take up any more room than their content needs
+                     - span, img, strong, em, a and more....
+ - `Block-level Elements` - Take up the whole width of a page regrdless of content
+                          - p,div,h2,h3,ul,li and more...
+                          
+  
+  ## CSS classes & Selectors
+  
+  - Using classes and selectors, we can perfectly arrange and style anything in the html usin the css properties.
+  - Classes make very simple the process of choosing a particular item or group of items together to apply common property.
+  
+     ```html
+         <html>
+            <body>
+              <div class ="heading>
+                           Hello
+              </div>              
+            </body>
+          </html>
+ 
+```  
+  
+  
+  
+  - .class : example- `.intro`: Selects all telements with calss ="intro".
+  - #id : example- `#firstname`: Selects the element with id ="firstname".
+  - * : example - `*`: Selects all elements
+  - element: example `p` - Selects all <p> elements.
+  - element,element : example div,p - Select all <div> elements and all <p> elements.
   
   # CSS FLEX BOX
  
