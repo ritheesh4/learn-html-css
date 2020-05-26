@@ -179,6 +179,47 @@
  
  ### FLEX GROW property
  ----------------------
- `flex-grow:1` of `flex-grow:100`
+ `flex-grow: 1` or `flex-grow: 100`
  - This means the the children grow the full space of the parent.
  - Each element can assign different frow values. So based on that each one take different space on the screeen.
+   video reference: https://youtu.be/yPK8cwBEOmg?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=126
+ - Adding flex-grow value is like a ratio how to grow the childre with the parent.
+ 
+ ### FLEX SHRINK property
+ ------------------------
+ `flex-shrtink: 1`
+ - Just opposite of flex-grow.
+ - As browser gets smaller, the shrinking rate of the child based on the value set for each. Bigger the number of flex-shrink
+   shrinks more than others.
+   
+  video referece: https://youtu.be/tSdq8amjMso?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=93
+  
+ ### FLEX WRAP property
+ ----------------------
+ 
+ `flex-wrap: wrap`
+ 
+ - If in the css we have specified a minimum-width for the parent or any other part, we can see that while we reduce the    
+   browser's width, after reduced the minimum-width, there will be a scroll bar appear at the bottom to preserve the width of   
+   that body.
+ - Instead of appearing the bottom scroll bar, we need to wrap the end element in the flex to the next line. So the remaining 
+   elements can take the remaining space and can avoid bottom scrolling.
+   
+   video referece: https://youtu.be/rlZ-fC5eWWk?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
+   
+   - The size of the remaning children will be based on how the flex-grow property assigned to each one.
+   - Without even using the media query, we can change the position of the children based on the availble space.
+   
+   `flex wrap: wrap-reverse`
+   
+   - Wrap reverse does opposit of flex wrap. When the width of the browser goes down to the minimum width, instead of going the 
+     last element of the flex to the next line, it will go the upper line and remaining elements will become under the last 
+     element.
+     
+     video reference: https://youtu.be/rlZ-fC5eWWk?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=202
+     
+     `flex wrap: nowarp`
+     
+     -Using this, we can avoid the wrapping. By setting the value of flex wrap into nowrap, it will not wrap when size reduced.
+   
+   
