@@ -162,7 +162,7 @@
    
    - `<label>` - This tag defines the label for the element.
    
-   ```html
+ ```html
          <html>
             <body>
               <div>
@@ -175,6 +175,7 @@
           </html>
  
 ```  
+
    - We have to specifically say which label belongs to which input field. So that the id of the input name is we are using in 
      "for" of the label to identify the corresponding input field.
    - Video reference:https://youtu.be/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=352
@@ -214,10 +215,10 @@
    
    ```html
          <html>
-                   <head>
-                             <title>basics</title>
-                             <rel ="stylesheet" href ="./styles.css">
-                   </head>
+               <head>
+               <title>basics</title>
+               <rel ="stylesheet" href ="./styles.css">
+               </head>
             <body>
               <div>
                   <form>
@@ -229,6 +230,7 @@
           </html>
  
 ```
+
  - Video reference :https://youtu.be/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=514
  
 ### Some of the important properties
