@@ -162,7 +162,7 @@
    
    - `<label>` - This tag defines the label for the element.
    
- ```html
+  ```html
          <html>
             <body>
               <div>
@@ -213,7 +213,7 @@
  - We create a seperate file line `styles.css` file inorder to write the css property. Then we will link this css file with
    the HTML file. To do that, we should link that file in the header of the HTML file.
    
-   ```html
+  ```html
          <html>
                <head>
                <title>basics</title>
@@ -273,7 +273,7 @@
   - Using classes and selectors, we can perfectly arrange and style anything in the html usin the css properties.
   - Classes make very simple the process of choosing a particular item or group of items together to apply common property.
   
-     ```html
+  ```html
          <html>
             <body>
               <div class ="heading>
