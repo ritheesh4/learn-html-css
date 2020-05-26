@@ -331,7 +331,7 @@
   ### Rows
   --------
   
-  -`grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
+   -`grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
                                            detects more thatn 200px of height, then automatically set the height.   
      - Video reference :https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=112
    
