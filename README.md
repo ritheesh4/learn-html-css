@@ -140,7 +140,7 @@
        
    `<img>` **Video reference** - https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=620
   
-   ## 2. HTML FORMS
+   ## 3. HTML FORMS
    --------------
    `<form></form>`- Form tag is used to make forms in html.
    `<input>` - Input field is used to take the input from the user. This would be the are where the user going to type.
@@ -159,12 +159,62 @@
  
 ```   
    - Video reference:https://youtu.be/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=167
+   
+   - `<label>` - This tag defines the label for the element.
+   
+   ```html
+         <html>
+            <body>
+              <div>
+                  <form>
+                  <label for ="username"></label> 
+                  <input type ="text id ="username">
+                  </form>
+              </div>              
+            </body>
+          </html>
+ 
+```  
+   - We have to specifically say which label belongs to which input field. So that the id of the input name is we are using in 
+     "for" of the label to identify the corresponding input field.
+   - Video reference:https://youtu.be/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=352
+   
+   - Different types of inputs are availble
+    - `"email"`
+    - `"password"`
+    - `"radio"`
+    
+  - `<textarea>` - This is an another tag used to create a form on a particular area. By allocating the rows and columns, the 
+                   size of the textarea can be changed.
+   - `<textarea id ="bio" cols ="30" rows ="10" placeholder ="about">`
+   - Video reference: https://youtu.be/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=1276
+   
+  - `palceholder` - Place holder can use every input filed to make the input more specific. 
+  
+  - `required` - Adding required attribute, this will check the input filed has values. Otherwise, an error message or colour 
+                 will be appeared over the input field.
+  
+  # CSS Basics
+  
+  ## What is CSS?
+  
+  - Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making  
+    web pages presentable.
+  - CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the 
+    spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout  
+    designs,variations in display for different devices and screen sizes as well as a variety of other effects.
   
   
   
-  
-  
-  
+ - CSS stylesheet: A set of CSS rules/ rule sets
+ 
+    ```html
+         div{
+     color: red;
+     background-color: white;
+     }
+ 
+``` 
   
   
   
