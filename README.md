@@ -300,4 +300,7 @@
  `transition: flex-basis 0.2s` : This is used to make transitions very soomthly. The time mentioned will be taken to happen from   
                                  one transition to another.
  
- 
+  ### Element Order
+  -----------------
+  `order:0` `order:1` : By assigning orders, the position can be shuffled based on the order values of the elements.
+  
