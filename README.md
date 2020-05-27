@@ -140,15 +140,269 @@
        
    `<img>` **Video reference** - https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=620
   
-                            
+   ## 3. HTML FORMS
+   --------------
+   `<form></form>`- Form tag is used to make forms in html.
+   `<input>` - Input field is used to take the input from the user. This would be the are where the user going to type.
+   `<id>` - Id has to be defined to identify the the particulr form's input for the further use of input data.
+  
+  ```html
+         <html>
+            <body>
+              <div>
+                  <form>
+                  <input type ="text id ="username">
+                  </form>
+              </div>              
+            </body>
+          </html>
+ 
+```   
+   - Video reference:https://youtu.be/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=167
+   
+   - `<label>` - This tag defines the label for the element.
+   
+  ```html
+         <html>
+            <body>
+              <div>
+                  <form>
+                  <label for ="username"></label> 
+                  <input type ="text id ="username">
+                  </form>
+              </div>              
+            </body>
+          </html>
+ 
+```  
+
+   - We have to specifically say which label belongs to which input field. So that the id of the input name is we are using in 
+     "for" of the label to identify the corresponding input field.
+   - Video reference:https://youtu.be/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=352
+   
+   - Different types of inputs are availble
+    - `"email"`
+    - `"password"`
+    - `"radio"`
+    
+  - `<textarea>` - This is an another tag used to create a form on a particular area. By allocating the rows and columns, the 
+                   size of the textarea can be changed.
+   - `<textarea id ="bio" cols ="30" rows ="10" placeholder ="about">`
+   - Video reference: https://youtu.be/YwbIeMlxZAU?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=1276
+   
+  - `palceholder` - Place holder can use every input filed to make the input more specific. 
+  
+  - `required` - Adding required attribute, this will check the input filed has values. Otherwise, an error message or colour 
+                 will be appeared over the input field.
+  
+  # CSS Basics
+  
+  ## 4. What is CSS?
+  
+  - Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making  
+    web pages presentable.
+  - CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the 
+    spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout  
+    designs,variations in display for different devices and screen sizes as well as a variety of other effects.
   
   
   
+ - CSS stylesheet: A set of CSS rules/ rule sets
+  `div{color:red}`
+  
+ - We create a seperate file line `styles.css` file inorder to write the css property. Then we will link this css file with
+   the HTML file. To do that, we should link that file in the header of the HTML file.
+   
+  ```html
+         <html>
+               <head>
+               <title>basics</title>
+               <rel ="stylesheet" href ="./styles.css">
+               </head>
+            <body>
+              <div>
+                  <form>
+                  <label for ="username"></label> 
+                  <input type ="text id ="username">
+                  </form>
+              </div>              
+            </body>
+          </html>
+ 
+```
+
+ - Video reference :https://youtu.be/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=514
+ 
+### Some of the important properties
+------------------------------------- 
+ - `color` - This css property is used to change the color of the text
+ - `background` - This property is used to change the background colour of the body.
+ - `background-image` - Sets the background image
+ - `display` - Display behavior.
+ - `width` - Element width.
+ - `hegiht` - Element height.
+ - `min-width` - Minimum Width.
+ - `min-height` - Minimum height.
+ - `max-height` -Maximum height.
+ - `margin` - Outter margins property.
+ - `padding` -Inner margin property.
+  - video referece:https://youtu.be/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=1992
+ - `border` - Border property.
+ - `border-color` - Border color.
+ - `border-width` - Border width.
+ - `border-radius` - Radius of the border.
+ - `font`- Font properties.
+ - `font-family` - Defines the font.
+ - `font-style` - Font style.
+ - `font-weight` - Thickness of the font
+ - `position` -Type of positioning used for an element.
+ - `z-index` - Sets the order of overlapping elements.
+ - `text-decoration` - This is used to add decorations to the text.
+ - `text-align` - This changes the alignment of the text.
+ 
+  - Video referece: https://youtu.be/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=479
+  
+ - `Inline Elements` - Do not take up any more room than their content needs
+                     - span, img, strong, em, a and more....
+ - `Block-level Elements` - Take up the whole width of a page regrdless of content
+                          - p,div,h2,h3,ul,li and more...
+                          
+  
+  ## 5 . CSS classes & Selectors
+  
+  - Using classes and selectors, we can perfectly arrange and style anything in the html usin the css properties.
+  - Classes make very simple the process of choosing a particular item or group of items together to apply common property.
+  
+  ```html
+         <html>
+            <body>
+              <div class ="heading>
+                  Hello
+              </div>              
+            </body>
+          </html>
+ 
+```  
   
   
   
+  - .class : example- `.intro`: Selects all telements with calss ="intro".
+  - #id : example- `#firstname`: Selects the element with id ="firstname".
+  - * : example - `*`: Selects all elements
+  - element: example `p` - Selects all <p> elements.
+  - element,element : example div,p - Select all <div> elements and all <p> elements.
+            
+  - Ingeritance -HTMl elements can inherit CSS properties that are applied to theri parents.
+  
+  ```html
+        p{
+          border: inherit;
+          margin: ingerit;
+        }
+          
+ 
+```    
+
+  - Video reference:https://youtu.be/FHZn6706e3Q?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=1300
+            
+  
+  ## 6. Semantic Tags
+  
+   - What is semantic tag: Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in 
+                           webpages and web applications rather than merely to define its presentation or look. 
+                           
+   `<article><aside><details><figcaption><figure><footer><header><main><mark><nav><section><summary><time>`
+   
+   -Elements such as <header>, <nav>, <section>, <article>, <aside>, and <footer> act more or less like <div> elements. They 
+    group other elements together into page sections. However where a <div> tag could contain any type of information, it is 
+    easy to identify what sort of information would go in a semantic <header> region.
+                           
+   -  Video reference :https://youtu.be/kGW8Al_cga4?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=276
+   - Page reference :https://www.freecodecamp.org/news/semantic-html5-elements/
+   
+   
+  ## 7. Position & Layout
+  
+  - `static` :Here the positon is not specifically mentioned. The elements get arranged by the default properties.
+  - `Relative` :The position of the item can be changed to anywhere if th position property is selected as relative.
+  - `Fixed` : Here, the position of this item will not be changed and it will be there forever even the page is scrolled.
+  - `absolute` : The position of the child can be perfectly arranged by taking the space of the parent.
+  - `sticky` :Once the sticky property applied, we can stick anything to the page while its scrolling.
+  
+   - Video referece: https://youtu.be/XQaHAAXIVg8?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G
+   
+   ## 8. Pseudo Classes & Elements
+   
+   ### Pseudo classes
+   
+   - Style elements when they are in a particular statw.
+    - hover,focus,first child of a prent.
+    - :hover     :focus        :first-childg
+    
+    
+
+  ```html
+     .container:hover .overlay {
+     opacity: 1;
+     }  
+     nav li a:hover{
+     text-decoration: underline;
+     }
+          
+ 
+```  
+
+  ### What are Pseudo-Elements?
+  
+  -A CSS pseudo-element is used to style specified parts of an element.
+  For example, it can be used to:
+
+    Style the first letter, or line, of an element
+    Insert content before, or after, the content of an element
+
+  selector::pseudo-element {
+  property: value;
+  }
   
   
+   - ::after - Insert something after the content.
+   - ::before - Insert something before the content.
+   
+   referece: https://www.w3schools.com/css/css_pseudo_elements.asp 
+  
+   - Video reference :https://youtu.be/FMu2cKWD90g?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=221
+   
+   ## 9. Media quries
+   
+   Media Quries
+   ------------
+   - Creates responsive desgins.
+   - Tell the browser how to style an element at particular viewport dimentions.
+   
+   Viewport meta tag
+   -----------------
+   - Tells the browser what width the viewport should be
+   
+   Responsive images
+   -----------------
+   - Only load smaller images for mobile devices.
+   
+   
+   
+  ```html
+    @media screen and (max-width: 1400px) {
+      width:80%;
+    }
+          
+ 
+```  
+   - The max-width selects the screen width. If the width if beyond 1400px, the css writin inside of this media query wont be  
+     work.
+   - What we write inside of this media query can rewrite the old properties.
+   
+   - Video reference :https://youtu.be/Xig7NsIE6DI?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=495
+   ------------------------------------------------------------------------------------------------------------------------------
+   
   
   # CSS FLEX BOX
  
@@ -401,6 +655,23 @@
   - `align-self: center`
     `justify-self: center` - Put the element right in the center.
    - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=255
+   
+ ### column grid
+ ---------------
+  - `grid-template-columns: repeat(12, 1fr)` - 12 times , each column with 1 fraction.
+   - Video reference: https://youtu.be/WmwGpjg580o?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=96
+   
+ ### Grid Areas
+ --------------
+  - `grid-template-areas:`
+    `"header header header header"`
+    `"aside aside aside aside"`
+    `"nav nav main nav"` - Here, visually we are placing the tages. The grids will be formed exactly like this order of that  
+                           particular tags.
+    - Video referece:https://youtu.be/tPosqmwIx0w?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=147
+    
+    
+ 
     
    
     
