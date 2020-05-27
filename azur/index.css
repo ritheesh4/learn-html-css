@@ -444,6 +444,24 @@ a .nav-bar-button{
     display: none;
 }
 
+.all-featured{
+    display: flex;
+    width: 100%;
+}
+
+.featured-class{
+
+display: block;
+flex-basis: 0;
+flex-grow: 1;
+flex-shrink: 1;
+
+}
+.featured-body{
+    flex-wrap: wrap;
+    background: red;
+}
+
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
       .nav-title{
           display: none;
