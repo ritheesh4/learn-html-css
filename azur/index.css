@@ -1,4 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.dropbtn {   
+    color: black;
+    padding: 16px 6px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    background: white;
+  }  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: inherit;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+     
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #f1f1f1;
+      text-decoration: underline;
+      
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 55px;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #f2f2f2;
+  }
+
+
 a {text-decoration: none; }
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 54px;
+    min-height: 54px;
+    z-index: 100;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(201, 194, 194);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-bar-nav{
+    display: flex;
+    align-items: stretch;
+}
+.nav-bar-nav-list{
+    display: flex;
+    align-items: stretch;
+}
+
+
 .nav-bar-logo{
     width: 108px;
     height: 23px;
@@ -63,6 +137,21 @@ a .nav-bar-button{
  /* justify-content: flex-end;
  flex:2; */
 }
+.nav-items :hover{
+    /* text-decoration: underline;    */
+    border-bottom: 2px solid black
+
+}
+ul{
+   list-style-type: none; 
+}
+
+
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 .title-menu{
  display: flex;
  align-items: center;
@@ -103,6 +192,7 @@ a .nav-bar-button{
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 20px;
+    min-height: 160px;
     
 }
 .doc-heading{
@@ -111,13 +201,22 @@ a .nav-bar-button{
     justify-content: flex-start;  
     font-size: 16px ;
     font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .azure{
     margin-right: 10px;
+    
 }
 
 .doc-para{
     font-size: 16px;
+}
+.tools-sovereign{
+    background:#f2f2f2;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .list-container{
@@ -131,6 +230,46 @@ a .nav-bar-button{
 }
 .list-box{
     padding:25px ;
+    background: #ffffff;
+    margin: 15px 18px;
+
+}
+
+
+.list-box :hover{
+    box-shadow:
+    0 1.8px 1.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 1.3px rgba(0, 0, 0, 0.048),
+    0 1.5px 1px rgba(0, 0, 0, 0.06),
+    0 2.3px 7.9px rgba(0, 0, 0, 0.072),
+    0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+    0 10px 8px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;   
+    
+    
+}
+
+.featured-list-box:hover{
+    box-shadow:
+    0 1.8px 1.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 1.3px rgba(0, 0, 0, 0.048),
+    0 1.5px 1px rgba(0, 0, 0, 0.06),
+    0 2.3px 7.9px rgba(0, 0, 0, 0.072),
+    0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+    0 10px 8px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;   
+    cursor: pointer;
+    
+}
+.list-box-two{
+    width: 25%;
+    padding:10px ;
     background: #ffffff;
     margin: 15px 18px;
     box-shadow:
@@ -192,6 +331,8 @@ a .nav-bar-button{
 }
 .feature-options{
     font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
 }
 .feature-title{
     color: red;
@@ -229,7 +370,7 @@ a .nav-bar-button{
 .tools-box{
     width: 85%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding:15px 30px;
+    padding: 15px 55px;
     background: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -240,8 +381,36 @@ a .nav-bar-button{
     0 1.5px 1px rgba(0, 0, 0, 0.06),
     0 2.3px 7.9px rgba(0, 0, 0, 0.072),
     0 4.8px 3.4px rgba(0, 0, 0, 0.086),
-    0 10px 8px rgba(0, 0, 0, 0.12)   
-    
+    0 10px 8px rgba(0, 0, 0, 0.12);
+  
+}
+
+.tools-box :hover{
+   
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;   
+    cursor: pointer;
+
+}
+
+
+
+.tools-each :hover{
+    display: flex;
+    box-shadow:
+    0 1.8px 1.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 1.3px rgba(0, 0, 0, 0.048),
+    0 1.5px 1px rgba(0, 0, 0, 0.06),
+    0 2.3px 7.9px rgba(0, 0, 0, 0.072),
+    0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+    0 10px 8px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;   
+    cursor: pointer;
 }
 
 .tools-icons{
@@ -257,6 +426,7 @@ a .nav-bar-button{
     font-size: 1.125rem !important;
 }
 .tools-heading{
+    
    text-align: left;
    margin-left: 10px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -358,6 +528,7 @@ a .nav-bar-button{
     flex-grow: 0;
     min-width: 54px;
     white-space: nowrap;
+    cursor: pointer;
 
 }
 .search{
@@ -371,6 +542,18 @@ a .nav-bar-button{
     white-space: nowrap;
     margin-right: 20px;
 
+
+}
+.nave-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-width: 54px;
+    white-space: nowrap;
+    margin-right: 20px;
 
 }
 
@@ -389,11 +572,45 @@ a .nav-bar-button{
     width: 14px;
     height: 14px;
     margin-right: 25px;
+    cursor: pointer;
 }
 
+.featured-list-box{
+    padding: 10px 10px;
+    background: white;
+    width: 25%;
+    min-width: 80px;
+    margin: 10px;
+}
 
-
-
+.featured-image{
+    width: 40px;
+    height: 40px;
+}
+.all-featured-box{
+    margin:3px 10px
+}
+.all-featured-main{
+ background:#f2f2f2 ;
+}
+.all-featured-main {
+    font-size: 1.75rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+.featured-list-box a h3{
+    font-family:  Arial, Helvetica, sans-serif;
+    color:#2c71a5;
+    font-weight: 400;
+}
+.featured-list-box a p{
+    font-family:  Arial, Helvetica, sans-serif;
+    color:#77726e;
+    font-weight: 400;
+}
   @media screen and (max-width: 767.9px) {
     .nav-list{
         display: none;
@@ -412,7 +629,12 @@ a .nav-bar-button{
     height: 30px;
     cursor: pointer;
 
-}.button-free-account{
+}
+.button-portal :hover{
+    background-color: blue;
+    color: white;
+}
+.button-free-account{
     background-color:#0065b3;
     border: none;
     color: white;
@@ -445,6 +667,7 @@ a .nav-bar-button{
 }
 
 .all-featured{
+    background: #f2f2f2;
     display: flex;
     width: 100%;
 }
@@ -458,11 +681,38 @@ flex-shrink: 1;
 
 }
 .featured-body{
+    display: flex;
     flex-wrap: wrap;
-    background: red;
+    
 }
 
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.feature-options{
+    font-size: 15px;
+    padding: 10px;
+}
+.main-all-featured{
+    display: none;
+}
+.search-bar{
+    margin-right: 14px;
+}
+  input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png');
+    background-size: 15px 15px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 30px;
+    height: 35px;
+  }
+
+
+  @media only screen and (min-device-width : 768px) and (max-device-width :1087px ){
       .nav-title{
           display: none;
       }
@@ -478,6 +728,15 @@ flex-shrink: 1;
     .nav-items{
         padding: 10px;
         white-space: nowrap;
+        cursor: pointer;
+        text-align: center;
+    }
+    .azure-main-title{
+        font-family: Arial, Helvetica, sans-serif;
+       padding-top: 16px;
+       font-size: 18px;
+       font-weight: 600;
+       margin-left:10px ;
     }
     .tools{
         display: flex;
@@ -533,5 +792,134 @@ flex-shrink: 1;
     .list-container-second{
         display: block;
     }
+    .blockchain{
+        display: none;
+
+    }
+    .browse{
+        display: none;
+    }
+    .main-all-featured{
+        display: block;
+    }
+    .search{
+        display: flex;
+    }
+    .tools-box {
+        width: 35%;
+    }
+    .list-box {
+        padding: 25px;
+        background: #ffffff;
+        margin: 15px 18px;
+    }
+    .search-bar{
+        display: none;
+    }
+    
+     
           
+}
+
+
+@media only screen and (min-width : 1088px) {
+    .nav-title{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+ .nav-list{
+     display: flex;
+     flex-direction: row;
+     flex-basis: 500px;
+     justify-content: space-between;     
+  }
+  .nav-items{
+      padding: 10px;
+      white-space: nowrap;
+      cursor: pointer;
+      text-align: center;
+  }
+  .azure-main-title{
+      font-family: Arial, Helvetica, sans-serif;
+     padding-top: 16px;
+     font-size: 18px;
+     font-weight: 600;
+     margin-left:10px ;
+  }
+  .tools{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;   
+      flex-wrap: wrap    
+      
+  }
+  .tools-box{
+      width: 30%;
+     
+  }
+  .page-action{
+      display: none;
+  }
+  .nav-two{
+      display: block;
+  }
+  .third-nav{
+      display: flex;
+  }
+  .list-container{
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-basis: 50%;
+
+  }
+  .list-box{
+      width: 35%;
+  }
+  .each-item{       
+      display: flex;
+      flex-direction: row;
+  }
+  .each-item-image{
+      width: 100px;
+      width: 50px;
+      margin: 10px;
+  }
+  .list-container-first{
+      display: none;
+  }
+  .each-item{
+      display: flex;
+  
+  }
+  .each-item-image{
+      display: block;
+  }
+  .list-container-second{
+      display: block;
+  }
+  .blockchain{
+      display: none;
+
+  }
+  .browse{
+      display: none;
+  }
+  .main-all-featured{
+      display: block;
+  }
+  .featured-list-box{
+      width: 19%;
+  }
+  .search{
+      display: none;
+  }
+ 
+  
+
+
 }
