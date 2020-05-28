@@ -220,6 +220,7 @@ ul{
 }
 
 .list-container{
+    
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: space-around;  
@@ -236,21 +237,7 @@ ul{
 }
 
 
-.list-box :hover{
-    box-shadow:
-    0 1.8px 1.2px rgba(0, 0, 0, 0.034),
-    0 2.7px 1.3px rgba(0, 0, 0, 0.048),
-    0 1.5px 1px rgba(0, 0, 0, 0.06),
-    0 2.3px 7.9px rgba(0, 0, 0, 0.072),
-    0 4.8px 3.4px rgba(0, 0, 0, 0.086),
-    0 10px 8px rgba(0, 0, 0, 0.12);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;   
-    
-    
-}
+
 
 .featured-list-box:hover{
     box-shadow:
@@ -375,6 +362,25 @@ ul{
     display: flex;
     flex-direction: row;
     margin: 20px 20px;
+    
+  
+}
+
+.tools :hover{box-shadow:
+    0 1.8px 1.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 1.3px rgba(0, 0, 0, 0.048),
+    0 1.5px 1px rgba(0, 0, 0, 0.06),
+    0 2.3px 7.9px rgba(0, 0, 0, 0.072),
+    0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+    0 10px 8px rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;   
+    cursor: pointer;
+
+}
+.list-container :hover{
     box-shadow:
     0 1.8px 1.2px rgba(0, 0, 0, 0.034),
     0 2.7px 1.3px rgba(0, 0, 0, 0.048),
@@ -382,17 +388,11 @@ ul{
     0 2.3px 7.9px rgba(0, 0, 0, 0.072),
     0 4.8px 3.4px rgba(0, 0, 0, 0.086),
     0 10px 8px rgba(0, 0, 0, 0.12);
-  
-}
-
-.tools-box :hover{
-   
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;   
     cursor: pointer;
-
 }
 
 
