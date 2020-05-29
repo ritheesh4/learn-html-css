@@ -717,3 +717,5 @@
     block level element. Block level elements are being placed as blocks
   - Test3 and Test4 will be on the same line. The reason is the property of tag a is inline. They are not blocks. So they will 
     only take the space of their size.
+    
+    - Video reference: https://youtu.be/d601NaSSqSE?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=217
