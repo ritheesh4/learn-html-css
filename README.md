@@ -741,3 +741,36 @@
     only take the space of their size.
     
     - Video reference: https://youtu.be/d601NaSSqSE?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=217
+    
+ ## NORMAL DOCUMENT FLOW
+ 
+  - Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the order of HTML elements. this is 
+    to say, how each Definition takes up space and how other elements position themselves accordingly.
+  - So, what does this mean exactly? Well, let's break it down. There are three main ways elements are positioned:
+    - Display types
+    - Floats
+    - Positioning
+  ### Display Types
+  -------------------
+  HTML elements are initially positioned by their display type. This display type determines things like whether other 
+  elements are able to sit beside them, and how padding, margin and other CSS properties affect it. The two most 
+  important display types are:
+   - Block
+   - inline
+     
+     
+      ![alt text](https://miro.medium.com/max/2800/1*AFeOAqXNJJdfYAjfXiJ9AQ.jpeg)
+      
+      
+  #### Block 
+  ----------
+  In a block formatting context, boxes are laid out one after the other, vertically, beginning at the top of a containing block. The       vertical distance between two sibling boxes is determined by the ‘margin’ properties. Vertical margins between adjacent block-level 
+  boxes in a block formatting context collapse.
+  #### Inline
+  -----------
+  In an inline formatting context, boxes are laid out horizontally, one after the other, beginning at the top of a containing block. 
+  Horizontal margins, borders, and padding are respected between these boxes. The boxes may be aligned vertically in different ways:     
+  their bottoms or tops may be aligned, or the baselines of text within them may be aligned.
+     
+    
+    
