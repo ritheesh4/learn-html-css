@@ -742,7 +742,7 @@
     
     - Video reference: https://youtu.be/d601NaSSqSE?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=217
     
- ## NORMAL DOCUMENT FLOW
+ ## 2. NORMAL DOCUMENT FLOW
  
   - Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the order of HTML elements. this is 
     to say, how each Definition takes up space and how other elements position themselves accordingly.
@@ -771,6 +771,119 @@
   In an inline formatting context, boxes are laid out horizontally, one after the other, beginning at the top of a containing block. 
   Horizontal margins, borders, and padding are respected between these boxes. The boxes may be aligned vertically in different ways:     
   their bottoms or tops may be aligned, or the baselines of text within them may be aligned.
+  
+   - Video reference: https://youtu.be/l8NH6YppJFA?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=24
+  
+  ## 3. Floats
+  
+   ![alt text](https://i1.wp.com/css-tricks.com/wp-content/csstricks-uploads/web-layout.png?resize=540%2C240)
+   
+   -A float is a box that is shifted to the left or right on the current line. The most interesting characteristic of a float (or  
+    “floated” or “floating” box) is that content may flow along its side . 
+    
+   - `float:right;` Using this property, the item can be moved or floated over the right side of the view.
+   - After once floating property is applied, if we need to prevent this floating property to take place the remaining spaces, we should 
+     use `clear:both` property.
      
+     - Video reference: https://youtu.be/VwxGKpvW8Zk?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=175
+     
+  ## 4. CLEARING FLOATS
+  - Applying `clear:both` completely removes the float property from the unwanted area.
+  - `clear:left` `clear:right` and `clear-both` are the available options.
+  
+  - Video reference : https://youtu.be/nE9lIRbIfI0?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=168
+  
+  ## 5. FLOATING COLUMNS
+  
+  - Float can be used to create columns for the contents
+  - After we formed our sections, use `display:block` and `clear:both` property to create the column.
+   - Video reference :https://youtu.be/bJJ7jgfSvZY?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=32
+  ## 6. TEXT COLUMNS
+  
+  - Without using floats, we can create text columns.
+  - If we have a content, we can create text columns by applying these css properties
+  
+  ```css
+     .content{
+      -webkit-column-count:2;
+      column-count:2;
+      -webkit-column-gap:50px;
+      column-gap:50px;
+      -webkit-column-rule:1px solid red
+      text-align: justify
+      }
+ ```
+  - `-webkit-column-count:2;` says how many column should be there.
+  - ` -webkit-column-gap:50px;` says the gap between the columns.
+  - `-webkit-column-rule:1px solid red` says the border of the columns.
+  
+  ## 7. POSITION RELATIVE
+  
+   The position property specifies the type of positioning method used for an element.
+   
+   - Different types of position values:
+     - statics
+     - relative
+     - fixed
+     - abosolute
+     - inherit
+   
+   - `static` - Elements by default use the in-flow value of “static“. This means they behave normally, as per their display type   
+                  layout.They also don’t interact with out-of-flow elements. They are unaffected by position offset properties (top, 
+                  right, bottom, left).
+   - `relative` - position is very similar to static, but the major difference is that they’re able to interact with out-of-flow 
+                  elements. A relatively positioned element can be used as a container for out-of-flow children elements. The out-of-
+                  flow positioned elements will respect the box boundaries of the relatively positioned element.
+     - Video referece: https://youtu.be/YBJqKWXL2vg?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=73
+
+ ```
+  css
+   content{
+     position:relative;
+     left: 50px;
+     right: 40px
+   }
+   
+```  
+   - We can use `nth-chlid(1){}` property to change the properties of the particular child in the column list.
+    - Video reference: https://youtu.be/YBJqKWXL2vg?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=201
+  
+## 8. ABSOLUTE POSITION
+
+ - In the absolute positioning model, a box is removed from the normal flow entirely (it has no impact on later siblings) and assigned a 
+   position with respect to a containing block.
+  - Video reference: https://youtu.be/2JMGG_8T-vY?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh
+ 
+## 9. FIXED POSITION
+
+- Fixed positioning is a subcategory of absolute positioning. The only difference is that for a fixed positioned box, the containing 
+  block is established by the viewport. 
+- If I want to keep the navigation bar always on the top of the screen even if we scroll the screen, fixed position is the option.
+ - Video reference: https://youtu.be/8fQWx-d5qc8?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=132
+ 
+## 10. Z-INDEX AND STACKING ORDER
+ 
+ - By setting the value of Z, we can change the stack order of the elements.
+ ![alt text](https://www.vanseodesign.com/blog/wp-content/uploads/2009/11/z-index.png)
+ 
+ - It is exactly like the 3D view perception to understand the stacking order of the items.
+ 
+ ![alt text](https://i.ytimg.com/vi/L58hlU1gl0M/maxresdefault.jpg)
+ 
+ - As per above image, highest value of Z index comes top over the lowest values.
+  - Video reference: https://youtu.be/k4taTzkhzHc?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=194
     
     
+## Clipping content
+
+- We can clip the contents by using some properties together. We can set a maximum height. The area which overflows that area can set as   overflow.
+
+```css
+   example{
+   max-height: 150px;
+   overflow: hidden;
+   }
+``` 
+ - Here in this above example, the area overflows above 150px becomes hidden.
+  - Video reference: https://youtu.be/ED1mhlAVAGU?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=69
+   
