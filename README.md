@@ -672,28 +672,27 @@
     
     
     
-    # CSS POSITIONING
+# CSS POSITIONING
     
-    ## Why should we learn CSS positioning?
+## Why should we learn CSS positioning?
     
-    - Positioning allows you to take elements out of the normal document layout flow, and make them behave differently; for example  
+ - Positioning allows you to take elements out of the normal document layout flow, and make them behave differently; for example  
       sitting on top of one another, or always remaining in the same place inside the browser viewpor
     
-     - In this section, we are going to explore
-      - Box model (When laying out a document, the browser's rendering engine represents each element as a rectangular box according to 
-                   the standard CSS basic box model.)
-      - Normal document flow (Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the order 
-                             of HTML elements)
-      - Floats (The float CSS property places an element on the left or right side of its container, allowing text and inline element
-                s to wrap around it.)
-      - Position property  (The position property specifies the type of positioning method used for an element (static, relative, 
-                             absolute, fixed, or sticky).)
-      - Stacking order and Z-index (The z-index property specifies the stack order of an element. An element with greater stack order is 
-                                    always in front of an element with a lower stack order)
-      - Overflowing Content (The overflow property specifies what should happen if content overflows an element's box. This property 
-                             specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a 
-                             specified area.)
-      - Text columns (The column-count property specifies the number of columns an element should be divided into.)
+ - In this section, we are going to explor
+ - Box model (When laying out a document, the browser's rendering engine represents each element as a rectangular box according  
+   to the standard CSS basic box model.)
+ - Normal document flow (Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the 
+   order of HTML elements)
+ - Floats (The float CSS property places an element on the left or right side of its container, allowing text and inline 
+    elements to wrap around it.)
+ - Position property  (The position property specifies the type of positioning method used for an element (static, relative, 
+    absolute, fixed, or sticky).
+ - Stacking order and Z-index (The z-index property specifies the stack order of an element. An element with greater stack 
+    order is always in front of an element with a lower stack order)
+ - Overflowing Content (The overflow property specifies what should happen if content overflows an element's box. This property 
+    specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.)
+ - Text columns (The column-count property specifies the number of columns an element should be divided into.)
       
  
     
