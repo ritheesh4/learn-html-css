@@ -3,7 +3,7 @@
     max-width: 960px;
     margin: 0;
     padding: 20px;
-
+    z-index: 1;
 }
 
 .wrapper:after{
