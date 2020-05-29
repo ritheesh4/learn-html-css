@@ -693,7 +693,8 @@
  - Overflowing Content (The overflow property specifies what should happen if content overflows an element's box. This property 
     specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.)
  - Text columns (The column-count property specifies the number of columns an element should be divided into.)
-![Alt text]C:\Users\ritheesh\Desktop\html practice\box.jpg)
+ 
+      ![alt text](https://codescracker.com/css/images/css-box-model.jpg)
     
    
     
