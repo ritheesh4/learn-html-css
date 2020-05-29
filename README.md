@@ -692,12 +692,52 @@
     order is always in front of an element with a lower stack order)
  - Overflowing Content (The overflow property specifies what should happen if content overflows an element's box. This property 
     specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.)
- - Text columns (The column-count property specifies the number of columns an element should be divided into.)
-![Alt text]C:\Users\ritheesh\Desktop\html practice\box.jpg)
-    
+ - Text columns (The column-count property specifies the number of columns an element should be divided into.) 
+      
+ ## 1. THE BOX MODEL
+ 
+   ![alt text](https://codescracker.com/css/images/css-box-model.jpg)
    
+ - Every box is composed of four parts (or areas), defined by their respective edges or area: the content are, padding are, 
+    border are and margin area.
+ - If the box-sizing property is set to content-box (default) and if the element is a block element, the content area's size  
+    can be explicitly defined with the width, min-width, max-width, height, min-height, and max-height properties.
+ - The padding area, bounded by the padding edge, extends the content area to include the element's padding. Its dimensions are 
+   the padding-box width and the padding-box height.
+ - The thickness of the padding is determined by the padding-top, padding-right, padding-bottom, padding-left, and shorthand 
+   padding properties.  
+ - The border area, bounded by the border edge, extends the padding area to include the element's borders. Its dimensions are 
+   the border-box width and the border-box height.
+ - The thickness of the borders are determined by the border-width and shorthand border properties. If the box-sizing property 
+   is set to border-box, the border area's size can be explicitly defined with the width, min-width, max-width, height, min-
+   height, and max-height properties. When there is a background (background-color or background-image) set on a box, it extends 
+   to the outer edge of the border (i.e. extends underneath the border in z-ordering). This default behavior can be altered with 
+   the background-clip css property.
+ - The margin area, bounded by the margin edge, extends the border area to include an empty area used to separate the element 
+   from its neighbors. Its dimensions are the margin-box width and the margin-box height.
+ - The size of the margin area is determined by the margin-top, margin-right, margin-bottom, margin-left, and shorthand margin 
+   properties. When margin collapsing occurs, the margin area is not clearly defined since margins are shared between boxes.
+ - Finally, note that for non-replaced inline elements, the amount of space taken up (the contribution to the height of the 
+   line) is determined by the line-height property, even though the borders and padding are still displayed around the content.   
+
+  ```<html>
+    <head>
+        <title>Css positioning</title>
+        <link href="style.css" type="text/css" rel ="stylesheet">
+    </head>
+
+    <body>
+        <p>Test1</p>
+        <p>Test2</p>
+        <a href="">Test3</a>
+        <a href="">Test4</a>
+    </body>
+    </html>     
+ ```
+  - Here, the p elements take entire width of the screen. So that the Test1 takes entire width of the display. Height will be 
+    relative to the font size. Test2 will be on the next line and that will also take the entire width. The reason is p tag is a 
+    block level element. Block level elements are being placed as blocks
+  - Test3 and Test4 will be on the same line. The reason is the property of tag a is inline. They are not blocks. So they will 
+    only take the space of their size.
     
-  
-   
-  
-  
+    - Video reference: https://youtu.be/d601NaSSqSE?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=217
