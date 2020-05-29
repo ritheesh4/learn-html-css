@@ -411,13 +411,13 @@
   - Controls the position, size and spcing of each other 
   - Works great responsively
  
-  ### FLEXBOX BASICS
+  ### 1. FLEXBOX BASICS
   -----------------
   
   - Apply adisplay type of  flex to the parent continer. The children element in that parent directly become flex items.
   - There is how we can maked them to grow and shrink accordance with our need.
  
- ###  BENEFITS of using FLEX BOX
+ ### 2. BENEFITS of using FLEX BOX
  -------------------------------
  - Navigation bars & menus
  - Grid laouts
@@ -425,12 +425,12 @@
  - Equal height columns
  - Modernizr should use for those browsers do not support flex box.
  
- ### FLEX CONTAINERS
+ ### 3. FLEX CONTAINERS
  ------------------
    `display:flex`
  - When using display as flex, the all children get stacked from left to right.
  
- ### FLEX GROW property
+ ### 4. FLEX GROW property
  ----------------------
  `flex-grow: 1` or `flex-grow: 100`
  - This means the the children grow the full space of the parent.
@@ -438,7 +438,7 @@
    video reference: https://youtu.be/yPK8cwBEOmg?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=126
  - Adding flex-grow value is like a ratio how to grow the childre with the parent.
  
- ### FLEX SHRINK property
+ ### 5. FLEX SHRINK property
  ------------------------
  `flex-shrtink: 1`
  - Just opposite of flex-grow.
@@ -447,7 +447,7 @@
    
   video referece: https://youtu.be/tSdq8amjMso?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=93
   
- ### FLEX WRAP property
+ ### 6. FLEX WRAP property
  ----------------------
  
  `flex-wrap: wrap`
@@ -475,7 +475,7 @@
      
  - Using this, we can avoid the wrapping. By setting the value of flex wrap into nowrap, it will not wrap when size reduced.
    
- ### FLEX BASIS
+ ### 7. FLEX BASIS
  --------------
  
  `flex-basis: 500px`
@@ -490,7 +490,7 @@
  
    - Video reference: https://youtu.be/j5RxNRFWMwo?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=232
    
-   ### OTHER PROPERTIES OF FLEX
+   ### 8. OTHER PROPERTIES OF FLEX
    ---------------
    `justify-content: center`
    
@@ -508,7 +508,7 @@
    
    - Each side of each element gets spaced.
    
-  ### FLOW & AXIS
+  ### 9. FLOW & AXIS
   ---------------
    `flex-flow: column` and `flex-flow: row`
    
@@ -531,7 +531,7 @@
    - As per the names, they can be used to reverse the order of the rows and columns. The items order will be reverse. Not only   
      just the position.
      
- ### ALIGN ITEMS ON THE CROSS AXIS
+ ### 10. ALIGN ITEMS ON THE CROSS AXIS
  ---------------------------------
    `align-items: center`
    - Here the `align-items: center` aligns the items center to the cross axis instead of main axis.
@@ -542,7 +542,7 @@
      - Video reference: https://youtu.be/WY2itpeUK7Q?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=17
      
      
- ### New tags learned
+ ### 11. New tags learned
  --------------------
  `<article>` Tag: This tag contains independent content that doesn’t require any other context. So the <article> tag can be   
                   placed inside the main content. But each of the articles will contain independent content within it.
@@ -554,7 +554,7 @@
  `transition: flex-basis 0.2s` : This is used to make transitions very soomthly. The time mentioned will be taken to happen from   
                                  one transition to another.
  
-  ### Element Order
+  ### 12. Element Order
   -----------------
   `order:0` `order:1` : By assigning orders, the position can be shuffled based on the order values of the elements.
   
@@ -564,7 +564,7 @@
   
   - CSS GRID just read the web page as a grid. Box of rows and columns.
   
-  ### Columns
+  ### 1. Columns
   ------------
   `display:gird` is used to select the grid display.
   
@@ -582,7 +582,7 @@
   - `grid-template-columns: repeat(5, 1fr)` : Here we are delcaring 5 columns with fraction of width as 1fr.
     - Video reference: https://youtu.be/d-MHl_Q_hp8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=381
     
-  ### Rows
+  ### 2. Rows
   --------
    - `grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
                                            detects more thatn 200px of height, then automatically set the height.                                              
@@ -604,7 +604,7 @@
    `grid-gap :10px` : This makes gap around so combined gap of column and row formed.
      - Video reference: https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=460
      
- ### Grid Lines
+ ### 3. Grid Lines
  -------------
   - `grid-template-columns: repear(6, 1fr);`
     `grid-template- rows :repear(4, minmax(150px,auto));`
@@ -618,7 +618,7 @@
       
      - Video reference: https://youtu.be/J5GWyiWU2H8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=322
      
- ### Nested Grids
+ ### 4. Nested Grids
  ---------------
  
   - We can create a grid inside of anothe grid. Create a new div like wrapper inside side of the parent grid and add the items  
@@ -630,7 +630,7 @@
   - `grid-column: span 3:`
     We can increase the width of the child.
     
- ### Aligning & Justifying Items
+ ### 5. Aligning & Justifying Items
  ------------------------------
  
   - `align-items: start` - All go to the top of the row along with the height of the element and padding.
@@ -656,12 +656,12 @@
     `justify-self: center` - Put the element right in the center.
    - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=255
    
- ### column grid
+ ### 6. column grid
  ---------------
   - `grid-template-columns: repeat(12, 1fr)` - 12 times , each column with 1 fraction.
    - Video reference: https://youtu.be/WmwGpjg580o?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=96
    
- ### Grid Areas
+ ### 7. Grid Areas
  --------------
   - `grid-template-areas:`
     `"header header header header"`
@@ -671,6 +671,30 @@
     - Video referece:https://youtu.be/tPosqmwIx0w?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=147
     
     
+    
+    # CSS POSITIONING
+    
+    ## Why should we learn CSS positioning?
+    
+    - Positioning allows you to take elements out of the normal document layout flow, and make them behave differently; for example  
+      sitting on top of one another, or always remaining in the same place inside the browser viewpor
+    
+     - In this section, we are going to explore
+      - Box model (When laying out a document, the browser's rendering engine represents each element as a rectangular box according to 
+                   the standard CSS basic box model.)
+      - Normal document flow (Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the order 
+                             of HTML elements)
+      - Floats (The float CSS property places an element on the left or right side of its container, allowing text and inline element
+                s to wrap around it.)
+      - Position property  (The position property specifies the type of positioning method used for an element (static, relative, 
+                             absolute, fixed, or sticky).)
+      - Stacking order and Z-index (The z-index property specifies the stack order of an element. An element with greater stack order is 
+                                    always in front of an element with a lower stack order)
+      - Overflowing Content (The overflow property specifies what should happen if content overflows an element's box. This property 
+                             specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a 
+                             specified area.)
+      - Text columns (The column-count property specifies the number of columns an element should be divided into.)
+      
  
     
    
