@@ -411,13 +411,13 @@
   - Controls the position, size and spcing of each other 
   - Works great responsively
  
-  ### FLEXBOX BASICS
+  ### 1. FLEXBOX BASICS
   -----------------
   
   - Apply adisplay type of  flex to the parent continer. The children element in that parent directly become flex items.
   - There is how we can maked them to grow and shrink accordance with our need.
  
- ###  BENEFITS of using FLEX BOX
+ ### 2. BENEFITS of using FLEX BOX
  -------------------------------
  - Navigation bars & menus
  - Grid laouts
@@ -425,12 +425,12 @@
  - Equal height columns
  - Modernizr should use for those browsers do not support flex box.
  
- ### FLEX CONTAINERS
+ ### 3. FLEX CONTAINERS
  ------------------
    `display:flex`
  - When using display as flex, the all children get stacked from left to right.
  
- ### FLEX GROW property
+ ### 4. FLEX GROW property
  ----------------------
  `flex-grow: 1` or `flex-grow: 100`
  - This means the the children grow the full space of the parent.
@@ -438,7 +438,7 @@
    video reference: https://youtu.be/yPK8cwBEOmg?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=126
  - Adding flex-grow value is like a ratio how to grow the childre with the parent.
  
- ### FLEX SHRINK property
+ ### 5. FLEX SHRINK property
  ------------------------
  `flex-shrtink: 1`
  - Just opposite of flex-grow.
@@ -447,7 +447,7 @@
    
   video referece: https://youtu.be/tSdq8amjMso?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=93
   
- ### FLEX WRAP property
+ ### 6. FLEX WRAP property
  ----------------------
  
  `flex-wrap: wrap`
@@ -475,7 +475,7 @@
      
  - Using this, we can avoid the wrapping. By setting the value of flex wrap into nowrap, it will not wrap when size reduced.
    
- ### FLEX BASIS
+ ### 7. FLEX BASIS
  --------------
  
  `flex-basis: 500px`
@@ -490,7 +490,7 @@
  
    - Video reference: https://youtu.be/j5RxNRFWMwo?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=232
    
-   ### OTHER PROPERTIES OF FLEX
+   ### 8. OTHER PROPERTIES OF FLEX
    ---------------
    `justify-content: center`
    
@@ -508,7 +508,7 @@
    
    - Each side of each element gets spaced.
    
-  ### FLOW & AXIS
+  ### 9. FLOW & AXIS
   ---------------
    `flex-flow: column` and `flex-flow: row`
    
@@ -531,7 +531,7 @@
    - As per the names, they can be used to reverse the order of the rows and columns. The items order will be reverse. Not only   
      just the position.
      
- ### ALIGN ITEMS ON THE CROSS AXIS
+ ### 10. ALIGN ITEMS ON THE CROSS AXIS
  ---------------------------------
    `align-items: center`
    - Here the `align-items: center` aligns the items center to the cross axis instead of main axis.
@@ -542,7 +542,7 @@
      - Video reference: https://youtu.be/WY2itpeUK7Q?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=17
      
      
- ### New tags learned
+ ### 11. New tags learned
  --------------------
  `<article>` Tag: This tag contains independent content that doesn’t require any other context. So the <article> tag can be   
                   placed inside the main content. But each of the articles will contain independent content within it.
@@ -554,7 +554,7 @@
  `transition: flex-basis 0.2s` : This is used to make transitions very soomthly. The time mentioned will be taken to happen from   
                                  one transition to another.
  
-  ### Element Order
+  ### 12. Element Order
   -----------------
   `order:0` `order:1` : By assigning orders, the position can be shuffled based on the order values of the elements.
   
@@ -564,7 +564,7 @@
   
   - CSS GRID just read the web page as a grid. Box of rows and columns.
   
-  ### Columns
+  ### 1. Columns
   ------------
   `display:gird` is used to select the grid display.
   
@@ -582,7 +582,7 @@
   - `grid-template-columns: repeat(5, 1fr)` : Here we are delcaring 5 columns with fraction of width as 1fr.
     - Video reference: https://youtu.be/d-MHl_Q_hp8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=381
     
-  ### Rows
+  ### 2. Rows
   --------
    - `grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
                                            detects more thatn 200px of height, then automatically set the height.                                              
@@ -604,7 +604,7 @@
    `grid-gap :10px` : This makes gap around so combined gap of column and row formed.
      - Video reference: https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=460
      
- ### Grid Lines
+ ### 3. Grid Lines
  -------------
   - `grid-template-columns: repear(6, 1fr);`
     `grid-template- rows :repear(4, minmax(150px,auto));`
@@ -618,7 +618,7 @@
       
      - Video reference: https://youtu.be/J5GWyiWU2H8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=322
      
- ### Nested Grids
+ ### 4. Nested Grids
  ---------------
  
   - We can create a grid inside of anothe grid. Create a new div like wrapper inside side of the parent grid and add the items  
@@ -630,7 +630,7 @@
   - `grid-column: span 3:`
     We can increase the width of the child.
     
- ### Aligning & Justifying Items
+ ### 5. Aligning & Justifying Items
  ------------------------------
  
   - `align-items: start` - All go to the top of the row along with the height of the element and padding.
@@ -656,12 +656,12 @@
     `justify-self: center` - Put the element right in the center.
    - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=255
    
- ### column grid
+ ### 6. column grid
  ---------------
   - `grid-template-columns: repeat(12, 1fr)` - 12 times , each column with 1 fraction.
    - Video reference: https://youtu.be/WmwGpjg580o?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=96
    
- ### Grid Areas
+ ### 7. Grid Areas
  --------------
   - `grid-template-areas:`
     `"header header header header"`
@@ -671,11 +671,219 @@
     - Video referece:https://youtu.be/tPosqmwIx0w?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=147
     
     
+    
+# CSS POSITIONING
+    
+## Why should we learn CSS positioning?
+    
+ Positioning allows you to take elements out of the normal document layout flow, and make them behave differently; for example  
+      sitting on top of one another, or always remaining in the same place inside the browser viewpor
+    
+ ## In this section, we are going to explore
+ - Box model (When laying out a document, the browser's rendering engine represents each element as a rectangular box according  
+   to the standard CSS basic box model.)
+ - Normal document flow (Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the 
+   order of HTML elements)
+ - Floats (The float CSS property places an element on the left or right side of its container, allowing text and inline 
+    elements to wrap around it.)
+ - Position property  (The position property specifies the type of positioning method used for an element (static, relative, 
+    absolute, fixed, or sticky).
+ - Stacking order and Z-index (The z-index property specifies the stack order of an element. An element with greater stack 
+    order is always in front of an element with a lower stack order)
+ - Overflowing Content (The overflow property specifies what should happen if content overflows an element's box. This property 
+    specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.)
+ - Text columns (The column-count property specifies the number of columns an element should be divided into.) 
+      
+ ## 1. THE BOX MODEL
  
-    
+   ![alt text](https://codescracker.com/css/images/css-box-model.jpg)
    
+ - Every box is composed of four parts (or areas), defined by their respective edges or area: the content are, padding are, 
+    border are and margin area.
+ - If the box-sizing property is set to content-box (default) and if the element is a block element, the content area's size  
+    can be explicitly defined with the width, min-width, max-width, height, min-height, and max-height properties.
+ - The padding area, bounded by the padding edge, extends the content area to include the element's padding. Its dimensions are 
+   the padding-box width and the padding-box height.
+ - The thickness of the padding is determined by the padding-top, padding-right, padding-bottom, padding-left, and shorthand 
+   padding properties.  
+ - The border area, bounded by the border edge, extends the padding area to include the element's borders. Its dimensions are 
+   the border-box width and the border-box height.
+ - The thickness of the borders are determined by the border-width and shorthand border properties. If the box-sizing property 
+   is set to border-box, the border area's size can be explicitly defined with the width, min-width, max-width, height, min-
+   height, and max-height properties. When there is a background (background-color or background-image) set on a box, it extends 
+   to the outer edge of the border (i.e. extends underneath the border in z-ordering). This default behavior can be altered with 
+   the background-clip css property.
+ - The margin area, bounded by the margin edge, extends the border area to include an empty area used to separate the element 
+   from its neighbors. Its dimensions are the margin-box width and the margin-box height.
+ - The size of the margin area is determined by the margin-top, margin-right, margin-bottom, margin-left, and shorthand margin 
+   properties. When margin collapsing occurs, the margin area is not clearly defined since margins are shared between boxes.
+ - Finally, note that for non-replaced inline elements, the amount of space taken up (the contribution to the height of the 
+   line) is determined by the line-height property, even though the borders and padding are still displayed around the content.   
+
+  ```<html>
+    <head>
+        <title>Css positioning</title>
+        <link href="style.css" type="text/css" rel ="stylesheet">
+    </head>
+
+    <body>
+        <p>Test1</p>
+        <p>Test2</p>
+        <a href="">Test3</a>
+        <a href="">Test4</a>
+    </body>
+    </html>     
+ ```
+  - Here, the p elements take entire width of the screen. So that the Test1 takes entire width of the display. Height will be 
+    relative to the font size. Test2 will be on the next line and that will also take the entire width. The reason is p tag is a 
+    block level element. Block level elements are being placed as blocks
+  - Test3 and Test4 will be on the same line. The reason is the property of tag a is inline. They are not blocks. So they will 
+    only take the space of their size.
     
+    - Video reference: https://youtu.be/d601NaSSqSE?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=217
+    
+ ## 2. NORMAL DOCUMENT FLOW
+ 
+  - Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the order of HTML elements. this is 
+    to say, how each Definition takes up space and how other elements position themselves accordingly.
+  - So, what does this mean exactly? Well, let's break it down. There are three main ways elements are positioned:
+    - Display types
+    - Floats
+    - Positioning
+  ### Display Types
+  -------------------
+  HTML elements are initially positioned by their display type. This display type determines things like whether other 
+  elements are able to sit beside them, and how padding, margin and other CSS properties affect it. The two most 
+  important display types are:
+   - Block
+   - inline
+     
+     
+      ![alt text](https://miro.medium.com/max/2800/1*AFeOAqXNJJdfYAjfXiJ9AQ.jpeg)
+      
+      
+  #### Block 
+  ----------
+  In a block formatting context, boxes are laid out one after the other, vertically, beginning at the top of a containing block. The       vertical distance between two sibling boxes is determined by the ‘margin’ properties. Vertical margins between adjacent block-level 
+  boxes in a block formatting context collapse.
+  #### Inline
+  -----------
+  In an inline formatting context, boxes are laid out horizontally, one after the other, beginning at the top of a containing block. 
+  Horizontal margins, borders, and padding are respected between these boxes. The boxes may be aligned vertically in different ways:     
+  their bottoms or tops may be aligned, or the baselines of text within them may be aligned.
   
+   - Video reference: https://youtu.be/l8NH6YppJFA?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=24
+  
+  ## 3. Floats
+  
+   ![alt text](https://i1.wp.com/css-tricks.com/wp-content/csstricks-uploads/web-layout.png?resize=540%2C240)
    
+   -A float is a box that is shifted to the left or right on the current line. The most interesting characteristic of a float (or  
+    “floated” or “floating” box) is that content may flow along its side . 
+    
+   - `float:right;` Using this property, the item can be moved or floated over the right side of the view.
+   - After once floating property is applied, if we need to prevent this floating property to take place the remaining spaces, we should 
+     use `clear:both` property.
+     
+     - Video reference: https://youtu.be/VwxGKpvW8Zk?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=175
+     
+  ## 4. CLEARING FLOATS
+  - Applying `clear:both` completely removes the float property from the unwanted area.
+  - `clear:left` `clear:right` and `clear-both` are the available options.
   
+  - Video reference : https://youtu.be/nE9lIRbIfI0?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=168
   
+  ## 5. FLOATING COLUMNS
+  
+  - Float can be used to create columns for the contents
+  - After we formed our sections, use `display:block` and `clear:both` property to create the column.
+   - Video reference :https://youtu.be/bJJ7jgfSvZY?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=32
+  ## 6. TEXT COLUMNS
+  
+  - Without using floats, we can create text columns.
+  - If we have a content, we can create text columns by applying these css properties
+  
+  ```css
+     .content{
+      -webkit-column-count:2;
+      column-count:2;
+      -webkit-column-gap:50px;
+      column-gap:50px;
+      -webkit-column-rule:1px solid red
+      text-align: justify
+      }
+ ```
+  - `-webkit-column-count:2;` says how many column should be there.
+  - ` -webkit-column-gap:50px;` says the gap between the columns.
+  - `-webkit-column-rule:1px solid red` says the border of the columns.
+  
+  ## 7. POSITION RELATIVE
+  
+   The position property specifies the type of positioning method used for an element.
+   
+   - Different types of position values:
+     - statics
+     - relative
+     - fixed
+     - abosolute
+     - inherit
+   
+   - `static` - Elements by default use the in-flow value of “static“. This means they behave normally, as per their display type   
+                  layout.They also don’t interact with out-of-flow elements. They are unaffected by position offset properties (top, 
+                  right, bottom, left).
+   - `relative` - position is very similar to static, but the major difference is that they’re able to interact with out-of-flow 
+                  elements. A relatively positioned element can be used as a container for out-of-flow children elements. The out-of-
+                  flow positioned elements will respect the box boundaries of the relatively positioned element.
+     - Video referece: https://youtu.be/YBJqKWXL2vg?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=73
+
+ ```
+  css
+   content{
+     position:relative;
+     left: 50px;
+     right: 40px
+   }
+   
+```  
+   - We can use `nth-chlid(1){}` property to change the properties of the particular child in the column list.
+    - Video reference: https://youtu.be/YBJqKWXL2vg?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=201
+  
+## 8. ABSOLUTE POSITION
+
+ - In the absolute positioning model, a box is removed from the normal flow entirely (it has no impact on later siblings) and assigned a 
+   position with respect to a containing block.
+  - Video reference: https://youtu.be/2JMGG_8T-vY?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh
+ 
+## 9. FIXED POSITION
+
+- Fixed positioning is a subcategory of absolute positioning. The only difference is that for a fixed positioned box, the containing 
+  block is established by the viewport. 
+- If I want to keep the navigation bar always on the top of the screen even if we scroll the screen, fixed position is the option.
+ - Video reference: https://youtu.be/8fQWx-d5qc8?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=132
+ 
+## 10. Z-INDEX AND STACKING ORDER
+ 
+ - By setting the value of Z, we can change the stack order of the elements.
+ ![alt text](https://www.vanseodesign.com/blog/wp-content/uploads/2009/11/z-index.png)
+ 
+ - It is exactly like the 3D view perception to understand the stacking order of the items.
+ 
+ ![alt text](https://i.ytimg.com/vi/L58hlU1gl0M/maxresdefault.jpg)
+ 
+ - As per above image, highest value of Z index comes top over the lowest values.
+  - Video reference: https://youtu.be/k4taTzkhzHc?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=194
+    
+    
+## 11 Clipping content
+
+- We can clip the contents by using some properties together. We can set a maximum height. The area which overflows that area can set as   overflow.
+
+```css
+   example{
+   max-height: 150px;
+   overflow: hidden;
+   }
+``` 
+ - Here in this above example, the area overflows above 150px becomes hidden.
+  - Video reference: https://youtu.be/ED1mhlAVAGU?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=69
+   

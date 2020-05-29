@@ -1,0 +1,80 @@
+.wrapper{
+    background-color: #ffff;
+    max-width: 960px;
+    margin: 0;
+    padding: 20px;
+}
+
+.wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    /* float: left; */
+    margin-right: 20px;
+    float: right;
+}
+.blue{
+    background: blue;
+    float: right;
+}
+.red{
+    background: red;
+    float: right;
+}
+.green{
+    background: green;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+
+.service h2, .service p{
+    color: #999;
+    margin:10px 0;
+    text-align: center;
+}
+
+.service{
+    float: left;
+    background: #eee;
+    width: 29%;
+    margin:1%;
+    padding: 1%;
+    height: 140px;
+}
+.content{
+    padding: 10px;
+    clear: left;
+    margin-top: 20px 1%;
+}
+.serivce::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+section,aside{
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;;
+}
+.columns::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content p{
+    -webkit-column-count:3;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    -webkit-column-rule: 1px solid red;
+    text-align: justify;
+}
