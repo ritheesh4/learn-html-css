@@ -692,13 +692,28 @@
     order is always in front of an element with a lower stack order)
  - Overflowing Content (The overflow property specifies what should happen if content overflows an element's box. This property 
     specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.)
- - Text columns (The column-count property specifies the number of columns an element should be divided into.)
+ - Text columns (The column-count property specifies the number of columns an element should be divided into.) 
+      
+ ## 1. THE BOX MODEL
  
-      ![alt text](https://codescracker.com/css/images/css-box-model.jpg)
-    
-   
-    
-  
-   
-  
-  
+   ![alt text](https://codescracker.com/css/images/css-box-model.jpg)
+     
+  ```<html>
+    <head>
+        <title>Css positioning</title>
+        <link href="style.css" type="text/css" rel ="stylesheet">
+    </head>
+
+    <body>
+        <p>Test1</p>
+        <p>Test2</p>
+        <a href="">Test3</a>
+        <a href="">Test4</a>
+    </body>
+    </html>     
+ ```
+  - Here, the p elements take entire width of the screen. So that the Test1 takes entire width of the display. Height will be 
+    relative to the font size. Test2 will be on the next line and that will also take the entire width. The reason is p tag is a 
+    block level element. Block level elements are being placed as blocks
+  - Test3 and Test4 will be on the same line. The reason is the property of tag a is inline. They are not blocks. So they will 
+    only take the space of their size.
