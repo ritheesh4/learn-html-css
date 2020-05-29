@@ -676,10 +676,10 @@
     
 ## Why should we learn CSS positioning?
     
- - Positioning allows you to take elements out of the normal document layout flow, and make them behave differently; for example  
+ Positioning allows you to take elements out of the normal document layout flow, and make them behave differently; for example  
       sitting on top of one another, or always remaining in the same place inside the browser viewpor
     
- - In this section, we are going to explor
+ ## In this section, we are going to explore
  - Box model (When laying out a document, the browser's rendering engine represents each element as a rectangular box according  
    to the standard CSS basic box model.)
  - Normal document flow (Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the 
