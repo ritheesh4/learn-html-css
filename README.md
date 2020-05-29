@@ -874,7 +874,7 @@
   - Video reference: https://youtu.be/k4taTzkhzHc?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=194
     
     
-## Clipping content
+## 11 Clipping content
 
 - We can clip the contents by using some properties together. We can set a maximum height. The area which overflows that area can set as   overflow.
 
