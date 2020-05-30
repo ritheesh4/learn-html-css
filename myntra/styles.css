@@ -26,6 +26,9 @@ list-style-type: none;
     transform: rotate(270deg);
     
 }
+.icon{
+    height: 16px;
+}
 
 
 nav .list-container{
@@ -64,6 +67,7 @@ nav .search{
 }
 nav .user-details{
     flex: 1;
+    display: flex;
 }
 
 main .items-main{
@@ -121,8 +125,4 @@ main .categories{
     min-width: 54px;
     white-space: nowrap;
     margin-right: 20px;
-}
-
-.search-bar{
-    
 }
