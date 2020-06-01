@@ -1,5 +1,7 @@
 # HTML and CSS
-## 1. Introduction
+
+## 1. HTML
+## 1.1 Introduction
 ### What is HTML?
 - HTML is a Hypertext Markup Language used to structure content on a web page(images, text,forms etc).
 - We structure content using HTML tags.
@@ -61,7 +63,7 @@
   For more reference https://www.w3schools.com/tags/default.asp
   <br>Video:https://youtu.be/hu-q2zYwEYs
   
-  ## 2. HTML Basics
+  ## 1.2 HTML Basics
   
   ### HTML elements and syntax
   ----------------------------
@@ -140,7 +142,7 @@
        
    `<img>` **Video reference** - https://youtu.be/mbeT8mpmtHA?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=620
   
-   ## 3. HTML FORMS
+   ## 1.3 HTML FORMS
    --------------
    `<form></form>`- Form tag is used to make forms in html.
    `<input>` - Input field is used to take the input from the user. This would be the are where the user going to type.
@@ -195,9 +197,9 @@
   - `required` - Adding required attribute, this will check the input filed has values. Otherwise, an error message or colour 
                  will be appeared over the input field.
   
-  # CSS Basics
+  # 2. CSS Basics
   
-  ## 4. What is CSS?
+  ## 2.1 What is CSS?
   
   - Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making  
     web pages presentable.
@@ -268,7 +270,7 @@
                           - p,div,h2,h3,ul,li and more...
                           
   
-  ## 5 . CSS classes & Selectors
+  ## 2.2 . CSS classes & Selectors
   
   - Using classes and selectors, we can perfectly arrange and style anything in the html usin the css properties.
   - Classes make very simple the process of choosing a particular item or group of items together to apply common property.
@@ -306,7 +308,7 @@
   - Video reference:https://youtu.be/FHZn6706e3Q?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=1300
             
   
-  ## 6. Semantic Tags
+  ## 2.3. Semantic Tags
   
    - What is semantic tag: Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in 
                            webpages and web applications rather than merely to define its presentation or look. 
@@ -321,7 +323,7 @@
    - Page reference :https://www.freecodecamp.org/news/semantic-html5-elements/
    
    
-  ## 7. Position & Layout
+  ## 2.4. Position & Layout
   
   - `static` :Here the positon is not specifically mentioned. The elements get arranged by the default properties.
   - `Relative` :The position of the item can be changed to anywhere if th position property is selected as relative.
@@ -331,7 +333,7 @@
   
    - Video referece: https://youtu.be/XQaHAAXIVg8?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G
    
-   ## 8. Pseudo Classes & Elements
+   ## 2.5. Pseudo Classes & Elements
    
    ### Pseudo classes
    
@@ -372,7 +374,7 @@
   
    - Video reference :https://youtu.be/FMu2cKWD90g?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&t=221
    
-   ## 9. Media quries
+   ## 2.6 Media quries
    
    Media Quries
    ------------
@@ -404,20 +406,20 @@
    ------------------------------------------------------------------------------------------------------------------------------
    
   
-  # CSS FLEX BOX
+  # 3 CSS FLEX BOX
  
   
   - FLexbox is a CSS display type designed to help us craft CSS layouts much easier
   - Controls the position, size and spcing of each other 
   - Works great responsively
  
-  ### 1. FLEXBOX BASICS
+  ### 3.1 FLEXBOX BASICS
   -----------------
   
   - Apply adisplay type of  flex to the parent continer. The children element in that parent directly become flex items.
   - There is how we can maked them to grow and shrink accordance with our need.
  
- ### 2. BENEFITS of using FLEX BOX
+ ### 3.2 BENEFITS of using FLEX BOX
  -------------------------------
  - Navigation bars & menus
  - Grid laouts
@@ -425,12 +427,12 @@
  - Equal height columns
  - Modernizr should use for those browsers do not support flex box.
  
- ### 3. FLEX CONTAINERS
+ ### 3.3 FLEX CONTAINERS
  ------------------
    `display:flex`
  - When using display as flex, the all children get stacked from left to right.
  
- ### 4. FLEX GROW property
+ ### 3.4 FLEX GROW property
  ----------------------
  `flex-grow: 1` or `flex-grow: 100`
  - This means the the children grow the full space of the parent.
@@ -438,7 +440,7 @@
    video reference: https://youtu.be/yPK8cwBEOmg?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=126
  - Adding flex-grow value is like a ratio how to grow the childre with the parent.
  
- ### 5. FLEX SHRINK property
+ ### 3.5 FLEX SHRINK property
  ------------------------
  `flex-shrtink: 1`
  - Just opposite of flex-grow.
@@ -447,7 +449,7 @@
    
   video referece: https://youtu.be/tSdq8amjMso?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=93
   
- ### 6. FLEX WRAP property
+ ### 3.6 FLEX WRAP property
  ----------------------
  
  `flex-wrap: wrap`
@@ -475,7 +477,7 @@
      
  - Using this, we can avoid the wrapping. By setting the value of flex wrap into nowrap, it will not wrap when size reduced.
    
- ### 7. FLEX BASIS
+ ### 3.7. FLEX BASIS
  --------------
  
  `flex-basis: 500px`
@@ -490,7 +492,7 @@
  
    - Video reference: https://youtu.be/j5RxNRFWMwo?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=232
    
-   ### 8. OTHER PROPERTIES OF FLEX
+   ### 3.8 OTHER PROPERTIES OF FLEX
    ---------------
    `justify-content: center`
    
@@ -508,7 +510,7 @@
    
    - Each side of each element gets spaced.
    
-  ### 9. FLOW & AXIS
+  ### 3.9 FLOW & AXIS
   ---------------
    `flex-flow: column` and `flex-flow: row`
    
@@ -531,7 +533,7 @@
    - As per the names, they can be used to reverse the order of the rows and columns. The items order will be reverse. Not only   
      just the position.
      
- ### 10. ALIGN ITEMS ON THE CROSS AXIS
+ ### 3.10 ALIGN ITEMS ON THE CROSS AXIS
  ---------------------------------
    `align-items: center`
    - Here the `align-items: center` aligns the items center to the cross axis instead of main axis.
@@ -542,7 +544,7 @@
      - Video reference: https://youtu.be/WY2itpeUK7Q?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&t=17
      
      
- ### 11. New tags learned
+ ### 3.11 New tags learned
  --------------------
  `<article>` Tag: This tag contains independent content that doesn’t require any other context. So the <article> tag can be   
                   placed inside the main content. But each of the articles will contain independent content within it.
@@ -554,17 +556,17 @@
  `transition: flex-basis 0.2s` : This is used to make transitions very soomthly. The time mentioned will be taken to happen from   
                                  one transition to another.
  
-  ### 12. Element Order
+  ### 3.12. Element Order
   -----------------
   `order:0` `order:1` : By assigning orders, the position can be shuffled based on the order values of the elements.
   
   
   
-  # CSS GRID
+  # 4. CSS GRID
   
   - CSS GRID just read the web page as a grid. Box of rows and columns.
   
-  ### 1. Columns
+  ### 4.1 Columns
   ------------
   `display:gird` is used to select the grid display.
   
@@ -582,7 +584,7 @@
   - `grid-template-columns: repeat(5, 1fr)` : Here we are delcaring 5 columns with fraction of width as 1fr.
     - Video reference: https://youtu.be/d-MHl_Q_hp8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=381
     
-  ### 2. Rows
+  ### 4.2 Rows
   --------
    - `grid-auto-rows: minmax(200px. auto);` : If the row is not detecting a height, take the minimum height of 200px. If it  
                                            detects more thatn 200px of height, then automatically set the height.                                              
@@ -604,7 +606,7 @@
    `grid-gap :10px` : This makes gap around so combined gap of column and row formed.
      - Video reference: https://youtu.be/MDQG6LSS8l8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=460
      
- ### 3. Grid Lines
+ ### 4.3 Grid Lines
  -------------
   - `grid-template-columns: repear(6, 1fr);`
     `grid-template- rows :repear(4, minmax(150px,auto));`
@@ -618,7 +620,7 @@
       
      - Video reference: https://youtu.be/J5GWyiWU2H8?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=322
      
- ### 4. Nested Grids
+ ### 4.4 Nested Grids
  ---------------
  
   - We can create a grid inside of anothe grid. Create a new div like wrapper inside side of the parent grid and add the items  
@@ -630,7 +632,7 @@
   - `grid-column: span 3:`
     We can increase the width of the child.
     
- ### 5. Aligning & Justifying Items
+ ### 4.5 Aligning & Justifying Items
  ------------------------------
  
   - `align-items: start` - All go to the top of the row along with the height of the element and padding.
@@ -656,12 +658,12 @@
     `justify-self: center` - Put the element right in the center.
    - Video reference: https://youtu.be/X2-x-4wA9V4?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=255
    
- ### 6. column grid
+ ### 4.6 column grid
  ---------------
   - `grid-template-columns: repeat(12, 1fr)` - 12 times , each column with 1 fraction.
    - Video reference: https://youtu.be/WmwGpjg580o?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&t=96
    
- ### 7. Grid Areas
+ ### 4.7 Grid Areas
  --------------
   - `grid-template-areas:`
     `"header header header header"`
@@ -672,14 +674,14 @@
     
     
     
-# CSS POSITIONING
+# 5 CSS POSITIONING
     
-## Why should we learn CSS positioning?
+## 5.1 Why should we learn CSS positioning?
     
  Positioning allows you to take elements out of the normal document layout flow, and make them behave differently; for example  
       sitting on top of one another, or always remaining in the same place inside the browser viewpor
     
- ## In this section, we are going to explore
+ ## 5.2 Things to explore
  - Box model (When laying out a document, the browser's rendering engine represents each element as a rectangular box according  
    to the standard CSS basic box model.)
  - Normal document flow (Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the 
@@ -694,7 +696,7 @@
     specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.)
  - Text columns (The column-count property specifies the number of columns an element should be divided into.) 
       
- ## 1. THE BOX MODEL
+ ## 5.3 THE BOX MODEL
  
    ![alt text](https://codescracker.com/css/images/css-box-model.jpg)
    
@@ -742,7 +744,7 @@
     
     - Video reference: https://youtu.be/d601NaSSqSE?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=217
     
- ## 2. NORMAL DOCUMENT FLOW
+ ## 5.4 NORMAL DOCUMENT FLOW
  
   - Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the order of HTML elements. this is 
     to say, how each Definition takes up space and how other elements position themselves accordingly.
@@ -759,7 +761,8 @@
    - inline
      
      
-      ![alt text](https://miro.medium.com/max/2800/1*AFeOAqXNJJdfYAjfXiJ9AQ.jpeg)
+    
+      <img src="https://miro.medium.com/max/2800/1*AFeOAqXNJJdfYAjfXiJ9AQ.jpeg" width="500px" height="500px">
       
       
   #### Block 
@@ -774,7 +777,7 @@
   
    - Video reference: https://youtu.be/l8NH6YppJFA?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=24
   
-  ## 3. Floats
+  ## 5.5 Floats
   
    ![alt text](https://i1.wp.com/css-tricks.com/wp-content/csstricks-uploads/web-layout.png?resize=540%2C240)
    
@@ -787,18 +790,18 @@
      
      - Video reference: https://youtu.be/VwxGKpvW8Zk?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=175
      
-  ## 4. CLEARING FLOATS
+  ## 5.6 CLEARING FLOATS
   - Applying `clear:both` completely removes the float property from the unwanted area.
   - `clear:left` `clear:right` and `clear-both` are the available options.
   
   - Video reference : https://youtu.be/nE9lIRbIfI0?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=168
   
-  ## 5. FLOATING COLUMNS
+  ## 5.7 FLOATING COLUMNS
   
   - Float can be used to create columns for the contents
   - After we formed our sections, use `display:block` and `clear:both` property to create the column.
    - Video reference :https://youtu.be/bJJ7jgfSvZY?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=32
-  ## 6. TEXT COLUMNS
+  ## 5.8 TEXT COLUMNS
   
   - Without using floats, we can create text columns.
   - If we have a content, we can create text columns by applying these css properties
@@ -817,7 +820,7 @@
   - ` -webkit-column-gap:50px;` says the gap between the columns.
   - `-webkit-column-rule:1px solid red` says the border of the columns.
   
-  ## 7. POSITION RELATIVE
+  ## 5.9 POSITION RELATIVE
   
    The position property specifies the type of positioning method used for an element.
    
@@ -848,33 +851,33 @@
    - We can use `nth-chlid(1){}` property to change the properties of the particular child in the column list.
     - Video reference: https://youtu.be/YBJqKWXL2vg?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=201
   
-## 8. ABSOLUTE POSITION
+## 5.10 ABSOLUTE POSITION
 
  - In the absolute positioning model, a box is removed from the normal flow entirely (it has no impact on later siblings) and assigned a 
    position with respect to a containing block.
   - Video reference: https://youtu.be/2JMGG_8T-vY?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh
  
-## 9. FIXED POSITION
+## 5.11 FIXED POSITION
 
 - Fixed positioning is a subcategory of absolute positioning. The only difference is that for a fixed positioned box, the containing 
   block is established by the viewport. 
 - If I want to keep the navigation bar always on the top of the screen even if we scroll the screen, fixed position is the option.
  - Video reference: https://youtu.be/8fQWx-d5qc8?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=132
  
-## 10. Z-INDEX AND STACKING ORDER
+## 5.12 Z-INDEX AND STACKING ORDER
  
  - By setting the value of Z, we can change the stack order of the elements.
  ![alt text](https://www.vanseodesign.com/blog/wp-content/uploads/2009/11/z-index.png)
  
  - It is exactly like the 3D view perception to understand the stacking order of the items.
  
- ![alt text](https://i.ytimg.com/vi/L58hlU1gl0M/maxresdefault.jpg)
+ <img src="https://i.ytimg.com/vi/L58hlU1gl0M/maxresdefault.jpg" width="500px" height="350">
  
  - As per above image, highest value of Z index comes top over the lowest values.
   - Video reference: https://youtu.be/k4taTzkhzHc?list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh&t=194
     
     
-## 11 Clipping content
+## 5.13 Clipping content
 
 - We can clip the contents by using some properties together. We can set a maximum height. The area which overflows that area can set as   overflow.
 
