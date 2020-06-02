@@ -28,7 +28,7 @@ flex: 1;
 padding-left: 8%;
 }
 nav .more{
-flex: 1;
+flex: 0.75;
 }
 nav .cart{
 flex: 1;
@@ -101,7 +101,7 @@ flex: 1;
     background-color: white;
     border: none;
     color:blue;
-    padding: 4px 35px;
+    padding: 8px 38px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -109,7 +109,19 @@ flex: 1;
     font-weight: 600;
     margin: 4px 2px;
     cursor: pointer;
+    box-shadow:
+    0 1.8px 1.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 1.3px rgba(0, 0, 0, 0.048),
+    0 1.5px 1px rgba(0, 0, 0, 0.06),
+    0 2.3px 7.9px rgba(0, 0, 0, 0.072),
+    0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+    0 10px 8px rgba(0, 0, 0, 0.12);
      
+ }
+ .drop-down-arrow{
+    transform: rotate(-90deg);
+    margin-left: 5px;
+    width: 10px;
  }
 
  nav .more{
@@ -122,8 +134,17 @@ flex: 1;
  } */
  nav .icon{
      width: 16px;
+ }
+ .cart-section{
+     display: flex;
+     font-size: 18px;
+     font-weight: 700;
 
-
+ }
+ 
+ nav .cart-icon{
+     width: 20px;
+     margin-right: 8px;
  }
 
  section .items-list{
@@ -145,4 +166,15 @@ flex: 1;
      flex-grow: 1;
      font-weight: 500;
      padding: 0px 5px;
+ }
+ .items-list div:after{   
+     padding-left: 5px;
+     content: ">";
+     color: rgb(185, 185, 185);
+     position: absolute;
+     transform: rotate(90deg);
+     
+ 
+
+
  }
