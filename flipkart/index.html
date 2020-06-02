@@ -54,17 +54,17 @@
     <main>
         <div class="main-a">
             <div>
-                <section>
-                    <div style="display: flex; flex: 1;">
-                        <div style="flex: 1;">Filters</div>
-                        <div style="background-color: blueviolet; flex: 1; text-align: right; padding-right: 10px;">
-                            CLEAR ALL</div>
+                <section class="filter-section">
+                    <div style="display: flex; flex: 1; font-weight: 500; padding-bottom: 20px;padding-top: 10px;">
+                        <div style="flex: 1;font-size: 18px;">Filters</div>
+                        <div class="filter-clear">
+                            <a>CLEAR ALL</a>
+                        </div>
                     </div>
-
-                    <div><a>Min-50000+</a></div>
+                    <div><a class="filter-value">Min-50000+</a></div>
                 </section>
                 <section class="categories">
-                    <span>CATEGORIES</span>
+                    <span> <i class="arrow left"></i>CATEGORIES</span>
                     <div>Mobile & Accessories</div>
                     <div>Mobiles</div>
                 </section>
@@ -105,8 +105,9 @@
                 </section>
             </div>
         </div>
-        <div>
-            <div class="main-b">
+        <div class="main-b">
+            <div>
+                <div></div>
                 <div class="mobile-list-header">
                     <div>
                         <div>Home Mobile% Accessories Mobiles</div>
