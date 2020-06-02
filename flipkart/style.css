@@ -173,8 +173,69 @@ flex: 1;
      color: rgb(185, 185, 185);
      position: absolute;
      transform: rotate(90deg);
-     
+ }
+
+ main{
+     margin:10px 10px;
+     display: flex;
+     flex-flow: row;
+ }
+ main .main-a{
+     flex: 1;
+     background-color: red;
+ }
+ main .main-b{
+     flex: 4;
+     background-color: green;
+ }
+
+ main .categories{
+     background-color:yellow;
+ }
+ main .price{
+     background-color: rgb(71, 255, 80);
+ }
+ main .assured{
+     background-color: teal;
+ }
+ main .ram{
+     background-color: wheat;
+ }
+ main .brand{
+     background-color: yellowgreen;
+ }
+ main .customer-ratings{
+     background-color: turquoise;
+
+ }
+main .mobile-list-main{
+    margin-top: 10px;
+}
+ main .mobile-list-header{
+     background-color: rgb(88, 64, 226);
+ }
  
+ main .mobile-container{
+     display: flex;
+     flex-flow: row;
+     color: rgb(185, 185, 185);
+    
+ }
+ main .phone-image{
+     flex: 2;
+     color:black;
+     background-color: rgb(255, 183, 50);
 
-
+ }
+ main .phone-details{
+     flex: 5;
+     background-color: rgb(183, 226, 175);
+     display: flex;     
+ }
+ .phone-config{
+     flex: 3;
+     color: white;
+ }
+ .price{
+     flex: 2;
  }
