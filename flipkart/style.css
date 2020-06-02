@@ -197,7 +197,26 @@ flex: 1;
  }
  main .assured{
      background-color: teal;
+     display: flex;
+     align-items: center;
  }
+      .question {
+        border-radius: 50%;
+        background-color: #fff;
+        color: #878787;
+        font-weight: 500;
+        width: 16px;
+        height: 16px;
+        font-size: 11px;
+        line-height: 16px;
+        text-align: center;
+        display: inline-block;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 0 1px 0 rgba(0,0,0,.2);
+        vertical-align: middle;
+        margin: 0 2px 0 8px;
+        cursor: pointer;
+      }
  main .ram{
      background-color: wheat;
  }
@@ -219,6 +238,7 @@ main .mobile-list-main{
      display: flex;
      flex-flow: row;
      color: rgb(185, 185, 185);
+     min-height: 280px;
     
  }
  main .phone-image{
@@ -239,3 +259,18 @@ main .mobile-list-main{
  .price{
      flex: 2;
  }
+ .phone-image .image{
+    height:200px;width:100px;
+
+
+ }
+ .phone-image{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-flow: column;
+ }
+ .assured-icon{
+     width: 85px;
+ }
+
