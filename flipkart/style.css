@@ -180,6 +180,7 @@ flex: 1;
  section .items-list{
 
      background-color:white;
+     width: 100%;
      padding: 10px;
      display: flex;
      flex-direction: row;
@@ -457,7 +458,7 @@ main .mobile-list-main{
   }
   
   .dropdown-content {
-      width: 100%;
+    width: 100%;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
