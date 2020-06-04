@@ -411,7 +411,8 @@ main .mobile-list-main{
  main .phone-details{
      flex: 5;
      /* background-color: rgb(183, 226, 175); */
-     display: flex;     
+     display: flex;  
+
  }
 
  
@@ -638,12 +639,53 @@ footer{
   display: none;
 }
 
+
+.phone-details{
+  display: flex;
+}
+
+.review-value{
+  display: inline;
+}
+
+.rating-people{
+  color: rgb(146, 140, 140);
+
+}
+
+.add-compare{
+  padding-right: 45%; 
+}
+
+.just-here{
+  display: none;
+}
+
+.mobile-view-config{
+  display: none;
+
+}
+
+.assured-icon-mobile{
+  display: none;
+}
+
+.price-mob-view{
+  display: none;
+}
+
+.heart-icon-mob-view{
+  display: none;
+}
+
+
+
 @media screen and (max-width: 767.9px) {
+  
 
   nav{
     /* padding:3px 5px; */
-    display: table;
-    table-layout: fixed;
+    display: none;   
     width:100%;
     justify-content: inherit;
     border: 2px solid red;
@@ -690,6 +732,7 @@ footer{
 
 .main-b{
   display: block;
+  margin-top: 20px;
 }
 
 footer{
@@ -705,6 +748,7 @@ footer{
   padding: 10px 10px;
   background-color: #2874f0;
   border: 1px solid black;
+  
   
 }
 .mobile-second-nav{
@@ -722,8 +766,110 @@ footer{
   0 4.8px 3.4px rgba(0, 0, 0, 0.086),
   0 10px 8px rgba(0, 0, 0, 0.12);
 }
+
 .mobile-list-header{
   display: none;
+}
+
+
+
+.mobile-details{
+  display: none;
+}
+
+.review-value{
+  display: none;
+}
+
+.phone-name{
+  font-size: 14px ;
+}
+
+.price{
+  display: inherit;
+  display: flex;
+  width: 40%;
+  font-size: 12px;
+}
+.old-price{
+  display: inherit;
+}
+
+.phone-price{
+font-size: 12px;
+}
+
+.phone-name{
+  font-size: 12px;
+}
+
+.price{
+  display: none;
+}
+.add-compare{
+  display: none;
+}
+.phone-image .image{
+  height:140px;width:66px;
+}
+
+.heart-icon{
+  display: none;
+}
+
+.just-here{
+  display: block;
+}
+.rating-people::before{
+  content: '(';
+}
+.rating-people::after{
+  content: ')';
+}
+.mobile-list-main{
+display: block;
+}
+.mobile-view-config{
+  display: block;
+}
+.mobile-view-config ul li{
+
+  margin: 10px 0px;
+}
+.each-config{
+  border: 1px solid rgb(228, 213, 213);
+  border-radius: 4px;
+  margin: 0px 10px;
+  color:rgb(135, 135, 135) ;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 8px;
+}
+
+main .mobile-container{
+  min-height: inherit;
+}
+
+.price-mob-view{
+  display: block;
+      /* background-color: rgb(71, 255, 80); */
+     
+      color: black;
+      /* padding-bottom: 10px;
+      margin-bottom: 10px; */
+      padding-bottom: 10px;
+      font-size: 12px;
+}
+
+.heart-icon-mob-view{
+  display: inline;
+  width: 25px ;
+  /* position: absolute;     */
+  cursor: pointer;
+  z-index: 1;
+  padding-left: 50%;
+  position: absolute;
+  
 }
 
 }
