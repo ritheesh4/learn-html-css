@@ -819,6 +819,7 @@ font-size: 12px;
 
 .just-here{
   display: block;
+  color: #878787;
 }
 .rating-people::before{
   content: '(';
