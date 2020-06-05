@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ritheesh" content="Shoping">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flipkart</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="title-search">
+                <div class="title">
+                    <a>Flipkart</a>
+                    <p>Explore&nbsp<span>Plus</span><img style="width: 10x;height: 10px;"
+                            src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_b13a8b.png"></p>
+                </div>
+
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for products, brands and more" class="search"><img
+                        src="./icons/search (1).svg" class="search-icon">
+
+                </div>
+            </div>
+
+            <div class="login">
+                <button class="login-button">Login</button>
+                <div class="login-content">
+                    <a href="#" style="display: float;height: 20px;padding: 10px 30px; ">
+                        <div style="float: left;font-weight: 500;">New Customer?</div>
+                        <div style="float: right;color: blue;font-weight: 500;">Sign Up</div>
+                    </a>
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" class="" viewBox="0 0 16 14">
+                                <path fill="#2874F1" fill-rule="nonzero"
+                                    d="M7 .333A6.67 6.67 0 0 0 .333 7 6.67 6.67 0 0 0 7 13.667 6.67 6.67 0 0 0 13.667 7 6.67 6.67 0 0 0 7 .333zm0 2c1.107 0 2 .894 2 2 0 1.107-.893 2-2 2s-2-.893-2-2c0-1.106.893-2 2-2zM7 11.8a4.8 4.8 0 0 1-4-2.147C3.02 8.327 5.667 7.6 7 7.6c1.327 0 3.98.727 4 2.053A4.8 4.8 0 0 1 7 11.8z">
+                                </path>
+                            </svg></span><span>My Profile</span></a>
+                    <a href="#"><span style="padding-right:5px"><svg width="16" height="16" class="" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Desktop_VIP" stroke="none" stroke-width="1" fill-rule="evenodd">
+                                    <g transform="translate(7.873 .143)">
+                                        <path
+                                            d="M6.484 4.94s2.476 1.227 3.698 1.748c1.188.506 1.323 2.4.016 3.04-1.307.64-1.67.744-1.67.744s.208-.53.178-1.044c-.085-.914-2.787-1.656-4.576-2.094 0 0-1.375-4.311-1.995-5.512C1.509.612.242.11.242.11l2.995.04s1.03-.05 1.488 1.055c.456 1.106 1.76 3.734 1.76 3.734"
+                                            fill="#2873F0" mask="url(#b)"></path>
+                                    </g>
+                                    <g transform="translate(8.635 8.27)">
+                                        <path
+                                            d="M5.547 6.265S4.334 8.713 3.8 9.965c-.507 1.187-2.44 1.322-3.079.015C.081 8.673.015 8.44.015 8.44s.387.076 1 .048c.915-.084 1.7-2.786 2.138-4.575 0 0 4.311-1.377 5.513-1.997 1.21-.624 1.71-1.892 1.71-1.892l-.04 3.44s.05.587-1.055 1.044c-1.105.455-3.734 1.757-3.734 1.757"
+                                            fill="#2873F0" mask="url(#d)"></path>
+                                    </g>
+                                    <g transform="translate(0 8.778)">
+                                        <path
+                                            d="M4.655 5.573S2.193 4.353.956 3.826C-.232 3.32-.367 1.423.94.786 2.248.145 2.774.026 2.774.026s-.34.545-.255 1.157C2.606 2.1 5.22 2.74 7.008 3.179c0 0 1.427 4.287 1.997 5.513.695 1.493 1.848 1.72 1.848 1.72l-3.396-.05s-.585.05-1.042-1.055c-.458-1.106-1.76-3.734-1.76-3.734"
+                                            fill="#2873F0" mask="url(#f)"></path>
+                                    </g>
+                                    <g transform="translate(0 .143)">
+                                        <path
+                                            d="M4.857 4.754s1.219-2.46 1.747-3.699c.506-1.188 2.4-1.321 3.04-.016.64 1.308.701 1.544.701 1.544s-.482.007-.993.035c-.916.087-1.663 2.702-2.101 4.49 0 0-4.296 1.405-5.513 1.996C.066 9.916 0 10.957 0 10.957l.068-3.4s-.05-.586 1.055-1.043c1.105-.457 3.734-1.76 3.734-1.76"
+                                            fill="#2873F0" mask="url(#h)"></path>
+                                    </g>
+                                </g>
+                            </svg></span><span>Flipkart Plus Zone</span></a>
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="12" class="" viewBox="0 0 16 12">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path fill="#2874F1"
+                                        d="M6.038 11.682h8.407c.565 0 1.018-.38 1.13-.855V.847H.426v9.98c0 .475.452.855 1.017.855h2.232v-2.98H1.94L4.776 6l2.996 2.703H6.038v2.98z">
+                                    </path>
+                                </g>
+                            </svg></span><span>Orders</span></a>
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" class=""
+                                width="16" height="14" viewBox="0 0 20 16">
+                                <path
+                                    d="M8.695 16.682C4.06 12.382 1 9.536 1 6.065 1 3.219 3.178 1 5.95 1c1.566 0 3.069.746 4.05 1.915C10.981 1.745 12.484 1 14.05 1 16.822 1 19 3.22 19 6.065c0 3.471-3.06 6.316-7.695 10.617L10 17.897l-1.305-1.215z"
+                                    fill="#2874F0" class="" stroke="#FFF" fill-rule="evenodd" opacity=".9"></path>
+                            </svg></span><span>Wishlist</span></a>
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="12" class="" viewBox="0 0 16 16">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path fill="#FFF" d="M0 0h16v16H0z"></path>
+                                    <path fill="#2874F0"
+                                        d="M16 9.25v2.5c0 .69-.597 1.25-1.333 1.25H1.333C.597 13 0 12.44 0 11.75v-2.5c.736 0 1.333-.56 1.333-1.25S.736 6.75 0 6.75v-2.5C0 3.56.597 3 1.333 3h13.334C15.403 3 16 3.56 16 4.25v2.5c-.736 0-1.333.56-1.333 1.25S15.264 9.25 16 9.25zM4.4 3.625v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4z">
+                                    </path>
+                                </g>
+                            </svg></span><span>Rewards</span></a>
+
+                </div>
+            </div>
+            <div class="more">
+                <span class="more-button">More</span>
+                <div class="more-content">
+
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                height="20" class="" viewBox="0 0 12 14">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M-4-3h20v20H-4z"></path>
+                                    <path fill="#2874F1"
+                                        d="M6.17 13.61c-1.183 0-1.922-.723-1.922-1.88H8.09c0 1.157-.74 1.88-1.92 1.88zm4.222-5.028l1.465 1.104v1.07H0v-1.07l1.464-1.104v-2.31h.004c.035-2.54 1.33-4.248 3.447-4.652V.992C4.915.446 5.37 0 5.928 0c.558 0 1.014.446 1.014.992v.628c2.118.404 3.412 2.112 3.446 4.65h.004v2.312z">
+                                    </path>
+                                </g>
+                            </svg></span><span>Notification Preferences</span></a>
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="12" class="" viewBox="0 0 16 14">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path
+                                        d="M-2-3h20v20H-2V-3zm8.333 4.167h3.334v1.666H6.333V1.167zm0 0h3.334v1.666H6.333V1.167z">
+                                    </path>
+                                    <path fill="#2874F0" fill-rule="nonzero"
+                                        d="M6.467 10.067V9.3h-5.36L1.1 12.367c0 .85.682 1.533 1.533 1.533h10.734c.85 0 1.533-.682 1.533-1.533V9.3H9.533v.767H6.467zm7.666-6.9H11.06V1.633L9.526.1H6.459L4.926 1.633v1.534h-3.06c-.843 0-1.533.69-1.533 1.533V7c0 .851.683 1.533 1.534 1.533h4.6V7h3.066v1.533h4.6c.844 0 1.534-.69 1.534-1.533V4.7c0-.843-.69-1.533-1.534-1.533zm-4.6 0H6.467V1.633h3.066v1.534z">
+                                    </path>
+                                </g>
+                            </svg></span><span>Sell on Flipkart</span></a>
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" class="" viewBox="0 0 14 17">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path fill="#2874F0" fill-rule="nonzero"
+                                        d="M12.25.542H1.75c-.833 0-1.5.675-1.5 1.5v10.5c0 .825.667 1.5 1.5 1.5h3L7 16.292l2.25-2.25h3c.825 0 1.5-.675 1.5-1.5v-10.5c0-.825-.675-1.5-1.5-1.5zm-4.5 12h-1.5v-1.5h1.5v1.5zM9.303 6.73l-.676.69c-.54.547-.877.997-.877 2.122h-1.5v-.375c0-.825.338-1.575.877-2.123l.93-.945c.278-.27.443-.646.443-1.058 0-.825-.675-1.5-1.5-1.5s-1.5.675-1.5 1.5H4c0-1.658 1.342-3 3-3s3 1.342 3 3c0 .66-.27 1.26-.697 1.687z">
+                                    </path>
+                                </g>
+                            </svg></span><span>24x7 Customer Care</span></a>
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="14" class="" viewBox="0 0 18 10">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path fill="#2874F0" fill-rule="nonzero"
+                                        d="M12.333 0l1.91 1.908-4.068 4.067-3.333-3.333L.667 8.825 1.842 10l5-5 3.333 3.333 5.25-5.24L17.333 5V0">
+                                    </path>
+                                </g>
+                            </svg></span><span>Advertise</span></a>
+                    <a href="#"><span style="padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="14" class="" viewBox="0 0 12 14">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M-4-3h20v20H-4z"></path>
+                                    <path fill="#2874F0" fill-rule="nonzero"
+                                        d="M12 4.94H8.57V0H3.43v4.94H0l6 5.766 6-5.765zM0 12.354V14h12v-1.647H0z">
+                                    </path>
+                                </g>
+                            </svg></span><span>Download App</span></a>
+
+                </div>
+                <span><svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg"
+                        class="drop-down-arrow">
+                        <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff">
+                        </path>
+                    </svg>
+                </span>
+
+            </div>
+            <a class="cart"><span class="cart-section"><img src="./icons/cart-73-xxl.png" class="cart-icon"><span
+                        class="cart-heading">Cart</span></span></a>
+
+
+
+        </nav>
+        <div class="mobile-nav">
+            <div style="flex:2; ">
+                <div style="display: flex;">
+                    <div class="return-button"><img src="./icons/return.svg" style="width: 40px;"></div>
+                    <div><img
+                            src="  https://img1a.flixcart.com/batman-returns/batman-returns/images/logo_lite-cbb357.png"
+                            style="width: 23px; padding-right: 5px;"></div>
+
+                    <div style="font-size: 16px;"> Mi Mobiles</div>
+                </div>
+            </div>
+            <div style="flex:1;">
+                <div style="display: flex; align-items: center;">
+                    <img src="./icons/search-mobile.svg" style="width: 22px; padding-right: 5px;">
+                    <a class="mobile-cart"><span class="cart-section"><img src="./icons/cart-73-xxl.png"
+                                style="width: 16px;height: 16px; padding-right: 8px;"></span></a>
+                    <div style="font-size: 16px;">Login</div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-second-nav">
+            <div style="flex:1">
+                <div style="display: flex; justify-content: center;">
+                    <div><img src="./icons/list.svg" style="height: 12px;width: 12px; padding-right: 10px;"></div>
+                    <div>Sort</div>
+                </div>
+            </div>
+            <div style="  border: 1px solid rgb(236, 231, 231);"></div>
+            <div style="flex:1">
+                <div style="display: flex; justify-content: center;">
+                    <div><img
+                            src="https://rukminim1.flixcart.com/www/80/80/promos/10/04/2019/62f36a1e-caf6-4433-a848-2adb7e164a4d.png?q=90"
+                            style="height: 24px;width: 24px; padding-right: 10px;"></div>
+
+                    <div style="font-size: 16px;">Filter</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    </div>
+    <section class="second-nav">
+        <div class="items-list">
+            <div>
+                <div class="dropdown">
+                    <button class="dropbtn first">Electronics <span style="padding-left: 8px;"><img
+                                src="./icons/right-arrow.png" class="arrow"></span> </button>
+                    <div class="dropdown-content">
+                        <div>
+                            <a href="#" style="font-weight: 700;">Mobiles</a>
+                            <a href="#">Mi</a>
+                            <a href="#">Realme</a>
+                            <a href="#">Samsung</a>
+                            <a href="#">Infix</a>
+                            <a href="#">OPPO</a>
+                            <a href="#">Apple</a>
+                            <a href="#">Vivo</a>
+                            <a href="#">Honor</a>
+                            <a href="#">Asus</a>
+                            <a href="#">realme 6</a>
+                            <a href="#">Samsung S10 Lite</a>
+                            <a href="#">POCO X2</a>
+                            <a href="#">Infinix s5 Pro</a>
+                            <a href="#">realme X50 Pro</a>
+                            <a href="#">realme 6 Pro</a>
+                            <a href="#">OPPO F15</a>
+                            <a href="#">IQOO 3</a>
+                        </div>
+                        <div style="background-color:#f1f3f6;padding-top: 16px;">
+                            <a href="#" style="font-weight: 700;">Mobile Accessories</a>
+                            <a href="#">Mobile Cases</a>
+                            <a href="#">Headphones & Headsets</a>
+                            <a href="#">Power Banks</a>
+                            <a href="#">Screenguards</a>
+                            <a href="#">Memory Cards</a>
+                            <a href="#">Smart Headphones</a>
+                            <a href="#">Mobile Cables</a>
+                            <a href="#">Mobile Chargers</a>
+                            <a href="#">Mobile Holders</a>
+                            <a href="#" style="font-weight: 700;">Smart Wearable Tech</a>
+                            <a href="#">Smart Watches</a>
+                            <a href="#">Smart Glasses (VR)</a>
+                            <a href="#">Smart Bands</a>
+                            <a href="#" style="font-weight: 700;">Health Care Appliances</a>
+                            <a href="#">Bp Monitors</a>
+                            <a href="#">Weighing Scale</a>
+
+                        </div>
+                        <div style="padding-top: 16px;">
+                            <a href="#" style="font-weight: 700;">Laptops</a>
+                            <a href="#">Gaming Laptops</a>
+                            <a href="#" style="font-weight: 700;">Desktop PCs</a>
+                            <a href="#" style="font-weight: 700;">Gaming & Accessories</a>
+                            <a href="#" style="font-family: 700;">Computer Accessories</a>
+                            <a href="#">External Hard Disks</a>
+                            <a href="#">Pendrives</a>
+                            <a href="#">Laptop Skins & Decals</a>
+                            <a href="#">Laptop Bags</a>
+                            <a href="#">Mouse</a>
+                            <a href="#" style="font-weight: 700;">Computer Peripherals</a>
+                            <a href="#">Printers & Ink Catridges</a>
+                            <a href="#">Monitors</a>
+                            <a href="#" style="font-weight: 700;">Tablets</a>
+                            <a href="#">Apple iPads</a>
+
+                        </div>
+                        <div style="background-color:#f1f3f6; padding-top: 8px;">
+                            <a href="#"></a>Televisions</a>
+                            <a href="#" style="font-weight: 700;">Speakers</a>
+                            <a href="#">Home Audio Speakers</a>
+                            <a href="#">Home Theatres</a>
+                            <a href="#">Soundbars</a>
+                            <a href="#">Bluetooth Speakers</a>
+                            <a href="#">DTH Set Top Box</a>
+                            <a href="#" style="font-weight: 700;">Smart Home Automation</a>
+                            <a href="#">Google Nest</a>
+                            <a href="#" style="font-weight: 700;">camera</a>
+                            <a href="#">DSLR & Mirrorless</a>
+                            <a href="#">Compact & Bridge Cameras</a>
+                            <a href="#">Sports & Action</a>
+                            <a href="#" style="font-weight: 700;">Camera Accessories</a>
+                            <a href="#">Lens</a>
+                            <a href="#">Tripoids</a>
+                            <a href="#" style="font-weight: 700;">Network Components</a>
+                            <a href="#">Routers</a>
+
+
+                        </div>
+                        <div>
+                            <a href="#" style="font-weight: 700; padding-top: 15px;"></a>Featured</a>
+                            <a href="#">Google Assistant Store</a>
+                            <a href="#">Laptops on Buyback Guarantee</a>
+                            <a href="#">Flipkart SmartBuy</a>
+                            <a href="#">Li-Polumer Power Banks</a>
+                            <a href="#">Sony PS4 Pro & sim</a>
+                            <a href="#">Apple Products</a>
+                            <a href="#">Microsoft Store</a>
+                            <a href="#">Lenovo Phab Series</a>
+                            <a href="#"> JBL Speakers</a>
+                            <a href="#">Smartphones On Buyback Guarantee</a>
+                            <a href="#">Philips</a>
+                            <a href="#">Dr. Morepen</a>
+                            <a href="#">Complete Mobile Protection</a>
+                            <a href="#">Mobile No Cost EMI</a>
+                            <a href="#">Huawei Watch Gt 2e Smart Watch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>TVs & Appliances<span style="padding-left: 8px;"><img src="./icons/right-arrow.png" class="arrow">
+            </div>
+            <div>Men<span style="padding-left: 8px;"><img src="./icons/right-arrow.png" class="arrow"></div>
+            <div>Women<span style="padding-left: 8px;"><img src="./icons/right-arrow.png" class="arrow"></div>
+            <div>Baby & Kids<span style="padding-left: 8px;"><img src="./icons/right-arrow.png" class="arrow"></div>
+            <div>Home & Furniture<span style="padding-left: 8px;"><img src="./icons/right-arrow.png" class="arrow">
+            </div>
+            <div>Sports, Books & More<span style="padding-left: 8px;"><img src="./icons/right-arrow.png" class="arrow">
+            </div>
+            <div>Flights<span style="padding-left: 8px;"><img src="./icons/right-arrow.png" class="arrow"></div>
+            <div>Offer Zone<span style="padding-left: 8px;"><img src="./icons/right-arrow.png" class="arrow"></div>
+        </div>
+        </div>
+
+    </section>
+
+    <main>
+        <div class="main-a">
+            <div>
+                <section class="filter-section">
+                    <div style="display: flex; flex: 1; font-weight: 500; padding-bottom: 20px;padding-top: 10px;">
+                        <div style="flex: 1;font-size: 18px;">Filters</div>
+                        <div class="filter-clear">
+                            <a>CLEAR ALL</a>
+                        </div>
+                    </div>
+                    <div><a class="filter-value">Min-50000+</a></div>
+                </section>
+                <section class="categories">
+                    <span> <i class="arrow left"></i>CATEGORIES</span>
+                    <div style="display: flex;">
+                        <div><img src="icons/right-arrow.png"
+                                style="transform: rotate(-180deg);width: 7px ;margin-right: 8px; margin-left: 8px;">
+                        </div>
+                        <div>
+                            <div style="color: rgb(196, 189, 189);">Mobile & Accessories</div>
+                            <div style="font-weight: 500;">Mobiles</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="price">
+                    <span>PRICE</span>
+                    <div class="graph">
+                        <div class="graph-section">
+                            <!-- <div class="HKK57-" style="height: 25px; width: 29.6013px;"></div>  -->
+                            <div class="graph-box" style="height: 25px; width: 29.6013px;"></div>
+                            <div class="graph-box" style="height: 25px; width: 29.6013px;"></div>
+                            <div class="graph-box" style="height: 25px; width: 29.6013px;"></div>
+                            <div class="graph-box" style="height: 25px; width: 29.6013px;"></div>
+                            <div class="graph-box" style="height: 15.625px; width: 29.6013px;"></div>
+                            <div class="graph-box" style="height: 9.375px; width: 29.6013px;"></div>
+                            <div class="graph-box" style="height: 3.125px; width: 29.6013px;"></div>
+                        </div>
+                        <div class="slidecontainer">
+
+                        </div>
+                        <input type="range" min="1" max="100" value="50" style="width: 250px;">
+                    </div>
+                    <div class="slider">
+                        <div class="slider-bar">
+                            <div class="starting-point">
+                                <div class="cirlce-point"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div style="display: flex; flex-flow: row;">
+                        <div style="flex: 1;">
+                            <select class="price-list">
+                                <option value="Min" class="min-price">Min</option>
+                                <option value="2000" class="min-price">₹2000</option>
+                                <option value="4000" class="min-price">₹4000</option>
+                                <option value="7000" class="min-price">₹7000</option>
+                                <option value="10000" class="min-price">₹10000</option>
+                                <option value="13000" class="min-price">₹13000</option>
+                                <option value="16000" class="min-price">₹16000</option>
+                                <option value="20000" class="min-price">₹20000</option>
+                                <option value="25000" class="min-price">₹25000</option>
+                                <option value="30000" class="min-price">₹30000</option>
+                                <option value="50000" class="min-price">₹50000</option>
+                            </select>
+
+                        </div>
+                        <div style="flex: 1; text-align: center;">to</div>
+
+                        <div style="flex: 1; padding-right: 10px;">
+                            <select class="price-list">
+                                <option value="2000" class="max-price">₹2000</option>
+                                <option value="4000" class="max-price">₹4000</option>
+                                <option value="7000" class="max-price">₹7000</option>
+                                <option value="10000" class="max-price">₹10000</option>
+                                <option value="13000" class="max-price">₹13000</option>
+                                <option value="16000" class="max-price">₹16000</option>
+                                <option value="20000" class="max-price">₹20000</option>
+                                <option value="25000" class="max-price">₹25000</option>
+                                <option value="30000" class="max-price">₹30000</option>
+                                <option value="50000" class="max-price">₹50000</option>
+                                <option value="Max" class="max-price">₹50000+</option>
+                            </select></div>
+
+
+                    </div>
+                </section>
+                <section class="assured">
+                    <input type="checkbox" id="assured" name="assured" value="assured" style="flex: 1;">
+                    <div style="flex: 9;"><img src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                            style="width: 100px;padding-left: 3%;"></div>
+                    <div style="flex: 1;"><span class="question">?</span></div>
+                </section>
+                <section class="ram">
+                    <span>RAM</span>
+                    <ul class="ram-select">
+                        <li><span> <input type="checkbox" id="6gb" name="ram" value="6gb" style="flex: 1;"></span><a>6
+                                GB & Above</a></li>
+                        <li><span> <input type="checkbox" id="4gb" name="ram" value="4gb" style="flex: 1;"></span><a>4
+                                GB </a></li>
+                        <li><span> <input type="checkbox" id="3gb" name="ram" value="3gb" style="flex: 1;"></span><a>3
+                                GB </a></li>
+                        <li><span> <input type="checkbox" id="2gb" name="ram" value="2gb" style="flex: 1;"></span><a>2
+                                GB </a></li>
+                        <li><span> <input type="checkbox" id="1gb" name="ram" value="1gb" style="flex: 1;"></span><a>1
+                                GB </a></li>
+                    </ul>
+                </section>
+                <section class="brand">
+                    <span>BRAND</span>
+                    <div>
+                        <a><input type="checkbox" id="mi" name="brand" value="mi" style="flex: 1;"></a><a
+                            style="margin-left: 10px;">Mi</a>
+                    </div>
+                </section>
+                <section class="customer-ratings">
+                    <span>CUSTOMER RATINGS</span>
+                    <ul>
+                        <li><input type="checkbox" id="4" name="rating" value="4" style="flex: 1;"><a>4&#9733; &
+                                above</a></li>
+                        <li><input type="checkbox" id="3" name="rating" value="3" style="flex: 1;"><a>3&#9733; &
+                                above
+                            </a></li>
+                        <li><input type="checkbox" id="2" name="rating" value="2" style="flex: 1;"><a>2&#9733; &
+                                above
+                            </a></li>
+                        <li><input type="checkbox" id="1" name="rating" value="1" style="flex: 1;"><a>1&#9733; &
+                                above
+                            </a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="main-b">
+            <div style="margin-left: 10px;margin-top: 20px;">
+                <div class="mobile-list-header">
+                    <div>
+                        <div style="color: rgb(182, 170, 170); font-size: 14px;">
+                            <a>Home<img src="./icons/right-arrow.png" style="width: 6px;margin-left:10px"></a>
+                            <a>Mobile Accessories Mobiles<img src="./icons/right-arrow.png"
+                                    style="width: 6px;margin-left:10px"></a>
+                            <a>Mobiles</a>
+                        </div>
+                    </div>
+                    <div style="color: rgb(182, 170, 170); font-size: 16px; margin-top: 10px;">
+                        <span>Latest from MI: <span style="color: blue;">Redmi Go</span></span>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <span><b>Mi Mobiles</b> <span style="color: rgb(182, 170, 170); font-size: 14px;">(Showing
+                                1-24 products of 247 products)</span></span>
+                    </div>
+                    <div style="display:flex;flex-flow: row;margin-top: 10px; 
+                        border-bottom: 1px solid rgb(212, 209, 209);
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;">
+                        <span style="font-weight: 500; margin-right: 10px;">Sort By</span>
+                        <div style=" margin-right: 10px; color: blue; font-weight: 500;"> Popularity</div>
+                        <div style=" margin-right: 10px;"> Price -- Low to Hight</div>
+                        <div style=" margin-right: 10px;"> Price -- High to Low</div>
+                        <div> Newest First</div>
+                    </div>
+                </div>
+                <div class="mobile-list-main">
+                    <div class="mobile-container">
+                        <div class="phone-image">
+                            <div> <img src="./icons/heart.svg" class="heart-icon"></div>
+                            <div><img
+                                    src="https://rukminim1.flixcart.com/image/416/416/jt641ow0/mobile/d/w/k/mi-redmi-note-7-pro-na-original-imafe4bbyfppbnuu.jpeg?q=70"
+                                    class="image">
+                            </div>
+
+                            <div class="add-compare"><input type="checkbox" name="compare"> <span>Add to
+                                    Compare</span></div>
+                        </div>
+                        <div class="phone-details">
+                            <div class="phone-config">
+                                <span class="phone-name">Redmi Note 7 Pro(Neptune Blue, 128 GB)<div> <img
+                                            src="./icons/heart.svg" class="heart-icon-mob-view"></div></span>
+                                <div class="just-here"><span>#JustHere</span></div>
+                                <div class="rating-review"><span><a class="rating-value">4.5&#9733<a
+                                                class="rating-people">2,67,253 <span></span> <span class="review-value">
+                                                    Ratings & 22,470
+                                                    Reviews</span></a></span></div>
+
+                                <div class="price-mob-view">
+                                    <div style="display: flex; align-items: center;"><span class="phone-price">
+                                            &#8377;13,999</span><a><img
+                                                src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                                                class="assured-icon"></a></div>
+                                    <div><span class="old-price">&#8377;17,999</span><a class="offer-percentage">22%
+                                            off</a>
+                                    </div>
+                                    <div>No Cost EMI</div>
+                                    <div>Upto <span style="font-weight: 700;">&#8377;13,250</span> Off on
+                                        Exchange</div>
+                                </div>
+                                <ul class="mobile-details">
+                                    <li>6 GB RAM |128 GB ROM | Expandable Upto 256 GB</li>
+                                    <li>16.0 cm (6.3 inch) Full HD+ Display</li>
+                                    <li>48MP + 5MP | 13MP Front Camera</li>
+                                    <li>4000 mAh Li-polymer Battery</li>
+                                    <li>Qualcomm Snapdragon 675 Processor</li>
+                                    <li>Splash Proof - Protected by P2i</li>
+                                    <li>Quick Charge 4.0 Support</li>
+                                    <li>Brand Warranty of 1 Year Available for Mobile and 6 Months for
+                                        Accessories
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="price">
+                                <div style="display: flex; align-items: center;"><span class="phone-price">
+                                        &#8377;13,999</span><a><img
+                                            src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                                            class="assured-icon"></a></div>
+                                <div><span class="old-price">&#8377;17,999</span><a class="offer-percentage">22%
+                                        off</a>
+                                </div>
+                                <div>No Cost EMI</div>
+                                <div>Upto <span style="font-weight: 700;">&#8377;13,250</span> Off on Exchange</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-view-config">
+                        <ul style="display: flex; flex-flow: column;">
+                            <li><a class="each-config">6 GB RAM |128 GB ROM </a></li>
+                            <li><a class="each-config">16.0 cm (6.3 inch) HD+ Display</a><span class="each-config">5000
+                                    mAh</span></li>
+                            <li><a class="each-config">48MP + 5MP </a><span class="each-config">13MP Front Camera</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="mobile-list-main">
+                    <div class="mobile-container">
+                        <div class="phone-image">
+                            <div> <img src="./icons/heart.svg" class="heart-icon"></div>
+                            <div><img
+                                    src="https://rukminim1.flixcart.com/image/312/312/k1fbmvk0/mobile/k/b/e/mi-redmi-8-mzb8250in-original-imafhyabpggagngr.jpeg?q=70"
+                                    class="image">
+                            </div>
+                            <div class="add-compare"><input type="checkbox" name="compare"> <span>Add to
+                                    Compare</span></div>
+                        </div>
+                        <div class="phone-details">
+                            <div class="phone-config">
+                                <span class="phone-name">Redmi 8 (Onyx Black, 64 Gb)<div> <img src="./icons/heart.svg"
+                                            class="heart-icon-mob-view"></div></span>
+
+                                <div><span><a class="rating-value">4.4&#9733</a><a class="rating-people">5,14,048
+                                            <span></span> <span class="review-value"> Ratings & 41,158
+                                                Reviews</span></a></span></div>
+                                <div class="price-mob-view">
+                                    <div style="display: flex; align-items: center;"><span class="phone-price">
+                                            &#8377;9,499</span><a><img
+                                                src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                                                class="assured-icon"></a></div>
+                                    <div><span class="old-price">&#8377;10,999</span><a class="offer-percentage">13%
+                                            off</a>
+                                    </div>
+                                    <div>No Cost EMI</div>
+                                    <div>Upto <span style="font-weight: 700;">&#8377;9,450</span> Off on Exchange</div>
+                                </div>
+                                <ul class="mobile-details">
+                                    <li>4 GB RAM |64 GB ROM | Expandable Upto 512 GB</li>
+                                    <li>15.8 cm (6.22 inch) HD+ Display</li>
+                                    <li>12MP + 2MP | 8MP Front Camera</li>
+                                    <li>5000 mAh Battery</li>
+                                    <li>Qualcomm Snapdragon 439 Processor</li>
+                                    <li>Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                            <div class="price">
+                                <div style="display: flex; align-items: center;"><span class="phone-price">
+                                        &#8377;9,499</span><a><img
+                                            src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                                            class="assured-icon"></a></div>
+                                <div><span class="old-price">&#8377;10,999</span><a class="offer-percentage">13% off</a>
+                                </div>
+                                <div>No Cost EMI</div>
+                                <div>Upto <span style="font-weight: 700;">&#8377;9,450</span> Off on Exchange</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mobile-view-config">
+                        <ul style="display: flex; flex-flow: column;">
+                            <li><a class="each-config">4 GB RAM |64 GB ROM </a></li>
+                            <li><a class="each-config">15.8 cm (6.22 inch) HD+ Display</a><span class="each-config">5000
+                                    mAh</span></li>
+                            <li><a class="each-config">12MP + 2MP </a><span class="each-config">8MP Front Camera</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="mobile-list-main">
+                    <div class="mobile-container">
+                        <div class="phone-image">
+                            <div> <img src="./icons/heart.svg" class="heart-icon"></div>
+                            <div><img
+                                    src="https://rukminim1.flixcart.com/image/312/312/k0lbdzk0pkrrdj/mobile/z/j/a/mi-redmi-note-7-pro-mzb7465in-original-imafhvrdmeyweauc.jpeg?q=70"
+                                    class="image">
+                            </div>
+                            <div class="add-compare"><input type="checkbox" name="compare"> <span>Add to
+                                    Compare</span></div>
+                        </div>
+                        <div class="phone-details">
+                            <div class="phone-config">
+                                <span class="phone-name">Redmi Note 7 Pro(Space Black, 64 GB)<div> <img
+                                            src="./icons/heart.svg" class="heart-icon-mob-view"></div></span>
+                                <div><span><a class="rating-value">4.5&#9733</a><a class="rating-people">
+                                            2,67,253 <span><span class="review-value"> Ratings & 22,470
+                                                    Reviews</span></a></span></div>
+                                <div class="price-mob-view">
+                                    <div style="display: flex; align-items: center;"><span class="phone-price">
+                                            &#8377;12,999</span><a><img
+                                                src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                                                class="assured-icon"></a></div>
+                                    <div><span class="old-price">&#8377;16,999</span><a class="offer-percentage">23%
+                                            off</a>
+                                    </div>
+                                    <div>No Cost EMI</div>
+                                    <div>Upto <span style="font-weight: 700;">&#8377;12,750</span> Off on Exchange</div>
+                                </div>
+
+                                <ul class="mobile-details">
+                                    <li>6 GB RAM |64 GB ROM | Expandable Upto 256 GB</li>
+                                    <li>16.0 cm (6.3 inch) Full HD+ Display</li>
+                                    <li>48MP + 5MP | 13MP Front Camera</li>
+                                    <li>4000 mAh Li-polymer Battery</li>
+                                    <li>Qualcomm Snapdragon 675 Processor</li>
+                                    <li>Splash Proof - Protected by P2i</li>
+                                    <li>Quick Charge 4.0 Support</li>
+                                    <li>Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price">
+                                <div style="display: flex; align-items: center;"><span class="phone-price">
+                                        &#8377;12,999</span><a><img
+                                            src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                                            class="assured-icon"></a></div>
+                                <div><span class="old-price">&#8377;16,999</span><a class="offer-percentage">23% off</a>
+                                </div>
+                                <div>No Cost EMI</div>
+                                <div>Upto <span style="font-weight: 700;">&#8377;12,750</span> Off on Exchange</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-view-config">
+                        <ul style="display: flex; flex-flow: column;">
+                            <li><a class="each-config">6 GB RAM |64 GB ROM </a></li>
+                            <li><a class="each-config">16.0 cm (6.3 inch) HD+ Display</a><span class="each-config">5000
+                                    mAh</span></li>
+                            <li><a class="each-config">48MP + 5MP </a><span class="each-config">13MP Front Camera</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="mobile-list-main">
+                    <div class="mobile-container">
+                        <div class="phone-image">
+                            <div> <img src="./icons/heart.svg" class="heart-icon"></div>
+                            <div><img
+                                    src="https://rukminim1.flixcart.com/image/312/312/k1fbmvk0/mobile/4/f/f/mi-redmi-8-mzb8251in-original-imafhyacmxaefxgw.jpeg?q=70"
+                                    class="image">
+                            </div>
+                            <div class="add-compare"><input type="checkbox" name="compare"> <span>Add to
+                                    Compare</span></div>
+                        </div>
+                        <div class="phone-details">
+                            <div class="phone-config">
+                                <span class="phone-name">Redmi 8(Ruby Red , 64 GB<div> <img src="./icons/heart.svg"
+                                            class="heart-icon-mob-view"></div></span>
+                                <div><span><a class="rating-value">4.4&#9733</a><a class="rating-people">5,14,048
+                                            <span></span> <span class="review-value"> Ratings & 41,158
+                                                Reviews</a></span></div>
+                                <div class="price-mob-view">
+                                    <div style="display: flex; align-items: center;"><span class="phone-price">
+                                            &#8377;9,499</span><a><img
+                                                src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                                                class="assured-icon"></a></div>
+                                    <div><span class="old-price">&#8377;10,999</span><a class="offer-percentage">13%
+                                            off</a>
+                                    </div>
+                                    <div>No Cost EMI</div>
+                                    <div>Upto <span style="font-weight: 700;">&#8377;9,450</span> Off on Exchange</div>
+                                </div>
+                                <ul class="mobile-details">
+                                    <li>4 GB RAM |64 GB ROM | Expandable Upto 512 GB</li>
+                                    <li>15.0 cm (6.22 inch) HD+ Display</li>
+                                    <li>12MP + 2MP | 8MP Front Camera</li>
+                                    <li>5000 mAh Li-polymer Battery</li>
+                                    <li>Qualcomm Snapdragon 439 Processor</li>
+                                    <li>Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price">
+                                <div style="display: flex; align-items: center;"><span class="phone-price">
+                                        &#8377;9,499</span><a><img
+                                            src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png"
+                                            class="assured-icon"></a></div>
+                                <div><span class="old-price">&#8377;10,999</span><a class="offer-percentage">13% off</a>
+                                </div>
+                                <div>No Cost EMI</div>
+                                <div>Upto <span style="font-weight: 700;">&#8377;9,450</span> Off on Exchange</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-view-config">
+                        <ul style="display: flex; flex-flow: column;">
+                            <li><a class="each-config">4 GB RAM |64 GB ROM </a></li>
+                            <li><a class="each-config">15.0 cm (6.22 inch) HD+ Display</a><span class="each-config">5000 mAh</span></li>
+                            <li><a class="each-config">12MP + 2MP  </a><span class="each-config">8MP Front Camera</span></li>      
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-firstpart">
+            <div style="flex:1;display: flex;">
+                <div style="flex:1">
+                    <ul>
+                        <li style="color:rgb(136, 129, 129); padding-bottom:10px">ABOUT</li>
+                        <li>Contact Us</li>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Flipkart Stories</li>
+                        <li>Press</li>
+                    </ul>
+
+                </div>
+                <div style="flex:1">
+                    <ul>
+                        <li style="color:rgb(136, 129, 129); padding-bottom:10px">HELP</li>
+                        <li>Payments</li>
+                        <li>Shipping</li>
+                        <li>Cancellation & Returns</li>
+                        <li>FAQs</li>
+                        <li>Report Infringement</li>
+                    </ul>
+                </div>
+                <div style="flex:1">
+                    <ul>
+                        <li style="color:rgb(136, 129, 129); padding-bottom:10px">POLICY</li>
+                        <li>Return Policy</li>
+                        <li>Terms Of Use</li>
+                        <li>Security</li>
+                        <li>Privacy</li>
+                        <li>Sitemap</li>
+                        <li>EPR Compliance</li>
+                    </ul>
+                </div>
+                <div style="flex:1">
+                    <ul>
+                        <li style="color:rgb(136, 129, 129); padding-bottom:10px">SOCIAL</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-seperator"></div>
+            <div style="flex:1; display: flex;">
+                <div style="flex:1;display: flex;">
+                    <div>
+                        <div style="color:rgb(136, 129, 129); padding-bottom:10px">Mail Us:</div>
+                        Flipkart Internet Private Limited,
+                        Building Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                    </div>
+                </div>
+                <div style="flex:1;display: flex;">
+                    <div>
+                        <div style="color:rgb(136, 129, 129); padding-bottom:10px">Registered Office Address:</div>
+                        Flipkart Internet Private Limited,
+                        Building Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                        CIN: U51109KA2012PTC066107
+                        Telephone: <span style="color: rgb(104, 104, 252);">18002089898</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="display: flex; padding-top: 25px;">
+            <div style="flex:1;display:flex;">
+                <div style="flex: 1;"><img
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K"
+                        style="padding-right: 5px;">Sell
+                    On Flipkart</div>
+                <div style="flex: 1;"><img
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                        style="padding-right: 5px;">Advertise</div>
+                <div style="flex: 1;"><img
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                        style="padding-right: 5px;">GIft Cards</div>
+                <div style="flex: 1;"><img
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                        style="padding-right: 5px;">Help Center</div>
+            </div>
+            <div style="flex:1;display: flex;">
+                <div style="flex: 1;">
+                    <img src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_b3ab24.svg">
+                </div>
+                <div style="flex:1 ;">
+                    <div style="display:flex;align-items: center;
+                    justify-content: center;">&copy;2007-2020 Flipkart.com</div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
