@@ -11,6 +11,8 @@ list-style-type: none;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+/*Navigation bar begins*/
+
 nav{
     display: flex;
     flex-flow: row wrap;
@@ -105,4 +107,26 @@ nav .search-lense{
     padding-top: 8px;
     padding-right: 8px;
 
+}   /*Navigation bar ends*/
+
+/*Horizontal list begins*/
+
+header{
+    padding-top: 70px;
 }
+
+header .horizontal-options{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 5%;
+    padding-top: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    
+}
+
+.arrow{
+    transform: rotate(90deg);
+    width: 6px;
+    height: 8px;
+}
+ 
