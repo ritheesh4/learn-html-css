@@ -11,6 +11,96 @@ list-style-type: none;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-body{
-    color: red;
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    width: 100%;
+    height: 60px; 
+    background-color: #2874f0;
+
+}
+
+nav .search{
+    flex:3;
+    display: flex;
+    padding-left: 12%;   
+    font-style: italic;
+    align-items: center;
+}
+
+nav .title{
+    display: flex;
+    color: white;  
+    font-size: 20px; 
+    padding-right: 10px;
+    font-weight: 600;
+  
+    justify-content: center;
+    height: 40px;
+}
+
+nav .search-bar{
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-right: none;
+}
+
+nav .search-bar::placeholder{
+    padding-left: 10px;
+    
+}
+
+nav .plus-image{
+    width: 10px;
+    height: 10px;
+    padding-top: 2px;
+}
+
+nav .nav-buttons{
+    color: white;
+    display: flex;
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+
+nav .login{
+    color: #2874f0;
+    font-size: 16px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-weight: 600;    
+}
+
+nav .more{
+    font-weight: 600;
+}
+
+nav .cart{
+    font-weight: 600;
+    display: flex;
+
+}
+
+nav .cart-icon{
+    width: 18px;
+    margin-right: 4px;
+}
+
+nav .down-arrow{
+    transform: rotate(270deg);
+}
+
+nav .search-lense{
+    background-color: white;
+    height: 20px;
+    border: none;
+    padding-top: 8px;
+    padding-right: 8px;
+
 }
