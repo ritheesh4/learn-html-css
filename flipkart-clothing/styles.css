@@ -79,6 +79,7 @@ nav .login{
 
 nav .more{
     font-weight: 600;
+    
 }
 
 nav .cart{
@@ -94,6 +95,7 @@ nav .cart-icon{
 
 nav .down-arrow{
     transform: rotate(270deg);
+  
 }
 
 nav .search-lense{
