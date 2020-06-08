@@ -130,3 +130,83 @@ header .horizontal-options{
     height: 8px;
 }
  
+main{
+    display: flex;
+}
+
+main .left-side{
+    background-color: green;
+}
+
+main .right-side{
+    background-color:blueviolet;
+    flex: 1;
+}
+
+main .right-side .second-part-body .row{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+
+main .right-side .second-part-body .row-1{
+    width: 18%;
+    background-color: slategray;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .right-side .category{
+    color: red;
+    display: flex;
+}
+
+main .right-side .category li{
+    padding-right: 10px;
+
+}
+
+main .right-side .sort-order{
+    display: flex;
+
+}
+
+main .right-side .sort-order li{
+    padding-right: 10px;
+}
+
+main .right-side .page-numbers{
+    display: flex;
+}
+
+main .right-side .pages{
+    display: flex;
+}
+
+main .right-side .bottom-question{
+    display: flex;
+}
+
+main .right-side .part-1-images{
+    width: 100%;
+}
+
+section .review-row{
+    background: skyblue;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer .part-1{
+    display: flex;
+}
+
+footer .part-2 ul{
+    display: flex;
+}
