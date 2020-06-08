@@ -107,7 +107,7 @@ nav .search-lense{
     padding-top: 8px;
     padding-right: 8px;
 
-}   /*Navigation bar ends*/
+} /*Navigation bar ends*/
 
 /*Horizontal list begins*/
 
@@ -129,14 +129,25 @@ header .horizontal-options{
     width: 6px;
     height: 8px;
 }
+
+/* Main begin */
  
 main{
     display: flex;
 }
 
+/* main left side */
+
 main .left-side{
     background-color: green;
 }
+
+main .add-container{
+    padding: 10px;
+    margin:10px
+}
+/* 
+main right side */
 
 main .right-side{
     background-color:blueviolet;
@@ -192,11 +203,15 @@ main .right-side .part-1-images{
     width: 100%;
 }
 
+/* mid sectin portion */
+
 section .review-row{
     background: skyblue;
     display: flex;
     margin-bottom: 10px;
 }
+
+/* footer */
 
 footer{
     background-color: black;
