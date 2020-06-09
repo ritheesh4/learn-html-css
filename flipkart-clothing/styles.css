@@ -139,13 +139,99 @@ main{
 /* main left side */
 
 main .left-side{
-    background-color: green;
+    background-color: rgb(231, 229, 229);
+}
+
+main .left-side .add-container{
+    background-color: white;
+
+}
+
+main .left-add{
+    width: 100%;
 }
 
 main .add-container{
-    padding: 10px;
-    margin:10px
+    margin: 10px;
 }
+
+main .add-container a{
+    font-weight: 600;
+}
+
+main .add-container .offer-price{
+    font-size: 12px;
+}
+
+main .left-side .main-selectors{
+   background-color: white;
+    margin: 10px;
+}
+
+
+main .left-side .main-selectors .filters .filter-title{
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(233, 230, 230);
+    padding-bottom: 10px;
+}
+
+main .left-side .categories-title{
+    font-size:12px ;
+    font-weight: 700;
+}
+
+main .left-side .categories-arrow{
+    width: 6px;
+    transform: rotate(180deg);
+}
+
+main .left-side .categories ul{
+    color: rgb(148, 147, 147);
+    font-size: 14px;
+    border-bottom: 1px solid rgb(233, 230, 230);
+}
+
+main .left-side .price{
+    border-bottom: 1px solid rgb(212, 209, 209);
+    color: black;
+    padding-bottom: 10px;
+}
+
+.main .left-side .price-list{
+    width: 100px;
+    border: 1px solid rgb(224, 222, 222);
+    padding:3px 10px;
+
+}
+
+main .left-side .price .graph-section{
+    height: 100%;
+    position: relative;
+    bottom: -6px;
+}
+
+main .left-side .price .graph-box {
+    background: #e0e0e0;
+    display: inline-block; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main .left-side .price .slider{
+    display: block;
+}
+
+main .left-side .price .slider-bar{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 /* 
 main right side */
 
