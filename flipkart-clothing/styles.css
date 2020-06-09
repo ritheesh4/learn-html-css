@@ -772,25 +772,75 @@ main .right-side .bottom-question button{
 /* mid sectin portion */
 
 section .review-row{
-    background: skyblue;
+   
     display: flex;
     margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+section .review-title{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%;
+}
+
+section .item-details .item-name{
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+section .item-details .rating{
+    background-color: #388e3c;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+section .review-row .part2-image-container{
+    height:150px;width:150px
+}
+
+section .review-row .part-2-images{  
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 25px;
+}
+
+section .review-row .item-details .rating-value{
+    color:#878787;
+    font-weight: 500;
+}
+
+section .review-row .item-details .price{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section .review-row .item-details .off{
+    font-size: 14px;
+    margin-left: 12px;
+    color: #878787;
+    font-weight: 400;
+}
+
+section .review-row .item-details {
+    font-size: 14px;
+}
+
+section .review-row .item-details .helpful-review{
+    padding-left: 24px;
+    font-size: 14px;
+    color: #878787;  
 }
 
 /* footer */
-
-/* footer{
-    background-color: black;
-    color: white;
-}
-
-footer .part-1{
-    display: flex;
-}
-
-footer .part-2 ul{
-    display: flex;
-} */
 
 footer{
     background-color: black;
