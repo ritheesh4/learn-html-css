@@ -146,6 +146,7 @@ main .left-side{
 
 main .left-side .ad-container{
     background-color: white;
+    box-shadow: 3px 1px 4px #808080 ;
 
 }
 
@@ -171,7 +172,12 @@ main .ad-container .ad-image{
 
 main .left-side .main-selectors{
    background-color: white;
-    margin: 10px;
+   margin: 10px;
+   box-shadow: 3px 1px 4px #808080 ;
+}
+
+main .left-side .main-selectors{
+    padding-left: 10px;
 }
 
 
@@ -182,9 +188,20 @@ main .left-side .main-selectors .filters .filter-title{
     padding-bottom: 10px;
 }
 
+main .left-side .categories{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(233, 230, 230);
+}
+
 main .left-side .categories-title{
     font-size:12px ;
     font-weight: 700;
+}
+
+main .left-side .categories div,ul,li{
+    margin-top: 6px;
+
 }
 
 main .left-side .categories-arrow{
@@ -470,10 +487,6 @@ main .left-side .color-select ul li{
     margin-bottom: 10px;    
 }
 
-main .left-side .color-select ul li input,span,div{
-    margin-right:2%;
-}
-
 main .left-side .color-select .more{
     color: #2874f0;
     font-size: 12px;
@@ -551,8 +564,7 @@ main .left-side .availability{
     
 }
 
-main .left-side .ideal-for{
-    border-bottom: 1px solid rgb(212, 209, 209); 
+main .left-side .ideal-for{ 
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 13px;
