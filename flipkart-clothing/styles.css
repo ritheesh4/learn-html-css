@@ -134,6 +134,7 @@ header .horizontal-options{
  
 main{
     display: flex;
+    background-color: rgb(231, 229, 229);
 }
 
 /* main left side */
@@ -574,9 +575,17 @@ main .left-side .ideal-for{
 /* 
 main right side */
 
-main .right-side{
-    background-color:blueviolet;
+main .right-side{  
     flex: 1;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 3px 1px 4px #808080 ;
+    padding:10px;
+}
+
+main .right-side .second-part-header{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(233, 230, 230);
 }
 
 main .right-side .second-part-body .row{
@@ -594,18 +603,54 @@ main .right-side .second-part-body .row-1{
 }
 
 main .right-side .category{
-    color: red;
     display: flex;
+    font-size: 12px;
+    color: #878787;
 }
+
+main .right-side .category .arrow{
+    width: 6px;
+    transform: rotate(0deg);
+    padding-left: 4px;
+
+}
+
+main .right-side .numbers-listed{
+    margin-left: 10px;
+   
+    font-weight: 500;
+    font-size: 16px;
+}
+
+main .right-side .numbers-listed span{
+    font-size: 12px;
+    color: #878787;
+}
+
 
 main .right-side .category li{
     padding-right: 10px;
 
 }
 
+main .right-side .second-part-header .sort-order .sort-by{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main .right-side .second-part-header .sort-order .popularity{
+    color:#2874f0;
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 2px solid #2874f0 ;
+}
+
+main .right-side .second-part-header .sort-order li{
+    font-size: 14px;
+}
+
 main .right-side .sort-order{
     display: flex;
-
 }
 
 main .right-side .sort-order li{
@@ -627,6 +672,7 @@ main .right-side .bottom-question{
 main .right-side .part-1-images{
     width: 100%;
 }
+
 
 /* mid sectin portion */
 
