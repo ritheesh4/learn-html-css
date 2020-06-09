@@ -140,27 +140,33 @@ main{
 
 main .left-side{
     background-color: rgb(231, 229, 229);
+    flex: 0 0 280px;
+    max-width: 280px;
 }
 
-main .left-side .add-container{
+main .left-side .ad-container{
     background-color: white;
 
 }
 
-main .left-add{
+main .left-ad{
     width: 100%;
 }
 
-main .add-container{
+main .ad-container{
     margin: 10px;
 }
 
-main .add-container a{
+main .ad-container a{
     font-weight: 600;
 }
 
-main .add-container .offer-price{
+main .ad-container .offer-price{
     font-size: 12px;
+}
+
+main .ad-container .ad-image{
+    width: 100%;
 }
 
 main .left-side .main-selectors{
@@ -229,8 +235,329 @@ main .left-side .price .slider-bar{
     padding: 0;
 }
 
+main .left-side .assured{
+    display: flex;
+    align-items: center;  
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    height: 40px; 
+}
 
+main .left-side .assured a{
+    border-radius: 50%;
+    background-color: #fff;
+    color: #878787;
+    font-weight: 500;
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,.2);
+    margin-left: 50%;
+    cursor: pointer;
+}
 
+main .left-side .assured .assured-image{
+    height: 21px;
+    margin-left: 10px;
+}
+
+main .left-side .discount{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .left-side .discount .discount-title{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+main .left-side .discount ul li{
+    font-size: 14px;
+    color:#212121;   
+    padding-bottom: 10px; 
+}
+
+main .left-side .type{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .left-side .type ul li{
+    font-size: 14px;
+    color:#212121;   
+    padding-bottom: 10px; 
+}
+
+main .left-side .type .type-title{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+main .left-side .type .more{
+    color: #2874f0;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main .left-side .size{  
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .left-side .size div{
+    padding-left:4%;
+}
+
+main .left-side .size .size-title{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+main .left-side .size .more{
+    color: #2874f0;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main .left-side .size ul li{
+    font-size: 14px;
+    color:#212121;   
+    padding-bottom: 10px; 
+}
+
+main .left-side .sleeve{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .left-side .sleeve ul li{
+    font-size: 14px;
+    color:#212121;   
+    padding-bottom: 10px; 
+}
+
+main .left-side .brand{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .left-side .brand-title{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+main .left-side .brand-search{
+    outline: none;
+    border: none;
+}
+
+main .left-side .brand .search-lense{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;  
+    filter: grayscale(100%);
+}
+
+main .left-side .brand .search-bar{
+    border-bottom: 2px solid #e0e0e0;
+}
+
+main .left-side .brand ul li{
+    font-size: 14px;
+    color:#212121;   
+    padding-bottom: 10px; 
+}
+
+main .left-side .brand .more{
+    color: #2874f0;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main .left-side .customer-ratings{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+main .left-side .theme{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+main .left-side .pattern{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .left-side .pattern-title{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+main .left-side .pattern-search{
+    outline: none;
+    border: none;
+}
+
+main .left-side .pattern .search-lense{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;  
+    filter: grayscale(100%);
+}
+
+main .left-side .pattern .search-bar{
+    border-bottom: 2px solid #e0e0e0;
+}
+
+main .left-side .pattern ul li{
+    font-size: 14px;
+    color:#212121;   
+    padding-bottom: 10px; 
+}
+
+main .left-side .pattern .more{
+    color: #2874f0;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main .left-side .color-select{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+main .left-side .color-title{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+main .left-side .color-select .color-circle{
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    vertical-align: bottom;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+main .left-side .color-select ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;    
+}
+
+main .left-side .color-select ul li input,span,div{
+    margin-right:2%;
+}
+
+main .left-side .color-select .more{
+    color: #2874f0;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main .left-side .fit{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+main .left-side .occasion{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .left-side .occasion .occasion-title{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+main .left-side .occasion ul li input,span{
+    margin-right: 2%;
+}
+
+main .left-side .occasion ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;  
+}
+
+main .left-side .multipack{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+main .left-side .offers{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main .left-side .offers .offers-title{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+main .left-side .offers ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;  
+}
+
+main .left-side .offers .checkbox {
+    margin-right: 2%;    
+}
+
+main .left-side .availability{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+
+main .left-side .ideal-for{
+    border-bottom: 1px solid rgb(212, 209, 209); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
 
 /* 
 main right side */
