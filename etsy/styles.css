@@ -212,13 +212,35 @@ main .second .popular-main-container ul {
     display: block;
 }
 
-/* main .third{
-  
-} */
+main .second .popular-main-container .popular-title{
+    font-size: 14px;
+}
 
-/* main .third .third-images{
-    
-    
+main .second .popular-main-container .from{
+    color: #595959;    
+    font-size: 12px;
+}
+
+main .second .popular-main-container .free-delivery{
+    background-color: #D4E9D7; 
+    font-size: 12px;
+    font-weight: 500;
+    padding:2px;
+    border-radius: 8px;
+}
+
+main .third ul li{
+    border: 1px solid rgba(34, 34, 34, 0.15);
+    border-radius: 5px;
+}
+
+main .third ul li div{
+    padding-bottom: 20px;
+    padding-left: 4px;
+}
+/* 
+main .third .third-images{
+         
 } */
 
 main .fourth {
