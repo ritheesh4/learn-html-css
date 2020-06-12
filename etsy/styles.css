@@ -299,6 +299,76 @@ main .fourth .story-each{
     padding-left: 20%;   
 }
 
+main .fourth .goto{
+    margin-top: 10px;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+
+}
+/* 
+main .fourth .mail-body{
+    display: flex;
+    border: 1px solid rgb(211, 211, 211);;
+    width: 45%;
+    justify-content: center;
+   
+} */
+
+main .fourth .mail{
+    width: 30%;
+    border: 1px solid rgb(194, 194, 194);;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 1%;
+    box-shadow: 1px 2px 4px 0 rgba(34, 34, 34, 0.1) inset;
+    
+}
+
+main .fourth .subscribe{
+    border-left: none;
+    font-weight: 500;
+    position: relative;
+    right: 7%;
+}
+
+main .fourth .list{
+    padding-top: 30px;
+    margin-top: 40px;
+    background-color: #2f466c;
+    color: white;
+}
+
+main .fourth .list-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+main .fourth .list ul li{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+main .fourth .list .download-esty{
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-weight: 500;
+    
+}
+
+main .fourth .list .social-media{
+    color: red;
+    display: flex;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -308,13 +378,30 @@ footer{
 }
 
 footer ul{
-    display: flex;     
+    display: flex; 
+    font-size: 13px;    
 }
 
 footer .country-lang{
     margin-right: auto;
 }
 
+footer .country-lang ul li{
+    padding-right: 5px;
+    border-right: 2px solid white;
+    margin-right: 5px;
+}
+
+
 footer .terms-privacy{
     margin-left: auto;
+    
+}
+
+footer .terms-privacy ul li{
+    padding-right: 10px;
+}
+
+footer .terms-privacy ul li a{
+    text-decoration: underline;
 }
