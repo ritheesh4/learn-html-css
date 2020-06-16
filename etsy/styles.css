@@ -8,7 +8,7 @@ list-style-type: none;
 }
 
 * body{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 *:focus {
@@ -59,6 +59,7 @@ nav .sign-in{
     justify-content: center;
     font-size: 13px;
     color: #222222;
+    font-weight: 700;
 }
 
 nav .cart{
@@ -68,14 +69,88 @@ nav .cart{
     justify-content: center;
 }
 
+/* .menu-list{
+    border-bottom: 1px solid white;
+    -webkit-transition: all .8s ease;
+    padding-bottom: 10px;
+} */
+/* 
+.menu-list:hover{
+   border-bottom: 2px solid black;
+   -webkit-transition: all .8s ease;
+   border-length: 10px;
+ 
+
+} */
+
+
+.menu-list div{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    -webkit-transition: all .8s ease;
+    padding-bottom: 10px;
+    max-width: 100%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.menu-list:hover div{
+    border-bottom: 2px solid black;
+    -webkit-transition: all .8s ease;
+    margin-left: 0%;
+    margin-right: 0%;
+ 
+}
+
+.dropdown-1 .dropdown-1-content{
+    display: none;
+}
+
+
+.menu-list .dropdown-1:hover .dropdown-1-content{
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    z-index: 1;
+    border: none;
+    margin-top: 15px;
+    left: 3%;
+    width: 500px;
+}
+
+.dropdown-1-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-1-content a:hover {
+    background-color: #ddd;
+    text-decoration: "none";
+    -webkit-transition: all .8s ease;
+}
+.dropdown-1-content .main-title{
+    color:black;
+    font-weight: 500;
+    display: flex;   
+}
+
+.dropdown-1-content .main-title div{
+  border: none;
+}
+ 
 /* header{
     
 } */
 
-section ul{
+.hor-menu .menu-items{
     display: flex;
     justify-content: space-around;
-    padding: 10px 15px;
+    padding: 0px 15px;
+    padding-top: 12px;
     font-size: 14px;
 }
 
@@ -88,7 +163,18 @@ header{
     border-bottom: 2px solid rgba(34, 34, 34, 0.15);
 }
 
-main .first{ margin: 40px;
+main .find-things{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:26px;
+    font-weight: 100;
+    letter-spacing: 0.35px;
+    font-weight: 400;
+    padding-bottom: 10px;    
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* main .first{ margin: 40px;
    
 }
 
@@ -191,7 +277,104 @@ main .first .unique .each-unique{
 
 main .first .unique .tick{    
     fill: #F1641E !important;    
+} */
+
+
+
+section ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    font-size: 14px;
 }
+
+main .first{ 
+   display: flex;
+   flex-flow: row;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+main .left-part{
+    background-color: #c5d8cd;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #c5d8cd;
+    justify-content: center ;
+}
+
+main .middle-part{
+    background-color: green;
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+
+main .everyday-supplies{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    max-height: 320px;
+}
+
+main .mask-image{
+    width: 90%;
+    height: 200px;
+    border: 1px solid rgb(190, 188, 188);
+}
+
+main .everyday-supplies .supplies-content {
+    position: relative;
+    bottom: 200px;
+    left: 10%;
+    max-width: 50%;    
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+main .everyday-supplies .support-black{    
+    font-size: 14px;    
+    background-color: #c5d8cd;
+    border-radius: 10px;
+    bottom: 60%;
+    padding: 8%;
+    width: 75%;
+    text-align: center;
+    position: relative;
+   
+}
+
+main .first .left-part  .heading{
+    font-size: 28px;
+    /* width: 100%; */
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+main .unique{
+    margin-top: 20px;
+    display: flex;
+    padding: 10px 20px;
+}
+
+main .unique .each-unique{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    padding-right: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+main .unique .tick{    
+    fill: #F1641E !important;    
+} 
 
 main .second{
     margin: 0;
@@ -251,10 +434,15 @@ main .third .third-images{
 } */
 
 main .fourth {
+    margin-top: 20px;
     background-color:rgb(253, 235, 210);
-    padding-top: 30px;
     text-align: center;
     
+}
+
+main .fourth ul {
+    z-index: 1;
+    position: relative;
 }
 
 main .fourth .headline{
@@ -262,6 +450,7 @@ main .fourth .headline{
     font-size: 44px;
     line-height: 48px;
     text-align: center;
+    padding-top: 90px;
 }
 
 main .fourth .read{  
@@ -272,6 +461,7 @@ main .fourth .read{
 
 main .fourth .heading{
     font-size: 26px;
+    padding-top: 10px;
 }
 
 main .fourth .stories-container{
@@ -308,7 +498,33 @@ main .fourth .goto{
     background-color: transparent;
     letter-spacing: 0.75px;
     font-weight: 600;
+    margin-bottom: 20px;
 
+}
+
+.fourth .bg-one{
+    position: absolute;
+    z-index: 0;
+    padding-left: 30%;   
+}
+
+.fourth .bg-two{
+    position: absolute;
+    z-index: 0; 
+    right: 90%;
+    padding-top: 20%;  
+
+}
+
+.special-svg{
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 4px;
+}
+
+.special-svg-two{
+    position: relative;
+    top: 5px;
 }
 /* 
 main .fourth .mail-body{
@@ -326,6 +542,7 @@ main .fourth .mail{
     border-radius: 30px;
     padding-left: 1%;
     box-shadow: 1px 2px 4px 0 rgba(34, 34, 34, 0.1) inset;
+    margin-top: 10px;
     
 }
 
@@ -333,12 +550,11 @@ main .fourth .subscribe{
     border-left: none;
     font-weight: 500;
     position: relative;
-    right: 7%;
+    right: 90px;
 }
 
 main .fourth .list{
     padding-top: 30px;
-    margin-top: 40px;
     background-color: #2f466c;
     color: white;
 }
@@ -405,3 +621,298 @@ footer .terms-privacy ul li{
 footer .terms-privacy ul li a{
     text-decoration: underline;
 }
+
+
+.mobile-nav{
+    display: none;
+}
+
+main .unique .mobile-view .mobile-unique{
+ display: none;       
+}
+
+main .mobile-view-mail{
+    display: none;
+}
+
+footer .footer-mobile-part{
+    display: none;
+}
+
+footer .mobile-footer{
+    display: none;
+}
+
+.list .arrow-down{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 767.9px) {
+    .hor-menu{
+        display: none;
+    }
+
+    nav {
+        border: none;
+    }
+
+    nav .search-bar{
+        display: none;
+    }
+
+    nav .etsy-title{
+        flex: 3;
+        justify-content: inherit;
+        margin-left: 4px;
+    }
+
+    .search-bar{
+        flex: 8;
+        border: 1px solid rgba(34, 34, 34, 0.15);
+        border-radius: 96px;
+        display: flex;
+        background-color: rgba(34, 34, 34, 0.07); 
+        height: 48px;  
+    }
+    
+    .search-area{
+        border: none;
+        background-color: transparent;
+        width: 85%;
+        margin-left: 2%;
+        font-size: 16px;
+        
+    }
+    
+    .search-lense{
+        display: flex;
+        align-items: center;    
+    }
+
+    .mobile-nav{
+        display: flex;
+        padding-bottom: 20px;
+        margin-right: 10px;
+    }
+    
+    main .find-things{
+        font-size:20px;
+        font-weight: 100;
+        letter-spacing: 0.35px;
+        font-weight: 300;
+        padding: 2px 10%;
+    }
+
+    main .middle-part{
+        display: none;
+    }
+
+    main .everyday-supplies{
+        display: none;
+    }
+
+    main .first .left-part  .heading{
+        font-size: 20px;
+    }
+
+    main .first .left-part{
+        height: 200px;
+    }
+
+    main .second .popular-main-container{
+        overflow:hidden; overflow-x:scroll;
+        
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* make scrollbar transparent */
+    }
+
+    main .unique .each-unique{
+        display: none;
+        width: inherit;
+    }
+
+    main .unique .mobile-view{
+        display: flex;
+    }
+
+    main .unique div{
+        display: none;
+    }
+
+    main .unique .mobile-view .headline{
+        display: flex;
+    }
+
+    main .unique .mobile-view .mobile-unique{
+        display: flex;
+        
+    }
+
+    main .mobile-view-mail{
+        display: flex;
+        flex-direction: column;
+        background-color: #d7e6f5;
+        min-height: 150px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 20px;
+        border-radius: 8px;
+    }
+
+    .mobile-view-mail .mobile-mail{
+        border: none;
+    }
+
+    .mobile-view-mail .mail-container{
+        background-color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        box-shadow: 1px 2px 4px 0 rgba(34, 34, 34, 0.1) inset;
+        margin-top: 20px;
+    }
+
+    .mobile-view-mail .mobile-subscribe{
+        font-weight: 600;       
+    }
+
+
+
+    footer{
+        display: flex;
+        flex-flow: column;
+    }
+
+    footer .footer-mobile-part{
+        display: flex;
+        justify-content: space-around;
+        text-decoration: underline;
+    }
+
+    footer .mobile-view-none{
+        display: none;
+    }
+
+    footer .mobile-footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .country-lang{
+        width: 100%;
+       justify-content: center;
+    }
+
+    footer .country-lang ul {
+        margin-right: inherit;
+        display: flex;
+        justify-content: center;
+    }
+
+    .third ul {
+        /* display: flex;
+        flex-flow:column wrap; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .third ul li{
+        flex: 1 0 40%;
+    }
+
+    .third div{
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .fourth .list{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .fourth .list .list-title{
+        display: flex;      
+    }
+
+    .mobile-hidden-email{
+        display: none;
+    }
+
+    .list .arrow-container{
+        display: flex;
+    }
+
+    .list .list-title .title-class{
+        flex: 1;
+    }
+
+    .list .arrow-down{
+        display: flex;
+        width: 12px;
+    }
+
+    .download-esty{
+        display: inherit;
+    }
+
+    main .fourth .list .download-esty {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        padding: 5px 10px;
+        border-radius: 25px;
+        font-weight: 500;
+    }
+    
+    .bottom-list{
+        display: none;
+    }
+
+    .etsy-definition ul{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .etsy-definition ul li{
+        font-size: 16px;
+        padding-top: 10px;
+        line-height: 28px;
+    }
+
+    main .fourth .story-each {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .story-each .heading{
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    main .fourth .headline {
+        justify-content: center;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .bg-one{
+       display: none;
+    }
+
+}  
