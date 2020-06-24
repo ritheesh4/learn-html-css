@@ -63,7 +63,14 @@ main .search-middle-body{
     margin-top: 100px;
 }
 
-main .search-middle-body .services{
+main .search-middle-body .services ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0% 30%;
+}
+
+main .services ul li{
     display: flex;
 }
 
