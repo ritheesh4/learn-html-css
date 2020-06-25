@@ -80,3 +80,27 @@ main .search-input{
     height: 30px;
     margin-bottom: 20px;
 }
+
+main .best-business{
+    background-color: red;
+}
+
+main .locations{
+    background-color: green;
+}
+
+main .review{
+    background-color: indianred;
+}
+
+main .activity{
+    background-color: rgb(155, 155, 56);
+}
+
+main .category{
+    background-color: turquoise;
+}
+
+main .apps{
+    background-color: violet;
+}
