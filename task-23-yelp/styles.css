@@ -74,19 +74,118 @@ main .services ul li{
     display: flex;
 }
 
-main .search-input{
-    margin-top: 30px;
+main .search-middle-body .services .search-bar{
+    
+    display: flex;
+    /* background-color: coral; */
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* padding: 0% 15%; */
+}
+
+main .services .search-bar .search-container{
+    display: flex;
+    background-color: white;
+    /* padding: 5px 0px; */
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    height: 40px;
     width: 70%;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+main .services .search-bar .search-container .search-icon-container{
+    background-color: red;
+}
+
+main .search-input{
+    /* margin-top: 30px; */
+    width: 80%;
     height: 30px;
-    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    /* margin-bottom: 20px; */
+}
+
+main .search-bar .search-header{
+    color: #666;
+    margin-top: 3px;
+    margin-right: 8px;
 }
 
 main .best-business{
-    background-color: red;
+    background-color: #f5f5f5!important;
+    padding-bottom: 30px;
+}
+
+main .best-business .business-title{
+    padding-top: 24px;
+    color: red;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+main .best-business .business-category{
+  
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 15%;
+
+}
+
+main .best-business .business-category .service-image-container{
+    background-color: violet;
+    height: 174px;
+}
+
+main .best-business .business-category .category-container{
+    background-color: #fff;
+    border:1px solid #e6e6e6;
+    border-radius: 4px;
+    color: black;
+}
+
+main .best-business .business-category .category-container .category-names{
+    padding: 10px;
+    font-weight: 600;
 }
 
 main .locations{
     background-color: green;
+    padding: 0% 10%;
+}
+
+main .locations .yelp-title{
+    padding-top: 24px;
+    color: red;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+main .locations .business-section{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .locations .location-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 20%;
+    border-bottom: 1px solid #666;;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+main .locations .title{
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 main .review{
@@ -101,6 +200,58 @@ main .category{
     background-color: turquoise;
 }
 
+main .category .category-main-container{
+    display: flex;
+    justify-content: center;
+}
+
 main .apps{
     background-color: violet;
 }
+
+footer{
+    padding: 0% 20%;
+    justify-content: space-around;
+    
+    
+    background-color:#fff;
+    border-top: 1px solid #ccc;
+}
+
+footer .footer-container{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+footer ul{
+
+}
+
+footer ul li{
+    color: #0073bb;
+}
+
+footer .title{
+    color: red;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer .footer-background{
+    min-height: 150px;
+    background-image:url("https://s3-media0.fl.yelpcdn.com/assets/public/footer_cityscape.yelp_styleguide.yji-573fa19c843556eac5a998fc6d1f80f8.png" );
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+footer .copyright{
+    margin-top: 10px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer .main-footer_logo-copyright{}

@@ -48,7 +48,19 @@
                         src="https://s3-media0.fl.yelpcdn.com/assets/public/black.yelp_design_web.yji-5b6e792b49aeada344f256853f49bb90.png">
                 </div>
                 <div class="services">
-                    <input type="text" class="search-input">
+                    <div class="search-bar">
+                        <div class="search-container">
+                            <span class="search-header">Find</span><input type="text" class="search-input"
+                                placeholder="accountants, delivery, takeout..."><span class="search-header">Near</span>
+                            <input type="text" class="search-input" placeholder="San Francisco, CA">
+                            <div class="search-icon-container"><svg id="24x24_search" height="24" viewBox="0 0 24 24"
+                                    width="24">
+                                    <path
+                                        d="M20.753 19.34l-4.295-4.297A7.46 7.46 0 0 0 18 10.5a7.5 7.5 0 1 0-7.5 7.5 7.46 7.46 0 0 0 4.543-1.542l4.296 4.295a1 1 0 1 0 1.412-1.414zM10.5 16A5.506 5.506 0 0 1 5 10.5C5 7.467 7.467 5 10.5 5S16 7.467 16 10.5 13.533 16 10.5 16z">
+                                    </path>
+                                </svg></div>
+                        </div>
+                    </div>
                     <ul>
                         <li><svg id="24x24_accountants" fill="white" height="24" viewBox="0 0 24 24" width="24">
                                 <path
@@ -85,20 +97,48 @@
         </div>
         <section>
             <div class="best-business">
-                <div>Find the Best Businesses in Town</div>
-                <div>
-                    <div>image + Gyms</div>
-                    <div>image + Massage</div>
-                    <div>image + Dry cleaning</div>
-                    <div>image + Movers</div>
+                <div class="business-title">Find the Best Businesses in Town</div>
+                <div class="business-category">
+                    <div class="category-container">
+                        <div class="service-image-container"><img class="tile-image__a5c5a__2UKf4" width="auto"
+                                height="174"
+                                src="https://s3-media0.fl.yelpcdn.com/assets/public/gyms.yji-8eef8039d48a0be9b5982315808236e1.jpg"
+                                srcset="https://s3-media0.fl.yelpcdn.com/assets/public/gyms@2x.yji-3fb0a4f3e62f2e048ff6b94dcc909a4b.jpg"
+                                alt="Gyms"></div>
+                        <div class="category-names">Gyms</div>
+                    </div>
+                    <div class="category-container">
+                        <div class="service-image-container"><img class="tile-image__a5c5a__2UKf4" width="auto"
+                                height="174"
+                                src="https://s3-media0.fl.yelpcdn.com/assets/public/massage.yji-dc800fc2cf62dc8e9fe14560a1fc3ed4.jpg"
+                                srcset="https://s3-media0.fl.yelpcdn.com/assets/public/massage@2x.yji-3e7134d3e9e5653059f073a41af7bbb7.jpg"
+                                alt="Massage"></div>
+                        <div class="category-names">Massage</div>
+                    </div>
+                    <div class="category-container">
+                        <div class="service-image-container"><img class="tile-image__a5c5a__2UKf4" width="auto"
+                                height="174"
+                                src="https://s3-media0.fl.yelpcdn.com/assets/public/dryclean.yji-b67fbcf19738d87c58d6ae3ee1349c70.jpg"
+                                srcset="https://s3-media0.fl.yelpcdn.com/assets/public/dryclean@2x.yji-ff5b642fbbdf949c26c3ca19b6dfb4bb.jpg"
+                                alt="Dry Cleaning"></div>
+                        <div class="category-names">Dry Cleaning</div>
+                    </div>
+                    <div class="category-container">
+                        <div class="service-image-container"><img class="tile-image__a5c5a__2UKf4" width="auto"
+                                height="174"
+                                src="https://s3-media0.fl.yelpcdn.com/assets/public/movers.yji-cbf48ef1f4b2287fa8f36f75cd3c2572.jpg"
+                                srcset="https://s3-media0.fl.yelpcdn.com/assets/public/movers@2x.yji-9f700a653ef1427dbd92269dcfaad22b.jpg"
+                                alt="Movers"></div>
+                        <div class="category-names">Movers</div>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="locations">
-                <div>Yelp San Francisco</div>
+                <div class="yelp-title">Yelp San Francisco</div>
                 <div>
-                    <ul>
+                    <ul class="location-nav">
                         <li>New York</li>
                         <li>San Jose</li>
                         <li>Los ANgeles</li>
@@ -109,11 +149,31 @@
                     </ul>
                 </div>
                 <div>
-                    <div>Hot & New Businesses</div>
-                    <div>
-                        <div>Tatchetivi-Teas by Arena</div>
-                        <div>JunJu by Robin Song</div>
-                        <div>Za'atar</div>
+                    <div class="title">Hot & New Businesses</div>
+                    <div class="business-section">
+                        <div>
+                            <div><img alt="Ratchetivi-Teas by Arena" class="photo-box-img" height="400"
+                                    src="https://s3-media0.fl.yelpcdn.com/bphoto/CSGg-qLWo7Ph4u_ZEBKqmw/l.jpg"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/bphoto/CSGg-qLWo7Ph4u_ZEBKqmw/o.jpg 1.67x"
+                                    width="400"></div>
+
+                            <div> Ratchetivi-Teas by Arena</div>
+                        </div>
+                        <div>
+                            <div><img alt="JunJu by Robin Song" class="photo-box-img" height="100"
+                                    src="https://s3-media0.fl.yelpcdn.com/bphoto/BLmr7SiNBQJtyVhZctNL0A/l.jpg"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/bphoto/BLmr7SiNBQJtyVhZctNL0A/o.jpg 1.67x"
+                                    width="100"></div>
+                            <div>
+                                JunJu by Robin Song</div>
+                        </div>
+                        <div>
+                            <div><img alt="Za'atar" class="photo-box-img" height="100"
+                                    src="https://s3-media0.fl.yelpcdn.com/bphoto/ubIH-Q8iD8zAgSG_CLwybw/l.jpg"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/bphoto/ubIH-Q8iD8zAgSG_CLwybw/o.jpg 1.67x"
+                                    width="100"></div>
+                            <div>Za'atar</div>
+                        </div>
                     </div>
                     <div>See more hot ans new businesses</div>
                     <div>
@@ -164,15 +224,64 @@
             <div class="category">
                 <div>Browse Businesses by Category</div>
                 <div>
-                    <ul>
-                        <li>Restaurants</li>
-                        <li>Shopiing</li>
-                        <li>Nightlife</li>
-                        <li>Active Life</li>
-                        <li>Beauty & Saps</li>
-                        <li>Automotive</li>
-                        <li>Home Services</li>
-                        <li>More Categories</li>
+                    <ul class="category-main-container">
+                        <li>
+                            <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_restaurants.yji-80b92cd513f0cd02dd41a05d5d846075.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_restaurants@2x.yji-7cef764a214416ca9991e53ceb108b5c.png"
+                                    alt="Restaurants"></div>
+                            <div>Restaurants</div>
+                        </li>
+                        <li>
+                            <div></div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_shopping.yji-ad1f85392c049e567b6ee9dd50360ba4.png"
+                                srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_shopping@2x.yji-559f23226d9f9f651812ddc5d6e3d1b2.png"
+                                alt="Shopping">
+                            <div>Shopiing</div>
+                        </li>
+                        <li>
+                            <div></div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_nightlife.yji-4ee31d03d5b20dc5575588c3d284dc2d.png"
+                                srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_nightlife@2x.yji-925cd32ac4c934d465c664f140c5b629.png"
+                                alt="Nightlife">
+                            <div>Nightlife</div>
+                        </li>
+                        <li>
+                            <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_active_life.yji-7b915f332ffe61b88b3605594bd7fe0c.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_active_life@2x.yji-2df9fcd6a68eb739e68a026778dd7a3f.png"
+                                    alt="Active Life"></div>
+
+                            <div>Active Life</div>
+                        </li>
+                        <li>
+                            <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_beauty.yji-dda5bcbe7e6cc16014f194a9334f1b94.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_beauty@2x.yji-3cfb4e602ac139443228f090ec71b84f.png"
+                                    alt="Beauty &amp; Spas"></div>
+                            <div> Beauty & Saps</div>
+                        </li>
+                        <li>
+                            <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_automotive.yji-59b42d70fa94e2f1043fa1d629565598.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_automotive@2x.yji-c73bd70791375ec60256243055745f63.png"
+                                    alt="Automotive"></div>
+                            <div>Automotive</div>
+                        </li>
+                        <li>
+                            <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_home_services.yji-52d0e24aea08e0e1eb860a8f253a9c90.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_home_services@2x.yji-20723ad0e5ee302de563935be68c6638.png"
+                                    alt="Home Services"></div>
+                            <div> Home Services</div>
+                        </li>
+                        <li>
+                            <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_more_categories.yji-3110ec19fa2b634cbaf2e66a4ab23ee1.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_more_categories@2x.yji-e7be9a50bf8cf4a2eea9f7d7e2b5f194.png"
+                                    alt="More Categories"></div>
+                            <div>More Categories</div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -186,50 +295,52 @@
                 </div>
             </div>
         </section>
-        
+
     </main>
     <footer>
-        <ul>
-            <li>About</li>
-            <li>About Yelp</li>
-            <li>Careers</li>
-            <li>Press</li>
-            <li>Investor Relations</li>
-            <li>Content Guidelines</li>
-            <li>Terms of Service</li>
-            <li>Privacy Policy</li>
-            <li>Ad Choices</li>
-        </ul>
-        <ul>
-            <li>Discover</li>
-            <li>Yelp Project Cost Guides</li>
-            <li>Collections</li>
-            <li>Talk</li>
-            <li>Events</li>
-            <li>The Local Yelp</li>
-            <li>Yelp Blog</li>
-            <li>Support</li>
-            <li>Yelp Mobile</li>
-            <li>Developers</li>
-            <li>RSS</li>
-        </ul>
-        <ul>
-            <li>Yelp for Business Owners</li>
-            <li>Claim your Business Page</li>
-            <li>Advertise on Yelp</li>
-            <li>Yelp Reservations</li>
-            <li>Yelp WiFi</li>
-            <li>Yelp Waitlist</li>
-            <li>Business Success Stories</li>
-            <li>Business Support</li>
-            <li>Yelp Blog for Business Owners</li>
-        </ul>
-        <div>
-            <div>Languages</div>
-            <div>Countries</div>
+        <div class="footer-container">
+            <ul>
+                <li class="title">About</li>
+                <li>About Yelp</li>
+                <li>Careers</li>
+                <li>Press</li>
+                <li>Investor Relations</li>
+                <li>Content Guidelines</li>
+                <li>Terms of Service</li>
+                <li>Privacy Policy</li>
+                <li>Ad Choices</li>
+            </ul>
+            <ul>
+                <li class="title">Discover</li>
+                <li>Yelp Project Cost Guides</li>
+                <li>Collections</li>
+                <li>Talk</li>
+                <li>Events</li>
+                <li>The Local Yelp</li>
+                <li>Yelp Blog</li>
+                <li>Support</li>
+                <li>Yelp Mobile</li>
+                <li>Developers</li>
+                <li>RSS</li>
+            </ul>
+            <ul>
+                <li class="title">Yelp for Business Owners</li>
+                <li>Claim your Business Page</li>
+                <li>Advertise on Yelp</li>
+                <li>Yelp Reservations</li>
+                <li>Yelp WiFi</li>
+                <li>Yelp Waitlist</li>
+                <li>Business Success Stories</li>
+                <li>Business Support</li>
+                <li>Yelp Blog for Business Owners</li>
+            </ul>
+            <div>
+                <div class="title">Languages</div>
+                <div class="title">Countries</div>
+            </div>
         </div>
-        <img
-            src="https://s3-media0.fl.yelpcdn.com/assets/public/footer_cityscape.yelp_styleguide.yji-573fa19c843556eac5a998fc6d1f80f8.png">
+        <div class="footer-background"></div>
+        <div class="copyright">Copyright © 2004–2020 Yelp Inc. Yelp, <img src="https://s3-media0.fl.yelpcdn.com/assets/public/logo_desktop_xsmall_outline.yelp_styleguide.yji-17089be275f0e32eb065304790b0c35e.png" alt="Yelp logo" class="main-footer_logo-copyright" srcset="https://s3-media0.fl.yelpcdn.com/assets/public/logo_desktop_xsmall_outline@2x.yelp_styleguide.yji-0aade8725c91582a386d6d01dc973b74.png 2x">, <img src="https://s3-media0.fl.yelpcdn.com/assets/public/burst_desktop_xsmall_outline.yelp_styleguide.yji-58cfc999e1f5da75e75ddf71c868c656.png" alt="Yelp burst" class="main-footer_logo-burst" srcset="https://s3-media0.fl.yelpcdn.com/assets/public/burst_desktop_xsmall_outline@2x.yelp_styleguide.yji-dcb526e86d86cc0427ef2e8287d0aa17.png 2x"> and related marks are registered trademarks of Yelp.</div>
     </footer>
 </body>
 
