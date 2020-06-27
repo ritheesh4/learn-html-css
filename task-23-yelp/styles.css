@@ -197,16 +197,60 @@ main .activity{
 }
 
 main .category{
-    background-color: turquoise;
+    padding-top: 30px;
+    background-color: #f5f5f5!important;
+    padding-bottom: 30px;
+}
+
+main .category .category-title{
+    color: red;
+    font-size: 13px;
+    margin-bottom: 20px;
 }
 
 main .category .category-main-container{
+   
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 0% 15%;
+    margin-bottom: 30px;
+}
+
+main .category .category-main-container li{
+    padding: 11px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    width: 22%;
 }
 
 main .apps{
-    background-color: violet;
+    padding-top: 45px;
+    background-color: white;
+}
+
+main .apps .app-title{
+    color: red;
+    font-size: 14px;
+}
+main .apps .yelp-apps{
+    display: flex;
+    margin: 0% 15%;
+    padding-bottom: 35px;
+}
+
+main .apps .yelp-apps .each-app{
+    color: black;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 30px;
+    width: 100%;
+    margin: 2%;
 }
 
 footer{
@@ -252,6 +296,7 @@ footer .copyright{
     color: #666;
     font-size: 12px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 footer .main-footer_logo-copyright{}
