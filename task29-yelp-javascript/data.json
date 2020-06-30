@@ -1,6 +1,6 @@
 [
     {   "id" : 1,
-       "review" : 3.5,
+       "review" : 3.8,
        "stars" : 5,
        "weeks" : 12
     },
@@ -12,6 +12,6 @@
      {   "id" : 3,
         "review" : 13,
         "stars" : 2.5,
-        "weeks" : 2
+        "weeks" : 5
      }
 ]
