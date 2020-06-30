@@ -1,20 +1,17 @@
 [
     {   "id" : 1,
-       "review" : 6,
+       "review" : 3.5,
        "stars" : 5,
-       "weeks" : 7,
-       "test" : "ritheesh"
+       "weeks" : 12
     },
     {   "id" : 2,
-        "review" : 10,
-        "stars" : 5,
-        "weeks" : 7,
-        "test" : "allen"
+        "review" : 12,
+        "stars" : 3,
+        "weeks" : 3
      },
      {   "id" : 3,
-        "review" : 18,
-        "stars" : 5,
-        "weeks" : 7,
-        "test" : "nidheesh"
+        "review" : 13,
+        "stars" : 2.5,
+        "weeks" : 2
      }
 ]

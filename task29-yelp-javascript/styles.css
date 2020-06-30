@@ -224,7 +224,7 @@ main .business-section .business-container .details{
     clip: rect(117px,60px,130px,0px);
     margin-bottom: 200px;
     width: 100px;
-    height: 97px;   /*Change this value to select particular start value*/
+      /*Change this value to select particular start value*/
     object-fit: cover;   
     overflow: hidden;
  }
