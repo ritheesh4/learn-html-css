@@ -155,8 +155,9 @@ main .best-business .business-category .category-container .category-names{
 }
 
 main .locations{
-    background-color: green;
+    background-color:white;
     padding: 0% 10%;
+    color: black;
 }
 
 main .locations .yelp-title{
@@ -168,16 +169,23 @@ main .locations .yelp-title{
 }
 
 main .locations .business-section{
-    background-color: blue;
+    color: black;
+    background-color: white;
     display: flex;
     justify-content: space-around;
+    padding: 0% 5%;
+}
+
+main .locations .business-section .business-container{
+    border: 1px solid rgb(209, 209, 207);
+    border-radius: 5px;
 }
 
 main .locations .location-nav{
     display: flex;
     justify-content: space-around;
     padding: 0% 20%;
-    border-bottom: 1px solid #666;;
+    border-bottom: 1px solid rgb(226, 224, 224);;
     color: #666;
     margin-bottom: 24px;
 }
@@ -186,11 +194,92 @@ main .locations .title{
     color: red;
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 10px;
+}
+
+main .locations .item{
+    text-align: left;
+    color: #005991;
+    font-weight: 600;
+}
+
+main .business-section .business-container .details{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#one {
+   /* position: absolute; */
+   clip: rect(117px,60px,130px,0px);
+   margin-bottom: 200px;
+   width: 100px;
+   height: 170px;   /*Change this value to select particular start value*/
+   object-fit: cover;   
+   overflow: hidden;
+}
+
+
+.rating-star{
+    /* position: absolute; */
+    clip: rect(117px,60px,130px,0px);
+    margin-bottom: 200px;
+    width: 100px;
+    height: 97px;   /*Change this value to select particular start value*/
+    object-fit: cover;   
+    overflow: hidden;
+ }
+ 
+
+ #three{
+    /* position: absolute; */
+    clip: rect(117px,60px,130px,0px);
+    margin-bottom: 200px;
+    width: 100px;
+    height: 133px;   /*Change this value to select particular start value*/
+    object-fit: cover;   
+    overflow: hidden;
+ }
+ 
+
+
+
+.review-number{
+    margin-left: 2px;
+    position: relative;
+    bottom: 2px;
+    color: rgb(206, 203, 203);
+}
+
+.review-time{
+    position: relative;
+    color: #f15c00;
+    bottom: 3px;
 }
 
 main .review{
-    background-color: indianred;
+    color: black;
+    background-color: white;
+    text-align: left;
 }
+
+main .review .review-para{
+    width: 100%;
+}
+
+main .review-section .review{
+    display: flex;
+    flex-direction: row;
+    padding: 0% 20%;
+}
+
+main .review-section .review .review-container{
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    font-size: 14px;
+    width: 94%;
+}
+
 
 main .activity{
     background-color: rgb(155, 155, 56);
@@ -228,6 +317,12 @@ main .category .category-main-container li{
     width: 22%;
 }
 
+main .see-more{
+    padding-top: 10px;
+    color: #0073bb;
+    padding-bottom: 20px;
+}
+
 main .apps{
     padding-top: 45px;
     background-color: white;
@@ -252,6 +347,8 @@ main .apps .yelp-apps .each-app{
     width: 100%;
     margin: 2%;
 }
+
+
 
 footer{
     padding: 0% 20%;
