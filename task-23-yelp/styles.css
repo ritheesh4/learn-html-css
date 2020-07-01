@@ -269,7 +269,7 @@ main .review .review-para{
 main .review-section .review{
     display: flex;
     flex-direction: row;
-    padding: 0% 20%;
+    padding: 0% 10%;
 }
 
 main .review-section .review .review-container{
@@ -277,12 +277,99 @@ main .review-section .review .review-container{
     border: 1px solid rgb(219, 219, 219);
     border-radius: 5px;
     font-size: 14px;
-    width: 94%;
+    width: 90%;
+    margin-left: 11%;
+}
+
+main .review-details{
+    background-color:#d0ecfb;width:100%;display:flex;align-items: center;height: 20px; border-radius: 4px;margin:15px 0px;
+
+}
+
+main .collection-item .bookmark{
+    width: 14px;
+    position: relative;
+    bottom: 38px;
+    margin-left: 40px;
+    background-color:rgba(0,0,0,.3);
+    padding: 10px;
+    
+    
+}
+
+main .review .read-more{
+    color:#0073bb;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main .collection-container{
+    margin-left: 5%;
+    margin-right: 7%;
+    width: 30%;
+}
+
+main .review-section .collection-main{
+    padding: 8px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    /* margin-left: 10%; */
+}
+
+main .review-section .collection-main .collection-item{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+}
+
+main .review-section .collections{
+    display: flex;
+    font-size: 14px;
+}
+
+main .review-section .review .title{
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+main .review-section .collections img{
+    width: 75px;   
+    margin-right: 10px;
+}
+
+main .review-section .collections .item{
+    border-radius: 4px;
+}
+
+main .review-section .collections .title{
+    color: #0073bb;
+    font-weight: 600;
+}
+
+main .review-section .collections .places{
+    color: rgb(160, 159, 159);
+}
+
+main .review-section .collections .user-name{
+    color: #0073bb;
 }
 
 
 main .activity{
     background-color: rgb(155, 155, 56);
+}
+
+main .activity .activity-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .activity .activity-main div{
+    background-color: red;
+    flex: 1;
 }
 
 main .category{
