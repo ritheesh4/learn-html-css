@@ -28,8 +28,24 @@ header .header-main{
     height: 50px;
 }
 
+header .header-main .choose{
+    width: 30%;
+}
+
 header .header-main .choose .choose-container{
     display: flex;
+    font-size: 12px ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .header-main .choose .close-button{
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+header .header-main .choose .choose-container ul li{
+padding-right: 10px;
 }
 
 header .header-title{
@@ -44,6 +60,7 @@ header .header-title span{
 
 main{
     text-align: center;
+    padding-top: 40px;
 }
 
 main .search-body .navigations{
@@ -53,10 +70,31 @@ main .search-body .navigations{
 
 main .search-body .navigations .part-1 ul{
     display: flex;
+    font-size: 14px;
+    font-weight: 700;
 }
+main .search-body .navigations .part-1 ul li {
+    padding-right: 10px;
+}
+
 
 main .search-body .navigations .part-2 ul{
     display: flex;
+}
+
+.sign-up-button{
+    border: 2px solid white;
+    text-align: center;
+    padding: 4px 18px;
+    border-radius: 4px;
+}
+
+
+main .search-body .navigations .part-2 ul li{
+    font-size: 14px;
+    font-weight: 700;
+    /* padding-right: 30px; */
+    margin-right: 30px;
 }
 
 main .search-middle-body{
@@ -84,6 +122,18 @@ main .search-middle-body .services .search-bar{
     /* padding: 0% 15%; */
 }
 
+main .search-body .about-yelp{
+    margin-top: 30px;
+    padding: 0% 30%;
+    font-size: 14px;
+}
+
+main .search-body .learn-more{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
 main .services .search-bar .search-container{
     display: flex;
     background-color: white;
@@ -93,12 +143,17 @@ main .services .search-bar .search-container{
     height: 40px;
     width: 70%;
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 5px;
 
 }
 
 main .services .search-bar .search-container .search-icon-container{
     background-color: red;
+    padding-top: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 main .search-input{
@@ -114,6 +169,8 @@ main .search-bar .search-header{
     color: #666;
     margin-top: 3px;
     margin-right: 8px;
+    font-weight: 700;
+    padding-left: 10px;
 }
 
 main .best-business{
@@ -347,6 +404,7 @@ main .review-section .collections .item{
 main .review-section .collections .title{
     color: #0073bb;
     font-weight: 600;
+    text-align: left;
 }
 
 main .review-section .collections .places{
@@ -359,17 +417,72 @@ main .review-section .collections .user-name{
 
 
 main .activity{
-    background-color: rgb(155, 155, 56);
+    background-color: white;
 }
 
 main .activity .activity-main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0% 11%;
+    text-align: left;
+}
+
+main .activity-main .left-part{
+    padding: 5px;
+    /* background-color: yellow; */
+    background-color: white;
+    color: black;
+    
+}
+
+main .activity .user-name{
+    color: #0073bb;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+main .activity .user-details{
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+main .activity .user-profile{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding:6px 0px
+}
+
+main .activity .user-profile img{
+    border-radius: 4px;
+}
+
+main .activity-main .activity-icon{
+    display: flex;
+    border-top: 1px solid rgb(221, 221, 221);
+    padding: 5px 0px;
+    margin-top: 6px;
+}
+main .activity .activity-main .each-activity{
+    border: 1px solid rgb(221, 221, 221);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+main .activity-main .mid-part{
+    padding: 5px;
+    /* background-color: red; */
+    color: black;
+}
+
+main .activity-main .right-part{
+    padding: 5px;
+    background-color: white;
+    color: black;
 }
 
 main .activity .activity-main div{
-    background-color: red;
-    flex: 1;
+     flex: 1;
 }
 
 main .category{
@@ -382,6 +495,14 @@ main .category .category-title{
     color: red;
     font-size: 13px;
     margin-bottom: 20px;
+}
+
+main .activity .photo-box-img{
+   width: 100%;
+   overflow-y: hidden;
+   overflow-x: hidden;
+
+   
 }
 
 main .category .category-main-container{

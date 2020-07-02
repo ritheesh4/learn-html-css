@@ -20,8 +20,8 @@
                 <ul class="choose-container">
                     <li>Delivery</li>
                     <li>Pizza Delivery</li>
-                    <li>CHinese Food Delivery</li>
-                    <li>Close button</li>
+                    <li>Chinese Food Delivery</li>
+                    <li><a class="close-button" role="button" aria-label="Close" tabindex="0">×</a></li>
                 </ul>
             </div>
         </div>
@@ -39,7 +39,7 @@
                 <div class="part-2">
                     <ul>
                         <li>Log In</li>
-                        <li>Sing Up button</li>
+                        <li class="sign-up-button">Sing Up</li>
                     </ul>
                 </div>
             </div>
@@ -84,14 +84,14 @@
                             </svg>Delivery</li>
                     </ul>
                 </div>
-                <div>
+                <div class="about-yelp">
                     <h3>Yelp is committed to supporting the Black community</h3>
                     <p>As part of our ongoing efforts, the Yelp Foundation is donating $500,000
                         to the Equal Justice Initiative and the NAACP Legal Defense Fund.
                         We are also developing tools in support of Black-owned businesses.</p>
                 </div>
                 <div>
-                    <h3>Learn More</h3>
+                    <h3 class="learn-more">Learn More</h3>
                 </div>
             </div>
         </div>
@@ -245,13 +245,13 @@
                                     width="60" style="border-radius: 5px;"></div>
                             <div>
                                 <ul style="margin-left: 10px;">
-                                    <li>Cindy L</li>
+                                    <li style="color: #0073bb; font-weight: 700;">Cindy L</li>
                                     <li style="display: flex;"><span><img
                                                 src="./icons/people-icon.PNG"></span><span>105</span><img
                                             src="./icons/star-icon.PNG" style="height:18px;padding-top: 2px;"><span>283
                                         </span><span style="padding-left: 4px; color: #f15c00;font-weight: 600;">Elite
                                             ’20</span></li>
-                                    <li>Wrote a review for Catch <span style="color: #0073bb; font-weight: 600;"> sushi
+                                    <li>Wrote a review for Catch <span style="color: #0073bb; font-weight: 700;"> sushi
                                             Bento</span></li>
                                 </ul>
                             </div>
@@ -275,8 +275,8 @@
                             across Catch on yelp. Decided to give it a try since it was close by and am so glad that I
                             did! Food was really good, fresh, and portion sizes were generous. We got the unagi roll,
                             real crab California roll, shrimp tempura roll, dragon roll, chicken karaage, and a Unagi
-                            don. My favorite was the shrimp tempura roll and the chicken karaage - the c... Continue
-                            reading</div>
+                            don. My favorite was the shrimp tempura roll and the chicken karaage - the c... <a style="color: #0073bb;">Continue reading</a>
+                           </div>
 
                     </div>
                     <div class="read-more">Read previous reviews</div>
@@ -289,7 +289,9 @@
                                 <div class="collections">
                                     <div style="height: 70px;">
                                         <div><img
-                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/Lkyv0Z48ip8WpBz2DdcXqA/120s.jpg" class="item"><img src="./icons/bookmark.svg" class="bookmark" style="width: 14px;">
+                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/Lkyv0Z48ip8WpBz2DdcXqA/120s.jpg"
+                                                class="item"><img src="./icons/bookmark.svg" class="bookmark"
+                                                style="width: 14px;">
                                         </div>
                                     </div>
                                     <div>
@@ -307,7 +309,9 @@
                                 <div class="collections">
                                     <div style="height: 70px;">
                                         <div><img
-                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/fkgyZbyYP7evChd0trFinA/120s.jpg"  class="item"><img src="./icons/bookmark.svg" class="bookmark" style="width: 14px;">
+                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/fkgyZbyYP7evChd0trFinA/120s.jpg"
+                                                class="item"><img src="./icons/bookmark.svg" class="bookmark"
+                                                style="width: 14px;">
                                         </div>
                                     </div>
                                     <div>
@@ -326,7 +330,9 @@
                                 <div class="collections">
                                     <div style="height: 70px;">
                                         <div><img
-                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/CNpId4QB84MPQMrdKPUlig/120s.jpg" class="item"><img src="./icons/bookmark.svg" class="bookmark" style="width: 14px;">
+                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/CNpId4QB84MPQMrdKPUlig/120s.jpg"
+                                                class="item"><img src="./icons/bookmark.svg" class="bookmark"
+                                                style="width: 14px;">
                                         </div>
                                     </div>
                                     <div>
@@ -345,16 +351,337 @@
                     <div class="read-more">Browse more collections</div>
                 </div>
             </div>
-
         </section>
-        
-        <section>
+        <section class="activity-section">
             <div class="activity">
                 <div>Recent Activity</div>
                 <div class="activity-main">
-                 <div>1</div>
-                 <div>2</div>
-                 <div>3</div>
+                    <div class="left-part">
+                        <div class="each-activity">
+                            <ul>
+                                <li class="user-profile">
+                                    <div style="display: flex;align-items: center;">
+                                        <span><img
+                                                src="https://s3-media0.fl.yelpcdn.com/photo/TgLSSKYq3Op4tqEeJBnAeg/30s.jpg"
+                                                alt="profile">
+                                        </span>
+                                        <div>
+                                            <ul class="user-details">
+                                                <li class="user-name">Alyssa F.</li>
+                                                <li>Added 2 photos</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>Artis Coffee</li>
+                                <li style="display: flex;">
+                                    <div>
+
+                                        <img alt="Outside"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/NEiyewk45oQp-YkMiu6cWg/168s.jpg"
+                                            width="168" height="168">
+                                        </a>
+                                    </div>
+                                    <div><img alt="Honey Lavender latte"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/6g5bt23pUuceoY712iBhXg/168s.jpg"
+                                            width="168" height="168"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each-activity">
+                            <ul>
+                                <li>
+                                    <div style="display: flex;align-items: center;">
+                                        <span><img
+                                                src="https://s3-media0.fl.yelpcdn.com/photo/Wz7FmAJE7OmGLNnF_-Kstw/30s.jpg"
+                                                alt="profile">
+                                        </span>
+                                        <div style="text-align: left;">
+                                            <ul class="user-details">
+                                                <li class="user-name">Kim L.</li>
+                                                <li>Wrote a review</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </li>
+                                <li style="text-align: center;">
+
+                                    <div style="height: 150px;">
+                                        <img class="photo-box-img"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/wnn5ar2kQXr3JWFZ9Y6bUw/l.jpg"
+                                            srcset="https://s3-media0.fl.yelpcdn.com/bphoto/wnn5ar2kQXr3JWFZ9Y6bUw/o.jpg 1.67x"
+                                            width="600px" height="250px">
+                                    </div>
+                                </li>
+                            </ul>
+                            <div
+                                style="background-color: white;position: relative; width: 100%;text-align: left; border-bottom: 1px solid gainsboro;padding: 10px 0px;">
+                                Downtown Subaru of Oakland-Sales
+                            </div>
+                            <div
+                                style="text-align: left; background-color: white; position: relative; padding-top: 10px;">
+                                <div style="display:flex">
+                                    <div style="width:102px; height: 18px;overflow: hidden;"><img class="rating-star"
+                                            id="001" height="30"
+                                            src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                            width="10" alt="5.0 star rating"></div>
+                                </div>
+                                <div class="review-para" style="text-align: left;">Had a great experience at Downtown
+                                    Oakland Toyota. Shiloh treated us great and didn't pressure us at all. I am now a
+                                    happy owner of a new Subaru Crosstrek. </div>
+
+                            </div>
+                            <div class ="activity-icon">
+                                <div>
+                                    <ul style="display: flex;">
+                                        <li><svg id="24x24_useful_outline" height="24" viewBox="0 0 24 24" fill="gray"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm2 10.704V15h-4v-1.296c-1.35-.72-2.278-2.124-2.278-3.76a4.278 4.278 0 0 1 8.556 0c0 1.636-.93 3.04-2.278 3.76zM11 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 6.5a2 2 0 0 1-4 0V16h4v.5z">
+                                                </path>
+                                            </svg></li>
+                                        <li><svg id="24x24_funny_outline" height="24" viewBox="0 0 24 24" fill="gray"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm0 15a5.5 5.5 0 0 1-5.288-4h10.576A5.5 5.5 0 0 1 12 18zm3.5-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-7 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z">
+                                                </path>
+                                            </svg></li>
+                                        <li><svg id="24x24_cool_outline" height="24" fill="gray" viewBox="0 0 24 24"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm7.994 6.765C19.647 11.612 17.97 13 15.96 13h-.002c-1.617 0-3.028-.9-3.67-2.224a.32.32 0 0 0-.575 0C11.07 12.1 9.66 13 8.043 13H8.04c-2.01 0-3.74-1.15-4.035-3.018l-.124-.734c-.07-.305.257-.25.634-.248h14.972c.39 0 .673-.04.632.248l-.124.517zM17 15.143a5.405 5.405 0 0 1-5 3.357 5.405 5.405 0 0 1-5-3.357 8.6 8.6 0 0 0 5 1.6 8.6 8.6 0 0 0 5-1.6z">
+                                                </path>
+                                            </svg></li>
+                                    </ul>
+                                </div>
+                                <div style="padding-left:60%"><svg id="24x24_compliment" height="24" fill="gray"
+                                        viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M19 9A7 7 0 0 0 5 9a6.995 6.995 0 0 0 3.957 6.297L8 21.992 12.005 19 16 21.992l-.957-6.695A6.995 6.995 0 0 0 19 9zm-7 5c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+                                        </path>
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mid-part">
+                        <div class="each-activity">
+                            <ul>
+                                <li class="user-profile">
+                                    <div style="display: flex;align-items: center;">
+                                        <span><img
+                                                src="https://s3-media0.fl.yelpcdn.com/photo/TgLSSKYq3Op4tqEeJBnAeg/30s.jpg"
+                                                alt="profile">
+                                        </span>
+                                        <div>
+                                            <ul class="user-details">
+                                                <li class="user-name">Alyssa F.</li>
+                                                <li>Added 1 photos</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>Highwire Coffee Roasters</li>
+                                <li>
+                                    <img src="https://s3-media0.fl.yelpcdn.com/bphoto/CsprSoiQn1J26dtqipOk6A/300s.jpg"
+                                        alt="" style="height: 300px;width: 100%;">
+                                </li>
+                                <li style="display:flex; position: relative; bottom: 4px; background-color: white;">
+                                    <span><svg id="24x24_like_outline" height="24" viewBox="0 0 24 24" width="24">
+                                            <path
+                                                d="M21.164 12.236c.05.164.086.334.086.514 0 .66-.37 1.23-.91 1.527.1.22.16.464.16.723 0 .66-.37 1.23-.91 1.527.1.22.16.464.16.723A1.75 1.75 0 0 1 18 19H7v-9h1c.37 0 1.257-2.37 2.104-3.345.89-1.017 1.234-1.782 1.457-2.513C11.785 3.412 12 2 12 2s2.388.11 2.388 2.9c0 1.39-.758 3.1-.388 4.1h6.25c.966 0 1.75.784 1.75 1.75 0 .63-.336 1.178-.836 1.486zM20.25 10h-6.946l-.242-.653c-.316-.855-.11-1.862.09-2.835.117-.56.236-1.14.236-1.61 0-.844-.283-1.314-.608-1.577-.076.387-.168.797-.262 1.107-.228.748-.604 1.673-1.66 2.88-.336.386-.744 1.166-1.072 1.794C9.146 10.326 8.796 11 8 11v7h10a.75.75 0 0 0 .75-.75.75.75 0 0 0-.07-.308l-.385-.843.812-.45A.74.74 0 0 0 19.5 15a.75.75 0 0 0-.07-.308l-.385-.843.812-.45a.74.74 0 0 0 .393-.65.793.793 0 0 0-.04-.22l-.23-.74.66-.406A.746.746 0 0 0 20.25 10zM2 10h4v10H2V10z">
+                                            </path>
+                                        </svg></span><span>1 Like</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each-activity">
+                            <ul>
+                                <li>
+                                    <div style="display: flex;align-items: center;">
+                                        <span><img
+                                                src="https://s3-media0.fl.yelpcdn.com/photo/Ce6o29YgAiV_jqqN0H_hjg/30s.jpg"
+                                                alt="profile">
+                                        </span>
+                                        <div style="text-align: left;">
+                                            <ul class="user-details">
+                                                <li class="user-name">
+                                                    Alisha X.</li>
+                                                <li>Wrote a review</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </li>
+                                <li style="text-align: center;">
+
+                                    <div style="height: 150px;">
+                                        <img class="photo-box-img"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/MqvqSMsSr6k_vpgARRuyZQ/l.jpg"
+                                            srcset="https://s3-media0.fl.yelpcdn.com/bphoto/wnn5ar2kQXr3JWFZ9Y6bUw/o.jpg 1.67x"
+                                            width="600px" height="250px">
+                                    </div>
+                                </li>
+                            </ul>
+                            <div
+                                style="background-color: white;position: relative; width: 100%;text-align: left; border-bottom: 1px solid gainsboro;padding: 10px 0px;">
+                                oaklandia cafe
+                            </div>
+                            <div
+                                style="text-align: left; background-color: white; position: relative; padding-top: 10px;">
+                                <div style="display:flex">
+                                    <div style="width:102px; height: 18px;overflow: hidden;"><img class="rating-star"style="height:242px"
+                                            id="001" height="30"
+                                            src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                            width="10" alt="5.0 star rating"></div>
+                                </div>
+                                <div class="review-para" style="text-align: left;">New owners with a refined menu! Solid selection of sandwiches with fresh bread and veggies. Nice folks who work insides.</div>
+
+                            </div>
+                            <div class ="activity-icon">
+                                <div >
+                                    <ul style="display: flex;">
+                                        <li><svg id="24x24_useful_outline" height="24" viewBox="0 0 24 24" fill="gray"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm2 10.704V15h-4v-1.296c-1.35-.72-2.278-2.124-2.278-3.76a4.278 4.278 0 0 1 8.556 0c0 1.636-.93 3.04-2.278 3.76zM11 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 6.5a2 2 0 0 1-4 0V16h4v.5z">
+                                                </path>
+                                            </svg></li>
+                                        <li><svg id="24x24_funny_outline" height="24" viewBox="0 0 24 24" fill="gray"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm0 15a5.5 5.5 0 0 1-5.288-4h10.576A5.5 5.5 0 0 1 12 18zm3.5-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-7 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z">
+                                                </path>
+                                            </svg></li>
+                                        <li><svg id="24x24_cool_outline" height="24" fill="gray" viewBox="0 0 24 24"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm7.994 6.765C19.647 11.612 17.97 13 15.96 13h-.002c-1.617 0-3.028-.9-3.67-2.224a.32.32 0 0 0-.575 0C11.07 12.1 9.66 13 8.043 13H8.04c-2.01 0-3.74-1.15-4.035-3.018l-.124-.734c-.07-.305.257-.25.634-.248h14.972c.39 0 .673-.04.632.248l-.124.517zM17 15.143a5.405 5.405 0 0 1-5 3.357 5.405 5.405 0 0 1-5-3.357 8.6 8.6 0 0 0 5 1.6 8.6 8.6 0 0 0 5-1.6z">
+                                                </path>
+                                            </svg></li>
+                                    </ul>
+                                </div>
+                                <div style="padding-left:60%"><svg id="24x24_compliment" height="24" fill="gray"
+                                        viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M19 9A7 7 0 0 0 5 9a6.995 6.995 0 0 0 3.957 6.297L8 21.992 12.005 19 16 21.992l-.957-6.695A6.995 6.995 0 0 0 19 9zm-7 5c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+                                        </path>
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <div class="each-activity">
+                            <ul>
+                                <li>
+                                    <div style="display: flex;align-items: center;">
+                                        <span><img
+                                                src="https://s3-media0.fl.yelpcdn.com/photo/npoxKd6fxroRM55xfQo_hQ/30s.jpg"
+                                                alt="profile">
+                                        </span>
+                                        <div>
+                                            <ul class="user-details">
+                                                <li class="user-name">Julie H.</li>
+                                                <li>Added 1 photos</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>Highwire Coffee Roasters</li>
+                                <li style="text-align: center; ">
+                                    <img src="https://s3-media0.fl.yelpcdn.com/bphoto/EeBrwtShZ0JJphpisiNDIA/300s.jpg"
+                                        alt="" height="300px" style="width:100%">
+                                </li>
+                                <li style="display:flex; position: relative; bottom: 4px; background-color: white;">
+                                    <span><svg id="24x24_like_outline" height="24" viewBox="0 0 24 24" width="24">
+                                            <path
+                                                d="M21.164 12.236c.05.164.086.334.086.514 0 .66-.37 1.23-.91 1.527.1.22.16.464.16.723 0 .66-.37 1.23-.91 1.527.1.22.16.464.16.723A1.75 1.75 0 0 1 18 19H7v-9h1c.37 0 1.257-2.37 2.104-3.345.89-1.017 1.234-1.782 1.457-2.513C11.785 3.412 12 2 12 2s2.388.11 2.388 2.9c0 1.39-.758 3.1-.388 4.1h6.25c.966 0 1.75.784 1.75 1.75 0 .63-.336 1.178-.836 1.486zM20.25 10h-6.946l-.242-.653c-.316-.855-.11-1.862.09-2.835.117-.56.236-1.14.236-1.61 0-.844-.283-1.314-.608-1.577-.076.387-.168.797-.262 1.107-.228.748-.604 1.673-1.66 2.88-.336.386-.744 1.166-1.072 1.794C9.146 10.326 8.796 11 8 11v7h10a.75.75 0 0 0 .75-.75.75.75 0 0 0-.07-.308l-.385-.843.812-.45A.74.74 0 0 0 19.5 15a.75.75 0 0 0-.07-.308l-.385-.843.812-.45a.74.74 0 0 0 .393-.65.793.793 0 0 0-.04-.22l-.23-.74.66-.406A.746.746 0 0 0 20.25 10zM2 10h4v10H2V10z">
+                                            </path>
+                                        </svg></span><span>1 Like</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each-activity">
+                            <ul>
+                                <li>
+                                    <div style="display: flex;align-items: center;">
+                                        <span><img
+                                                src="https://s3-media0.fl.yelpcdn.com/photo/XhQ1iBMZ20nGdMMfxglRrA/30s.jpg"
+                                                alt="profile">
+                                        </span>
+                                        <div style="text-align: left;">
+                                            <ul class="user-details">
+                                                <li class="user-name">
+                                                    Taylor Z.</li>
+                                                <li>Wrote a review</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </li>
+                                <li style="text-align: center;">
+
+                                    <div style="height: 150px;">
+                                        <img class="photo-box-img"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/jf53AKnHW_F5nsDREsEAqQ/l.jpg"
+                                            srcset="https://s3-media0.fl.yelpcdn.com/bphoto/wnn5ar2kQXr3JWFZ9Y6bUw/o.jpg 1.67x"
+                                            width="600px" height="250px">
+                                    </div>
+                                </li>
+                            </ul>
+                            <div
+                                style="background-color: white;position: relative; width: 100%;text-align: left; border-bottom: 1px solid gainsboro;padding: 10px 0px;">
+                                Gelato Firenze and QTea Bar
+                            </div>
+                            <div
+                                style="text-align: left; background-color: white; position: relative; padding-top: 10px;">
+                                <div style="display:flex">
+                                    <div style="width:102px; height: 18px;overflow: hidden;"><img class="rating-star"
+                                            id="001" height="30"
+                                            src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                            width="10" alt="5.0 star rating"></div>
+                                </div>
+                                <div class="review-para" style="text-align: left;">Great tea bar near Lake Merritt. Lots of fresh juice options with great toppings. I really liked the way they handled payment and handing off during covid, felt pretty safe.</div>
+
+                            </div>
+                            <div class ="activity-icon">
+                                <div >
+                                    <ul style="display: flex;">
+                                        <li><svg id="24x24_useful_outline" height="24" viewBox="0 0 24 24" fill="gray"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm2 10.704V15h-4v-1.296c-1.35-.72-2.278-2.124-2.278-3.76a4.278 4.278 0 0 1 8.556 0c0 1.636-.93 3.04-2.278 3.76zM11 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 6.5a2 2 0 0 1-4 0V16h4v.5z">
+                                                </path>
+                                            </svg></li>
+                                        <li><svg id="24x24_funny_outline" height="24" viewBox="0 0 24 24" fill="gray"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm0 15a5.5 5.5 0 0 1-5.288-4h10.576A5.5 5.5 0 0 1 12 18zm3.5-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-7 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z">
+                                                </path>
+                                            </svg></li>
+                                        <li><svg id="24x24_cool_outline" height="24" fill="gray" viewBox="0 0 24 24"
+                                                width="24">
+                                                <path
+                                                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm7.994 6.765C19.647 11.612 17.97 13 15.96 13h-.002c-1.617 0-3.028-.9-3.67-2.224a.32.32 0 0 0-.575 0C11.07 12.1 9.66 13 8.043 13H8.04c-2.01 0-3.74-1.15-4.035-3.018l-.124-.734c-.07-.305.257-.25.634-.248h14.972c.39 0 .673-.04.632.248l-.124.517zM17 15.143a5.405 5.405 0 0 1-5 3.357 5.405 5.405 0 0 1-5-3.357 8.6 8.6 0 0 0 5 1.6 8.6 8.6 0 0 0 5-1.6z">
+                                                </path>
+                                            </svg></li>
+                                    </ul>
+                                </div>
+                                <div style="padding-left:60%"><svg id="24x24_compliment" height="24" fill="gray"
+                                        viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M19 9A7 7 0 0 0 5 9a6.995 6.995 0 0 0 3.957 6.297L8 21.992 12.005 19 16 21.992l-.957-6.695A6.995 6.995 0 0 0 19 9zm-7 5c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+                                        </path>
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div>Show more activity in San Francisco</div>
             </div>
