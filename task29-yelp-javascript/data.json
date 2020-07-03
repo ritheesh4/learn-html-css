@@ -1,0 +1,17 @@
+[
+    {   "id" : 1,
+       "review" : 3.8,
+       "stars" : 5,
+       "weeks" : 12
+    },
+    {   "id" : 2,
+        "review" : 12,
+        "stars" : 3,
+        "weeks" : 3
+     },
+     {   "id" : 3,
+        "review" : 13,
+        "stars" : 2.5,
+        "weeks" : 5
+     }
+]

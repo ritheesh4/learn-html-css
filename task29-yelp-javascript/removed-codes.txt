@@ -1,0 +1,105 @@
+// const position = ["425px","388px","350px","315px","278px","243px","206px","133px","170px","133px","97px"];
+// let a = star.indexOf(3.5);
+// console.log(position[a])
+    
+    // if (element.stars === 5) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "97px";
+                // }
+                // else if (element.stars === 4.5) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "133px";
+                // } else if (element.stars === 4) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "170px";
+                // }
+                // else if (element.stars === 3.5) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "206px";
+                // }
+                // else if (element.stars === 3) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "243px";
+                // }
+                // else if (element.stars === 2.5) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "278px";
+                // }
+                // else if (element.stars === 2) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "315px";
+                // }
+                // else if (element.stars === 1.5) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "350px";
+                // }
+                // else if (element.stars === 1) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "388px";
+                // }
+                // else if (element.stars < 1) {
+                //     const img = document.getElementById(`img-${element.id}`);
+
+                //     img.style.height = "425px";
+                // }
+
+
+
+                // itemPosition();
+
+// const changePosition = () => {
+//     let childCount = document.querySelector(".business-section").childElementCount;
+//     // let currentElement = document.querySelector(`.c-${childCount}`);
+
+//     for (i = 1; i < childCount+1; i++) {
+//         let currentElement = document.querySelector(`.c-${i}`);
+//         // let currentElementOrder = document.querySelector(`.c-${i}`).style.order;
+//         // console.log(i)
+//         // let orderValue = currentElement.style.order;
+//         console.log(currentElement.style);
+//         // console.log(currentElementOrder);
+//     //     if (orderValue === 1) {
+//     //         document.querySelector(`.c-${i}`).style.order =childCount;
+
+//     //     } else {         
+
+//     //         orderValue = orderValue - 1;
+//     //         document.querySelector(`.c-${i}`).style.order =orderValue;
+//     //     }
+//     }
+
+//     // console.log(testing.style.order);
+
+//     // forEach(childElement => {
+
+//     // })
+// }
+
+// changePosition();
+
+
+
+// document.getElementById('1').innerHTML = "9";
+// document.querySelector('.details').innerHTML += `<div>Ritheesh</div>`
+
+
+
+ // console.log(childCount)
+    // const order1 = document.querySelector('.c-1');s
+    // const order2 = document.querySelector('.c-2');
+    // const order3 = document.querySelector('.c-3');
+    // order1.style.order = 1;
+    // order2.style.order = 3;
+    // order3.style.order = 2;
+    // document.querySelector('.c-3').style.order = 3;
+    // let third = document.querySelector(".c-3");
+    // console.log(third);
