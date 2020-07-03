@@ -239,6 +239,8 @@ main .best-business .business-category .service-image-container{
 }
 
 .category-container:hover{
+ 
+  
     box-shadow:
     0 1.8px 1.2px rgba(0, 0, 0, 0.034),
     0 2.7px 1.3px rgba(0, 0, 0, 0.048),
@@ -251,6 +253,7 @@ main .best-business .business-category .service-image-container{
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;   
     cursor: pointer;
+    
 }
 
 main .best-business .business-category .category-container{
@@ -263,6 +266,11 @@ main .best-business .business-category .category-container{
 main .best-business .business-category .category-container .category-names{
     padding: 10px;
     font-weight: 600;
+    color: black;
+}
+
+main .best-business .business-category .category-container .category-names:hover{
+    color: rgb(97, 97, 243);
 }
 
 main .locations{
@@ -400,7 +408,12 @@ main .review-section .review .review-container{
 }
 
 main .review-details{
-    background-color:#d0ecfb;width:100%;display:flex;align-items: center;height: 20px; border-radius: 4px;margin:15px 0px;
+    background-color:#d0ecfb;
+    width:100%;display:flex;
+    align-items: center;
+    height: 20px;
+    border-radius: 4px;
+    margin:15px 0px;
 
 }
 
@@ -513,7 +526,7 @@ main .activity .user-profile{
 }
 
 .like-button:hover {
-    color: red;
+    color: blue;
 }
 
 main .activity .user-profile img{
@@ -527,6 +540,19 @@ main .activity-main .activity-icon{
     padding: 5px 0px;
     margin-top: 6px;
 }
+
+.use-full:hover{
+    fill: red;
+}
+.useful{
+    display: none;
+}
+
+.use-full:hover .useful{
+    display: block;
+}
+
+
 main .activity .activity-main .each-activity{
     border: 1px solid rgb(221, 221, 221);
     margin: 10px;
@@ -784,6 +810,9 @@ footer .copyright{
        display: flex;
        margin-left: 10px;
        position: relative;
+       overflow: scroll;
+       -ms-overflow-style: none;  /* IE and Edge */
+       scrollbar-width: none;
        /* left: -190px; */
        
    }
