@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Yelp</title>
+</head>
+
+<body>
+    <div class="web-view">
+        <header>
+            <div class="header-main">
+                <div class="header-title"><img class="title-image"
+                        src="https://promos.yelpcdn.com/food_delivery_icon_2x.png"
+                        srcset="https://promos.yelpcdn.com/food_delivery_icon_2x.png" width="36" height="36"
+                        url="https://promos.yelpcdn.com/food_delivery_icon_2x.png"><span>You can always order in</span>
+                </div>
+                <div class="choose">
+                    <ul class="choose-container">
+                        <li><a>Delivery</a></li>
+                        <li><a>Pizza Delivery</a></li>
+                        <li><a>Chinese Food Delivery</a></li>
+                        <li class="close-button" role="button" aria-label="Close" tabindex="0">×</li>
+                    </ul>
+                </div>
+            </div>
+            <!--! mobile view -->
+            <nav class="mobile view">
+
+            </nav>
+        </header>
+        <main>
+            <div class="search-body">
+                <div class="navigations">
+                    <div class="part-1">
+                        <ul>
+                            <li>Write a Review</li>
+                            <li>Events</li>
+                            <li>Talk</li>
+                        </ul>
+                    </div>
+                    <div class="part-2">
+                        <ul>
+                            <li style="padding-top: 4px;"><a>Log In</a></li>
+                            <li class="sign-up-button">Sing Up</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-middle-body">
+                    <div><img
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/black.yelp_design_web.yji-5b6e792b49aeada344f256853f49bb90.png">
+                    </div>
+                    <div class="services">
+                        <div class="search-bar">
+                            <div class="search-container">
+                                <span class="search-header">Find</span><input type="text" class="search-input"
+                                    placeholder="accountants, delivery, takeout..."><span
+                                    class="search-header">Near</span>
+                                <input type="text" class="search-input" placeholder="San Francisco, CA">
+                                <div class="search-icon-container"><svg id="24x24_search" height="24"
+                                        viewBox="0 0 24 24" width="24">
+                                        <path
+                                            d="M20.753 19.34l-4.295-4.297A7.46 7.46 0 0 0 18 10.5a7.5 7.5 0 1 0-7.5 7.5 7.46 7.46 0 0 0 4.543-1.542l4.296 4.295a1 1 0 1 0 1.412-1.414zM10.5 16A5.506 5.506 0 0 1 5 10.5C5 7.467 7.467 5 10.5 5S16 7.467 16 10.5 13.533 16 10.5 16z">
+                                        </path>
+                                    </svg></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><svg id="24x24_accountants" fill="white" height="24" viewBox="0 0 24 24" width="24">
+                                    <path
+                                        d="M19 1H5a1 1 0 0 0-1 1v20a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM9.25 20H6v-3h3.25v3zm0-4H6v-3h3.25v3zm0-4H6V9h3.25v3zm4.4 8h-3.3v-3h3.3v3zm0-4h-3.3v-3h3.3v3zm0-4h-3.3V9h3.3v3zM18 20h-3.25v-3H18v3zm0-4h-3.25v-3H18v3zm0-4h-3.25V9H18v3zm0-5H6V4h12v3z">
+                                    </path>
+                                </svg>Accountants</li>
+                            <li><svg id="18x18_food" fill="white" height="18" viewBox="0 0 18 18" width="18">
+                                    <path
+                                        d="M13.61 17h-.007a1.39 1.39 0 0 1-1.376-1.587L13 10l-2-1c0-5.373 1.375-8 3.25-8 .497 0 .75.336.75.75v13.86A1.39 1.39 0 0 1 13.61 17zM6.557 9.912l.35 5.59a1.41 1.41 0 1 1-2.813 0l.35-5.59A1.994 1.994 0 0 1 3 8V1.5a.5.5 0 0 1 1 0v5a.5.5 0 0 0 1 0v-5a.5.5 0 0 1 1 0v5a.5.5 0 0 0 1 0v-5a.5.5 0 0 1 1 0V8c0 .91-.61 1.67-1.443 1.912z">
+                                    </path>
+                                </svg>Restaurants</li>
+                            <li><svg id="18x18_home_services" fill="white" height="18" viewBox="0 0 18 18" width="18">
+                                    <path
+                                        d="M16.7 16H13v-4.7a.3.3 0 0 0-.3-.3h-2.4a.3.3 0 0 0-.3.3V16H2.3a.3.3 0 0 1-.3-.3V9.25l6-2.182V3.735a.3.3 0 0 1 .434-.268l8.4 4.2a.3.3 0 0 1 .166.268V15.7a.3.3 0 0 1-.3.3zM8 11.3a.3.3 0 0 0-.3-.3H4.3a.3.3 0 0 0-.3.3v2.4a.3.3 0 0 0 .3.3h3.4a.3.3 0 0 0 .3-.3v-2.4zm4-9a.3.3 0 0 1 .3-.3h3.4a.3.3 0 0 1 .3.3v3.005L12 3.5V2.3zM1 7.17l6-2.354V6.37L1 8.72V7.17z">
+                                    </path>
+                                </svg>Home Services</li>
+                            <li><svg id="18x18_delivery" fill="white" height="18" viewBox="0 0 18 18" width="18">
+                                    <path
+                                        d="M15.5 10c-1.93 0-3.5 1.57-3.5 3.5v.5H5.95a2.504 2.504 0 0 1-2.45 2 2.502 2.502 0 0 1-2.45-2H0v-2a5 5 0 0 1 5-5h3v2H7a1.5 1.5 0 0 0 0 3h2l2-4V5h1.94l-1-2H9V2h3.56l3.52 7.04c.653.085 1.28.308 1.838.665l-.537.842A3.502 3.502 0 0 0 15.5 10zM2.092 14c.207.58.757 1 1.408 1 .65 0 1.2-.42 1.408-1H2.092zM15.5 11c1.38 0 2.5 1.122 2.5 2.5S16.88 16 15.5 16 13 14.878 13 13.5s1.12-2.5 2.5-2.5zm0 4c.827 0 1.5-.673 1.5-1.5s-.673-1.5-1.5-1.5-1.5.673-1.5 1.5.673 1.5 1.5 1.5z">
+                                    </path>
+                                </svg>Delivery</li>
+                        </ul>
+                    </div>
+                    <div class="about-yelp">
+                        <h3>Yelp is committed to supporting the Black community</h3>
+                        <p>As part of our ongoing efforts, the Yelp Foundation is donating $500,000
+                            to the Equal Justice Initiative and the NAACP Legal Defense Fund.
+                            We are also developing tools in support of Black-owned businesses.</p>
+                    </div>
+                    <div>
+                        <h3 class="learn-more">Learn More</h3>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div class="best-business">
+                    <div class="business-title">Find the Best Businesses in Town</div>
+                    <div class="business-category">
+                        <div class="category-container">
+                            <div class="service-image-container"><img class="tile-image__a5c5a__2UKf4" width="auto"
+                                    height="174"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/gyms.yji-8eef8039d48a0be9b5982315808236e1.jpg"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/gyms@2x.yji-3fb0a4f3e62f2e048ff6b94dcc909a4b.jpg"
+                                    alt="Gyms"></div>
+                            <div class="category-names">Gyms</div>
+                        </div>
+                        <div class="category-container">
+                            <div class="service-image-container"><img class="tile-image__a5c5a__2UKf4" width="auto"
+                                    height="174"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/massage.yji-dc800fc2cf62dc8e9fe14560a1fc3ed4.jpg"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/massage@2x.yji-3e7134d3e9e5653059f073a41af7bbb7.jpg"
+                                    alt="Massage"></div>
+                            <div class="category-names">Massage</div>
+                        </div>
+                        <div class="category-container">
+                            <div class="service-image-container"><img class="tile-image__a5c5a__2UKf4" width="auto"
+                                    height="174"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/dryclean.yji-b67fbcf19738d87c58d6ae3ee1349c70.jpg"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/dryclean@2x.yji-ff5b642fbbdf949c26c3ca19b6dfb4bb.jpg"
+                                    alt="Dry Cleaning"></div>
+                            <div class="category-names">Dry Cleaning</div>
+                        </div>
+                        <div class="category-container">
+                            <div class="service-image-container"><img class="tile-image__a5c5a__2UKf4" width="auto"
+                                    height="174"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/movers.yji-cbf48ef1f4b2287fa8f36f75cd3c2572.jpg"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/movers@2x.yji-9f700a653ef1427dbd92269dcfaad22b.jpg"
+                                    alt="Movers"></div>
+                            <div class="category-names">Movers</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="locations">
+                    <div class="yelp-title">Yelp San Francisco</div>
+                    <div>
+                        <ul class="location-nav">
+                            <li>New York</li>
+                            <li>San Jose</li>
+                            <li>Los ANgeles</li>
+                            <li>Chicago</li>
+                            <li>Palo Alto</li>
+                            <li>Oakland</li>
+                            <li>More Cities</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="title">Hot & New Businesses</div>
+                        <div class="business-section">
+                            <div class="business-container">
+                                <div class="display:flex"><img alt="Ratchetivi-Teas by Arena" class="photo-box-img"
+                                        height="200"
+                                        src="https://s3-media0.fl.yelpcdn.com/bphoto/CSGg-qLWo7Ph4u_ZEBKqmw/l.jpg"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/bphoto/CSGg-qLWo7Ph4u_ZEBKqmw/o.jpg 1.67x"
+                                        width="280"></div>
+                                <div class="details">
+                                    <div class="item">Ratchetivi-Teas by Arena</div>
+                                    <ul style="text-align: left;">
+                                        <li style="display: flex;">
+                                            <div style="width:102px; height: 18px;overflow: hidden;"><img
+                                                    class="rating-star" id="001" height="30"
+                                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                                    width="10" alt="5.0 star rating"></div>
+                                            <div class="review-number">7 reviews</div>
+                                        </li>
+                                        <li>Italian</li>
+                                        <li>Russian Hill</li>
+                                        <li><svg id="18x18_flame" height="18" fill="#f15c00" viewBox="0 0 18 18"
+                                                width="18">
+                                                <path
+                                                    d="M11.508 3.743c1.173 2.43-.465 2.27-.696 3.88C10.082 2.758 5.947 1.5 5.947 1.5c2.045 2.697-1.9 4.784-3.63 8.33-1.47 3.016 2.533 5.44 4.67 6.67-2.15-2.993-.563-5.02 1.612-6.793-.81 2.448.5 2.934 1.043 3.944.71-.31 1.028-1.3 1.1-1.79.954 1.31 1.465 2.97-.248 4.64 8.302-3.77 5.977-9.743 1.007-12.752z">
+                                                </path>
+                                            </svg><span style="color: #f15c00;">Opened 7 weeks ago</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="business-container">
+                                <div class="display:flex"><img alt="Ratchetivi-Teas by Arena" class="photo-box-img"
+                                        height="200"
+                                        src="https://s3-media0.fl.yelpcdn.com/bphoto/L14FNnTvOsezf6wDI_uh5g/l.jpg"
+                                        width="280"></div>
+                                <div class="details">
+                                    <div class="item">Ratchetivi-Teas by Arena</div>
+                                    <ul style="text-align: left;">
+                                        <li style="display: flex;">
+                                            <div style="width:102px; height: 18px;overflow: hidden;"><img
+                                                    class="rating-star" id="one" height="30"
+                                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                                    width="10" alt="5.0 star rating"></div>
+                                            <div class="review-number">9 reviews</div>
+                                        </li>
+                                        <li>Italian</li>
+                                        <li>Russian Hill</li>
+                                        <li><svg id="18x18_flame" height="18" fill="#f15c00" viewBox="0 0 18 18"
+                                                width="18">
+                                                <path
+                                                    d="M11.508 3.743c1.173 2.43-.465 2.27-.696 3.88C10.082 2.758 5.947 1.5 5.947 1.5c2.045 2.697-1.9 4.784-3.63 8.33-1.47 3.016 2.533 5.44 4.67 6.67-2.15-2.993-.563-5.02 1.612-6.793-.81 2.448.5 2.934 1.043 3.944.71-.31 1.028-1.3 1.1-1.79.954 1.31 1.465 2.97-.248 4.64 8.302-3.77 5.977-9.743 1.007-12.752z">
+                                                </path>
+                                            </svg><span style="color: #f15c00;">Opened 7 weeks ago</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="business-container">
+                                <div class="display:flex"><img alt="Ratchetivi-Teas by Arena" class="photo-box-img"
+                                        height="200"
+                                        src="https://s3-media0.fl.yelpcdn.com/bphoto/KyoT1gh6DlZRjH7IbxX13Q/l.jpg"
+                                        width="280"></div>
+                                <div class="details">
+                                    <div class="item">Ratchetivi-Teas by Arena</div>
+                                    <ul style="text-align: left;">
+                                        <li style="display: flex;">
+                                            <div style="width:102px; height: 18px;overflow: hidden;"><img
+                                                    class="rating-star" id="three" height="30"
+                                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                                    width="10" alt="5.0 star rating"></div>
+                                            <div class="review-number">6 reivews</div>
+                                        </li>
+                                        <li>Italian</li>
+                                        <li>Russian Hill</li>
+                                        <li><svg id="18x18_flame" height="18" fill="#f15c00" viewBox="0 0 18 18"
+                                                width="18">
+                                                <path
+                                                    d="M11.508 3.743c1.173 2.43-.465 2.27-.696 3.88C10.082 2.758 5.947 1.5 5.947 1.5c2.045 2.697-1.9 4.784-3.63 8.33-1.47 3.016 2.533 5.44 4.67 6.67-2.15-2.993-.563-5.02 1.612-6.793-.81 2.448.5 2.934 1.043 3.944.71-.31 1.028-1.3 1.1-1.79.954 1.31 1.465 2.97-.248 4.64 8.302-3.77 5.977-9.743 1.007-12.752z">
+                                                </path>
+                                            </svg><span style="color: #f15c00;">Opened 7 weeks ago</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="see-more">See more hot and new businesses</div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="review-section">
+                <div class="review">
+                    <div style="width: 70%;">
+                        <div class="title">Review of the Day </div>
+                        <div class="review-container">
+                            <div style="display: flex;">
+                                <div><img alt="Cindy L." class="photo-box-img" height="60"
+                                        src="https://s3-media0.fl.yelpcdn.com/photo/l7msNzghLUDNO4IAPaCPjw/60s.jpg"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/photo/l7msNzghLUDNO4IAPaCPjw/ms.jpg 1.67x,https://s3-media0.fl.yelpcdn.com/photo/l7msNzghLUDNO4IAPaCPjw/120s.jpg 2.00x,https://s3-media0.fl.yelpcdn.com/photo/l7msNzghLUDNO4IAPaCPjw/180s.jpg 3.00x,https://s3-media0.fl.yelpcdn.com/photo/l7msNzghLUDNO4IAPaCPjw/168s.jpg 2.80x,https://s3-media0.fl.yelpcdn.com/photo/l7msNzghLUDNO4IAPaCPjw/90s.jpg 1.50x"
+                                        width="60" style="border-radius: 5px;"></div>
+                                <div>
+                                    <ul style="margin-left: 10px;">
+                                        <li style="color: #0073bb; font-weight: 700;">Cindy L</li>
+                                        <li style="display: flex;"><span><img
+                                                    src="./icons/people-icon.PNG"></span><span>105</span><img
+                                                src="./icons/star-icon.PNG"
+                                                style="height:18px;padding-top: 2px;"><span>283
+                                            </span><span
+                                                style="padding-left: 4px; color: #f15c00;font-weight: 600;">Elite
+                                                ’20</span></li>
+                                        <li>Wrote a review for Catch <span style="color: #0073bb; font-weight: 700;">
+                                                sushi
+                                                Bento</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div style="display: flex;">
+                                <div class="review-details">
+                                    <span style="width: 90%;padding-left: 3px;"> Review of the Day </span><img
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/40x40_rotd.yelp_styleguide.yji-8bb21835695e01eb298b00f01db91d20.png"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/assets/public/40x40_rotd@2x.yelp_styleguide.yji-73138b2d66b5544f72973c609cf3069d.png 2x"
+                                        width="40" class="badge-banner_img" role="presentation">
+                                </div>
+                            </div>
+                            <div style="display:flex">
+                                <div style="width:102px; height: 18px;overflow: hidden;"><img class="rating-star"
+                                        id="001" height="30"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                        width="10" alt="5.0 star rating"></div>
+                                <div class="reviewed-date">5/23/2020</div>
+                            </div>
+                            <div class="review-para">I was oddly craving sushi since I haven't had it in months and
+                                stumbled
+                                across Catch on yelp. Decided to give it a try since it was close by and am so glad that
+                                I
+                                did! Food was really good, fresh, and portion sizes were generous. We got the unagi
+                                roll,
+                                real crab California roll, shrimp tempura roll, dragon roll, chicken karaage, and a
+                                Unagi
+                                don. My favorite was the shrimp tempura roll and the chicken karaage - the c... <a
+                                    style="color: #0073bb;">Continue reading</a>
+                            </div>
+
+                        </div>
+                        <div class="read-more">Read previous reviews</div>
+                    </div>
+                    <div class="collection-container">
+                        <div class="title">Recent Collections</div>
+                        <div class="collection-main">
+                            <ul>
+                                <li class="collection-item">
+                                    <div class="collections">
+                                        <div style="height: 70px;">
+                                            <div><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/bphoto/Lkyv0Z48ip8WpBz2DdcXqA/120s.jpg"
+                                                    class="item"><img src="./icons/bookmark.svg" class="bookmark"
+                                                    style="width: 14px;">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li class="title">
+                                                    Fav Sushi Delivery </li>
+                                                <li>Don’t see a business in our collection that should be </li>
+                                                <li><span class="places">20 Places · By</span> <span
+                                                        class="user-name">Benjamin
+                                                        F.</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="collection-item">
+                                    <div class="collections">
+                                        <div style="height: 70px;">
+                                            <div><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/bphoto/fkgyZbyYP7evChd0trFinA/120s.jpg"
+                                                    class="item"><img src="./icons/bookmark.svg" class="bookmark"
+                                                    style="width: 14px;">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li class="title">
+                                                    Fav Sushi Delivery </li>
+                                                <li>Don’t see a business in our collection that should be </li>
+                                                <li><span class="places">20 Places · By</span> <span
+                                                        class="user-name">Benjamin
+                                                        F.</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="collection-item"
+                                    style="border-bottom: inherit;padding-bottom:inherit;margin-bottom: inherit;">
+                                    <div class="collections">
+                                        <div style="height: 70px;">
+                                            <div><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/bphoto/CNpId4QB84MPQMrdKPUlig/120s.jpg"
+                                                    class="item"><img src="./icons/bookmark.svg" class="bookmark"
+                                                    style="width: 14px;">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li class="title">
+                                                    Fav Sushi Delivery </li>
+                                                <li>Don’t see a business in our collection that should be </li>
+                                                <li><span class="places">20 Places · By</span> <span
+                                                        class="user-name">Benjamin
+                                                        F.</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="read-more">Browse more collections</div>
+                    </div>
+                </div>
+            </section>
+            <section class="activity-section">
+                <div class="activity">
+                    <div>Recent Activity</div>
+                    <div class="activity-main">
+                        <div class="left-part">
+                            <div class="each-activity">
+                                <ul>
+                                    <li class="user-profile">
+                                        <div style="display: flex;align-items: center;">
+                                            <span><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/photo/TgLSSKYq3Op4tqEeJBnAeg/30s.jpg"
+                                                    alt="profile">
+                                            </span>
+                                            <div>
+                                                <ul class="user-details">
+                                                    <li class="user-name">Alyssa F.</li>
+                                                    <li>Added 2 photos</li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>Artis Coffee</li>
+                                    <li style="display: flex;">
+                                        <div>
+
+                                            <img alt="Outside"
+                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/NEiyewk45oQp-YkMiu6cWg/168s.jpg"
+                                                width="168" height="168">
+                                            </a>
+                                        </div>
+                                        <div><img alt="Honey Lavender latte"
+                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/6g5bt23pUuceoY712iBhXg/168s.jpg"
+                                                width="168" height="168"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="each-activity">
+                                <ul>
+                                    <li>
+                                        <div style="display: flex;align-items: center;">
+                                            <span><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/photo/Wz7FmAJE7OmGLNnF_-Kstw/30s.jpg"
+                                                    alt="profile">
+                                            </span>
+                                            <div style="text-align: left;">
+                                                <ul class="user-details">
+                                                    <li class="user-name">Kim L.</li>
+                                                    <li>Wrote a review</li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+                                    <li style="text-align: center;">
+
+                                        <div style="height: 150px;">
+                                            <img class="photo-box-img"
+                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/wnn5ar2kQXr3JWFZ9Y6bUw/l.jpg"
+                                                srcset="https://s3-media0.fl.yelpcdn.com/bphoto/wnn5ar2kQXr3JWFZ9Y6bUw/o.jpg 1.67x"
+                                                width="600px" height="250px">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div
+                                    style="background-color: white;position: relative; width: 100%;text-align: left; border-bottom: 1px solid gainsboro;padding: 10px 0px;">
+                                    Downtown Subaru of Oakland-Sales
+                                </div>
+                                <div
+                                    style="text-align: left; background-color: white; position: relative; padding-top: 10px;">
+                                    <div style="display:flex">
+                                        <div style="width:102px; height: 18px;overflow: hidden;"><img
+                                                class="rating-star" id="001" height="30"
+                                                src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                                width="10" alt="5.0 star rating"></div>
+                                    </div>
+                                    <div class="review-para" style="text-align: left;">Had a great experience at
+                                        Downtown
+                                        Oakland Toyota. Shiloh treated us great and didn't pressure us at all. I am now
+                                        a
+                                        happy owner of a new Subaru Crosstrek. </div>
+
+                                </div>
+                                <div class="activity-icon">
+                                    <div>
+                                        <ul style="display: flex;">
+                                            <li><svg id="24x24_useful_outline" height="24" viewBox="0 0 24 24"
+                                                    fill="gray" width="24">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm2 10.704V15h-4v-1.296c-1.35-.72-2.278-2.124-2.278-3.76a4.278 4.278 0 0 1 8.556 0c0 1.636-.93 3.04-2.278 3.76zM11 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 6.5a2 2 0 0 1-4 0V16h4v.5z">
+                                                    </path>
+                                                </svg></li>
+                                            <li><svg id="24x24_funny_outline" height="24" viewBox="0 0 24 24"
+                                                    fill="gray" width="24">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm0 15a5.5 5.5 0 0 1-5.288-4h10.576A5.5 5.5 0 0 1 12 18zm3.5-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-7 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z">
+                                                    </path>
+                                                </svg></li>
+                                            <li><svg id="24x24_cool_outline" height="24" fill="gray" viewBox="0 0 24 24"
+                                                    width="24">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm7.994 6.765C19.647 11.612 17.97 13 15.96 13h-.002c-1.617 0-3.028-.9-3.67-2.224a.32.32 0 0 0-.575 0C11.07 12.1 9.66 13 8.043 13H8.04c-2.01 0-3.74-1.15-4.035-3.018l-.124-.734c-.07-.305.257-.25.634-.248h14.972c.39 0 .673-.04.632.248l-.124.517zM17 15.143a5.405 5.405 0 0 1-5 3.357 5.405 5.405 0 0 1-5-3.357 8.6 8.6 0 0 0 5 1.6 8.6 8.6 0 0 0 5-1.6z">
+                                                    </path>
+                                                </svg></li>
+                                        </ul>
+                                    </div>
+                                    <div style="padding-left:60%"><svg id="24x24_compliment" height="24" fill="gray"
+                                            viewBox="0 0 24 24" width="24">
+                                            <path
+                                                d="M19 9A7 7 0 0 0 5 9a6.995 6.995 0 0 0 3.957 6.297L8 21.992 12.005 19 16 21.992l-.957-6.695A6.995 6.995 0 0 0 19 9zm-7 5c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mid-part">
+                            <div class="each-activity">
+                                <ul>
+                                    <li class="user-profile">
+                                        <div style="display: flex;align-items: center;">
+                                            <span><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/photo/TgLSSKYq3Op4tqEeJBnAeg/30s.jpg"
+                                                    alt="profile">
+                                            </span>
+                                            <div>
+                                                <ul class="user-details">
+                                                    <li class="user-name">Alyssa F.</li>
+                                                    <li>Added 1 photos</li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>Highwire Coffee Roasters</li>
+                                    <li>
+                                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/CsprSoiQn1J26dtqipOk6A/300s.jpg"
+                                            alt="" style="height: 300px;width: 100%;">
+                                    </li>
+                                    <li style="display:flex; position: relative; bottom: 4px; background-color: white;">
+                                        <span><svg id="24x24_like_outline" height="24" viewBox="0 0 24 24" width="24">
+                                                <path
+                                                    d="M21.164 12.236c.05.164.086.334.086.514 0 .66-.37 1.23-.91 1.527.1.22.16.464.16.723 0 .66-.37 1.23-.91 1.527.1.22.16.464.16.723A1.75 1.75 0 0 1 18 19H7v-9h1c.37 0 1.257-2.37 2.104-3.345.89-1.017 1.234-1.782 1.457-2.513C11.785 3.412 12 2 12 2s2.388.11 2.388 2.9c0 1.39-.758 3.1-.388 4.1h6.25c.966 0 1.75.784 1.75 1.75 0 .63-.336 1.178-.836 1.486zM20.25 10h-6.946l-.242-.653c-.316-.855-.11-1.862.09-2.835.117-.56.236-1.14.236-1.61 0-.844-.283-1.314-.608-1.577-.076.387-.168.797-.262 1.107-.228.748-.604 1.673-1.66 2.88-.336.386-.744 1.166-1.072 1.794C9.146 10.326 8.796 11 8 11v7h10a.75.75 0 0 0 .75-.75.75.75 0 0 0-.07-.308l-.385-.843.812-.45A.74.74 0 0 0 19.5 15a.75.75 0 0 0-.07-.308l-.385-.843.812-.45a.74.74 0 0 0 .393-.65.793.793 0 0 0-.04-.22l-.23-.74.66-.406A.746.746 0 0 0 20.25 10zM2 10h4v10H2V10z">
+                                                </path>
+                                            </svg></span><span class="like-button">1 Like</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="each-activity">
+                                <ul>
+                                    <li>
+                                        <div style="display: flex;align-items: center;">
+                                            <span><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/photo/Ce6o29YgAiV_jqqN0H_hjg/30s.jpg"
+                                                    alt="profile">
+                                            </span>
+                                            <div style="text-align: left;">
+                                                <ul class="user-details">
+                                                    <li class="user-name">
+                                                        Alisha X.</li>
+                                                    <li>Wrote a review</li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+                                    <li style="text-align: center;">
+
+                                        <div style="height: 150px;">
+                                            <img class="photo-box-img"
+                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/MqvqSMsSr6k_vpgARRuyZQ/l.jpg"
+                                                srcset="https://s3-media0.fl.yelpcdn.com/bphoto/wnn5ar2kQXr3JWFZ9Y6bUw/o.jpg 1.67x"
+                                                width="600px" height="250px">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div
+                                    style="background-color: white;position: relative; width: 100%;text-align: left; border-bottom: 1px solid gainsboro;padding: 10px 0px;">
+                                    oaklandia cafe
+                                </div>
+                                <div
+                                    style="text-align: left; background-color: white; position: relative; padding-top: 10px;">
+                                    <div style="display:flex">
+                                        <div style="width:102px; height: 18px;overflow: hidden;"><img
+                                                class="rating-star" style="height:242px" id="001" height="30"
+                                                src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                                width="10" alt="5.0 star rating"></div>
+                                    </div>
+                                    <div class="review-para" style="text-align: left;">New owners with a refined menu!
+                                        Solid
+                                        selection of sandwiches with fresh bread and veggies. Nice folks who work
+                                        insides.</div>
+
+                                </div>
+                                <div class="activity-icon">
+                                    <div>
+                                        <ul style="display: flex;">
+                                            <li><svg id="24x24_useful_outline" height="24" viewBox="0 0 24 24"
+                                                    fill="gray" width="24" class="use-full">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm2 10.704V15h-4v-1.296c-1.35-.72-2.278-2.124-2.278-3.76a4.278 4.278 0 0 1 8.556 0c0 1.636-.93 3.04-2.278 3.76zM11 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 6.5a2 2 0 0 1-4 0V16h4v.5z">
+                                                    </path>
+                                                </svg></li>
+                                            <div class="useful">Usefull</div>
+                                            <li><svg id="24x24_funny_outline" height="24" viewBox="0 0 24 24"
+                                                    fill="gray" width="24">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm0 15a5.5 5.5 0 0 1-5.288-4h10.576A5.5 5.5 0 0 1 12 18zm3.5-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-7 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z">
+                                                    </path>
+                                                </svg></li>
+                                            <li><svg id="24x24_cool_outline" height="24" fill="gray" viewBox="0 0 24 24"
+                                                    width="24">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm7.994 6.765C19.647 11.612 17.97 13 15.96 13h-.002c-1.617 0-3.028-.9-3.67-2.224a.32.32 0 0 0-.575 0C11.07 12.1 9.66 13 8.043 13H8.04c-2.01 0-3.74-1.15-4.035-3.018l-.124-.734c-.07-.305.257-.25.634-.248h14.972c.39 0 .673-.04.632.248l-.124.517zM17 15.143a5.405 5.405 0 0 1-5 3.357 5.405 5.405 0 0 1-5-3.357 8.6 8.6 0 0 0 5 1.6 8.6 8.6 0 0 0 5-1.6z">
+                                                    </path>
+                                                </svg></li>
+                                        </ul>
+                                    </div>
+                                    <div style="padding-left:60%"><svg id="24x24_compliment" height="24" fill="gray"
+                                            viewBox="0 0 24 24" width="24">
+                                            <path
+                                                d="M19 9A7 7 0 0 0 5 9a6.995 6.995 0 0 0 3.957 6.297L8 21.992 12.005 19 16 21.992l-.957-6.695A6.995 6.995 0 0 0 19 9zm-7 5c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-part">
+                            <div class="each-activity">
+                                <ul>
+                                    <li>
+                                        <div style="display: flex;align-items: center;">
+                                            <span><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/photo/npoxKd6fxroRM55xfQo_hQ/30s.jpg"
+                                                    alt="profile">
+                                            </span>
+                                            <div>
+                                                <ul class="user-details">
+                                                    <li class="user-name">Julie H.</li>
+                                                    <li>Added 1 photos</li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>Highwire Coffee Roasters</li>
+                                    <li style="text-align: center; ">
+                                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/EeBrwtShZ0JJphpisiNDIA/300s.jpg"
+                                            alt="" height="300px" style="width:100%">
+                                    </li>
+                                    <li style="display:flex; position: relative; bottom: 4px; background-color: white;">
+                                        <span><svg id="24x24_like_outline" height="24" viewBox="0 0 24 24" width="24">
+                                                <path
+                                                    d="M21.164 12.236c.05.164.086.334.086.514 0 .66-.37 1.23-.91 1.527.1.22.16.464.16.723 0 .66-.37 1.23-.91 1.527.1.22.16.464.16.723A1.75 1.75 0 0 1 18 19H7v-9h1c.37 0 1.257-2.37 2.104-3.345.89-1.017 1.234-1.782 1.457-2.513C11.785 3.412 12 2 12 2s2.388.11 2.388 2.9c0 1.39-.758 3.1-.388 4.1h6.25c.966 0 1.75.784 1.75 1.75 0 .63-.336 1.178-.836 1.486zM20.25 10h-6.946l-.242-.653c-.316-.855-.11-1.862.09-2.835.117-.56.236-1.14.236-1.61 0-.844-.283-1.314-.608-1.577-.076.387-.168.797-.262 1.107-.228.748-.604 1.673-1.66 2.88-.336.386-.744 1.166-1.072 1.794C9.146 10.326 8.796 11 8 11v7h10a.75.75 0 0 0 .75-.75.75.75 0 0 0-.07-.308l-.385-.843.812-.45A.74.74 0 0 0 19.5 15a.75.75 0 0 0-.07-.308l-.385-.843.812-.45a.74.74 0 0 0 .393-.65.793.793 0 0 0-.04-.22l-.23-.74.66-.406A.746.746 0 0 0 20.25 10zM2 10h4v10H2V10z">
+                                                </path>
+                                            </svg></span><span>2 Like</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="each-activity">
+                                <ul>
+                                    <li>
+                                        <div style="display: flex;align-items: center;">
+                                            <span><img
+                                                    src="https://s3-media0.fl.yelpcdn.com/photo/XhQ1iBMZ20nGdMMfxglRrA/30s.jpg"
+                                                    alt="profile">
+                                            </span>
+                                            <div style="text-align: left;">
+                                                <ul class="user-details">
+                                                    <li class="user-name">
+                                                        Taylor Z.</li>
+                                                    <li>Wrote a review</li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+                                    <li style="text-align: center;">
+
+                                        <div style="height: 150px;">
+                                            <img class="photo-box-img"
+                                                src="https://s3-media0.fl.yelpcdn.com/bphoto/jf53AKnHW_F5nsDREsEAqQ/l.jpg"
+                                                srcset="https://s3-media0.fl.yelpcdn.com/bphoto/wnn5ar2kQXr3JWFZ9Y6bUw/o.jpg 1.67x"
+                                                width="600px" height="250px">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div
+                                    style="background-color: white;position: relative; width: 100%;text-align: left; border-bottom: 1px solid gainsboro;padding: 10px 0px;">
+                                    Gelato Firenze and QTea Bar
+                                </div>
+                                <div
+                                    style="text-align: left; background-color: white; position: relative; padding-top: 10px;">
+                                    <div style="display:flex">
+                                        <div style="width:102px; height: 18px;overflow: hidden;"><img
+                                                class="rating-star" id="001" height="30"
+                                                src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                                width="10" alt="5.0 star rating"></div>
+                                    </div>
+                                    <div class="review-para" style="text-align: left;">Great tea bar near Lake Merritt.
+                                        Lots of
+                                        fresh juice options with great toppings. I really liked the way they handled
+                                        payment and
+                                        handing off during covid, felt pretty safe.</div>
+
+                                </div>
+                                <div class="activity-icon">
+                                    <div>
+                                        <ul style="display: flex;">
+                                            <li><svg id="24x24_useful_outline" height="24" viewBox="0 0 24 24"
+                                                    fill="gray" width="24">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm2 10.704V15h-4v-1.296c-1.35-.72-2.278-2.124-2.278-3.76a4.278 4.278 0 0 1 8.556 0c0 1.636-.93 3.04-2.278 3.76zM11 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 6.5a2 2 0 0 1-4 0V16h4v.5z">
+                                                    </path>
+                                                </svg></li>
+                                            <li><svg id="24x24_funny_outline" height="24" viewBox="0 0 24 24"
+                                                    fill="gray" width="24">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm0 15a5.5 5.5 0 0 1-5.288-4h10.576A5.5 5.5 0 0 1 12 18zm3.5-7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-7 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z">
+                                                    </path>
+                                                </svg></li>
+                                            <li><svg id="24x24_cool_outline" height="24" fill="gray" viewBox="0 0 24 24"
+                                                    width="24">
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-19c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm7.994 6.765C19.647 11.612 17.97 13 15.96 13h-.002c-1.617 0-3.028-.9-3.67-2.224a.32.32 0 0 0-.575 0C11.07 12.1 9.66 13 8.043 13H8.04c-2.01 0-3.74-1.15-4.035-3.018l-.124-.734c-.07-.305.257-.25.634-.248h14.972c.39 0 .673-.04.632.248l-.124.517zM17 15.143a5.405 5.405 0 0 1-5 3.357 5.405 5.405 0 0 1-5-3.357 8.6 8.6 0 0 0 5 1.6 8.6 8.6 0 0 0 5-1.6z">
+                                                    </path>
+                                                </svg></li>
+                                        </ul>
+                                    </div>
+                                    <div style="padding-left:60%"><svg id="24x24_compliment" height="24" fill="gray"
+                                            viewBox="0 0 24 24" width="24">
+                                            <path
+                                                d="M19 9A7 7 0 0 0 5 9a6.995 6.995 0 0 0 3.957 6.297L8 21.992 12.005 19 16 21.992l-.957-6.695A6.995 6.995 0 0 0 19 9zm-7 5c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>Show more activity in San Francisco</div>
+                </div>
+            </section>
+            <section>
+                <div class="category">
+                    <div class="category-title">
+                        <h2>Browse Businesses by Category</h2>
+                    </div>
+                    <div>
+                        <ul class="category-main-container">
+                            <li>
+                                <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_restaurants.yji-80b92cd513f0cd02dd41a05d5d846075.png"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_restaurants@2x.yji-7cef764a214416ca9991e53ceb108b5c.png"
+                                        alt="Restaurants"></div>
+                                <div>Restaurants</div>
+                            </li>
+                            <li>
+                                <div></div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_shopping.yji-ad1f85392c049e567b6ee9dd50360ba4.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_shopping@2x.yji-559f23226d9f9f651812ddc5d6e3d1b2.png"
+                                    alt="Shopping">
+                                <div>Shopiing</div>
+                            </li>
+                            <li>
+                                <div></div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_nightlife.yji-4ee31d03d5b20dc5575588c3d284dc2d.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_nightlife@2x.yji-925cd32ac4c934d465c664f140c5b629.png"
+                                    alt="Nightlife">
+                                <div>Nightlife</div>
+                            </li>
+                            <li>
+                                <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_active_life.yji-7b915f332ffe61b88b3605594bd7fe0c.png"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_active_life@2x.yji-2df9fcd6a68eb739e68a026778dd7a3f.png"
+                                        alt="Active Life"></div>
+
+                                <div>Active Life</div>
+
+                            </li>
+                        </ul>
+                        <ul class="category-main-container">
+                            <li>
+                                <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_beauty.yji-dda5bcbe7e6cc16014f194a9334f1b94.png"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_beauty@2x.yji-3cfb4e602ac139443228f090ec71b84f.png"
+                                        alt="Beauty &amp; Spas"></div>
+                                <div> Beauty & Saps</div>
+                            </li>
+                            <li>
+                                <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_automotive.yji-59b42d70fa94e2f1043fa1d629565598.png"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_automotive@2x.yji-c73bd70791375ec60256243055745f63.png"
+                                        alt="Automotive"></div>
+                                <div>Automotive</div>
+                            </li>
+                            <li>
+                                <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_home_services.yji-52d0e24aea08e0e1eb860a8f253a9c90.png"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_home_services@2x.yji-20723ad0e5ee302de563935be68c6638.png"
+                                        alt="Home Services"></div>
+                                <div> Home Services</div>
+                            </li>
+                            <li>
+                                <div><img class="tile-image__a5c5a__2UKf4 u-space-b1__a5c5a__3kBMH" width="72"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_more_categories.yji-3110ec19fa2b634cbaf2e66a4ab23ee1.png"
+                                        srcset="https://s3-media0.fl.yelpcdn.com/assets/public/72x72_more_categories@2x.yji-e7be9a50bf8cf4a2eea9f7d7e2b5f194.png"
+                                        alt="More Categories"></div>
+                                <div>More Categories</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="apps">
+                    <div class="app-title">
+                        <h2>Yelp Mobile Apps</h2>
+                    </div>
+                    <div class="yelp-apps">
+                        <div class="each-app">
+                            iPhone, iPad and Watch
+                            <div><img
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/pitch_ios.yelp_styleguide.yji-960cce5c1917bdabc568aa735f2d866f.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/pitch_ios@2x.yelp_styleguide.yji-56ec6655a7ac925b080fa9833895e2a2.png 2x"
+                                    width="264" alt="iPhone," ipad="" and="" applewatch=""></div>
+                        </div>
+                        <div class="each-app">
+                            Android
+                            <div><img
+                                    src="https://s3-media0.fl.yelpcdn.com/assets/public/pitch_android.yelp_styleguide.yji-a91a4a087787b1aa9aa729e3de5743d7.png"
+                                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/pitch_android@2x.yelp_styleguide.yji-c0e32a3afc513227116910caefb3a994.png 2x"
+                                    width="264" alt="Android"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <div class="footer-container">
+                <ul>
+                    <li class="title">About</li>
+                    <li>About Yelp</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                    <li>Investor Relations</li>
+                    <li>Content Guidelines</li>
+                    <li>Terms of Service</li>
+                    <li>Privacy Policy</li>
+                    <li>Ad Choices</li>
+                </ul>
+                <ul>
+                    <li class="title">Discover</li>
+                    <li>Yelp Project Cost Guides</li>
+                    <li>Collections</li>
+                    <li>Talk</li>
+                    <li>Events</li>
+                    <li>The Local Yelp</li>
+                    <li>Yelp Blog</li>
+                    <li>Support</li>
+                    <li>Yelp Mobile</li>
+                    <li>Developers</li>
+                    <li>RSS</li>
+                </ul>
+                <ul>
+                    <li class="title">Yelp for Business Owners</li>
+                    <li>Claim your Business Page</li>
+                    <li>Advertise on Yelp</li>
+                    <li>Yelp Reservations</li>
+                    <li>Yelp WiFi</li>
+                    <li>Yelp Waitlist</li>
+                    <li>Business Success Stories</li>
+                    <li>Business Support</li>
+                    <li>Yelp Blog for Business Owners</li>
+                </ul>
+                <div>
+                    <div class="title">Languages</div>
+                    <div class="title">Countries</div>
+                </div>
+            </div>
+            <div class="footer-background"></div>
+            <div class="copyright">Copyright © 2004–2020 Yelp Inc. Yelp, <img
+                    src="https://s3-media0.fl.yelpcdn.com/assets/public/logo_desktop_xsmall_outline.yelp_styleguide.yji-17089be275f0e32eb065304790b0c35e.png"
+                    alt="Yelp logo" class="main-footer_logo-copyright"
+                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/logo_desktop_xsmall_outline@2x.yelp_styleguide.yji-0aade8725c91582a386d6d01dc973b74.png 2x">,
+                <img src="https://s3-media0.fl.yelpcdn.com/assets/public/burst_desktop_xsmall_outline.yelp_styleguide.yji-58cfc999e1f5da75e75ddf71c868c656.png"
+                    alt="Yelp burst" class="main-footer_logo-burst"
+                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/burst_desktop_xsmall_outline@2x.yelp_styleguide.yji-dcb526e86d86cc0427ef2e8287d0aa17.png 2x">
+                and related marks are registered trademarks of Yelp.</div>
+        </footer>
+    </div>
+    <!--Mobile view-->
+    <div class="mobile-view">
+        <nav>
+            <div class="nav-main">
+                <div class="open-app"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white"
+                        viewBox="0 0 18 18" class="icon_svg">
+                        <path
+                            d="M13 17H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1zm0-13.537A.463.463 0 0 0 12.537 3H5.463A.463.463 0 0 0 5 3.463v11.074c0 .256.207.463.463.463h7.074a.463.463 0 0 0 .463-.463V3.463zM9 14.5a1.15 1.15 0 1 1 0-2.3 1.15 1.15 0 0 1 0 2.3z">
+                        </path>
+                    </svg>Open App</div>
+                <div><img width="50px"
+                        src="https://s3-media0.fl.yelpcdn.com/assets/public/default@2x.yelp_design_web.yji-a536dc4612adf182807e56e390709483.png">
+                </div>
+                <div class="menu-section">
+                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="24" fill="white" height="24"
+                            viewBox="0 0 24 24" class="icon_svg">
+                            <path
+                                d="M20.753 19.34l-4.295-4.297A7.46 7.46 0 0 0 18 10.5a7.5 7.5 0 1 0-7.5 7.5 7.46 7.46 0 0 0 4.543-1.542l4.296 4.295a1 1 0 1 0 1.412-1.414zM10.5 16A5.506 5.506 0 0 1 5 10.5C5 7.467 7.467 5 10.5 5S16 7.467 16 10.5 13.533 16 10.5 16z">
+                            </path>
+                        </svg></div>
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="24" fill="white" height="24" viewBox="0 0 24 24"
+                            class="icon_svg">
+                            <path d="M3 18v-2h18v2H3zm0-7h18v2H3v-2zm0-5h18v2H3V6z"></path>
+                        </svg></div>
+                </div>
+            </div>
+        </nav>
+        <section class="services">
+            <ul class="items">
+                <li>
+                    <div><img class="_3GQUb _1zEWe"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/restaurants.yelp_suggest_assets.yji-bd314b2e68342d8df2208cbee9603c6b.png"
+                            srcset="https://s3-media0.fl.yelpcdn.com/assets/public/restaurants@2x.yelp_suggest_assets.yji-bcc82edfc5c6c1b93b586600c46d41d3.png 2x">
+                    </div>
+                    <div>Restaurants</div>
+                </li>
+                <li>
+                    <div><img class="_3GQUb _1zEWe"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/delivery.yelp_suggest_assets.yji-7688466efb7d82aac2a5bd89b76dd772.png"
+                            srcset="https://s3-media0.fl.yelpcdn.com/assets/public/delivery@2x.yelp_suggest_assets.yji-dabf4a8b8e90b7b7d62a29328d0f3ced.png 2x">
+                    </div>
+                    <div>Delivery</div>
+                </li>
+                <li>
+                    <div><img class="_3GQUb _1zEWe"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/takeout.yelp_suggest_assets.yji-87dd205d75f8de519f05f9e9fd31ea4a.png"
+                            srcset="https://s3-media0.fl.yelpcdn.com/assets/public/takeout@2x.yelp_suggest_assets.yji-31f0b00eb8ce079806100f56346aacf8.png 2x">
+                    </div>
+                    <div>Takeout</div>
+                </li>
+                <li>
+                    <div><img class="_3GQUb _1zEWe"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/accountants.yelp_suggest_assets.yji-4ff804d6d7801c7ba3296c6b3446f4d1.png"
+                            srcset="https://s3-media0.fl.yelpcdn.com/assets/public/accountants@2x.yelp_suggest_assets.yji-ea8d4ce4ac99431c87834ca0e8001151.png 2x">
+                    </div>
+                    <div>Accountants</div>
+                </li>
+            </ul>
+            <ul class="items">
+                <li>
+                    <div><img class="_3GQUb _1zEWe"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/plumbers.yelp_suggest_assets.yji-f94be003dd9a738fec49b4a55ebf47ae.png"
+                            srcset="https://s3-media0.fl.yelpcdn.com/assets/public/plumbers@2x.yelp_suggest_assets.yji-f903039113e2a34220d2aac60a5908e5.png 2x">
+                    </div>
+                    <div>Plumbers</div>
+                </li>
+                <li>
+                    <div><img class="_3GQUb _1zEWe"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/auto_repair.yelp_suggest_assets.yji-5782212a6cdee64684eecefe621208a5.png"
+                            srcset="https://s3-media0.fl.yelpcdn.com/assets/public/auto_repair@2x.yelp_suggest_assets.yji-18ebe256d48a654520d144b06ba08b86.png 2x">
+                    </div>
+                    <div>Auto Repair</div>
+                </li>
+                <li>
+                    <div><img class="_3GQUb _1zEWe"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/mover.yelp_suggest_assets.yji-0fe5286f3747f1e9f807fb45e55569cf.png"
+                            srcset="https://s3-media0.fl.yelpcdn.com/assets/public/mover@2x.yelp_suggest_assets.yji-7474aa336018d3e7f3b03c0dcdf41e49.png 2x">
+                    </div>
+                    <div>Movers</div>
+                </li>
+                <li>
+                    <div style="width:50px;height: 40px; font-size:22px;">...</div>
+                    <div>More</div>
+                </li>
+            </ul>
+        </section>
+        <section class="services-pro">
+            <h4 style=" margin-left: 10px; margin-bottom:15px">Services & Professionals</h4>
+            <ul class="list-service">
+                <li>
+                    <div><img class="service-images"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/auto.yji-1a123a0da9850e36911b63d82e264a16.png"
+                            alt="Automotive" loading="auto" height="104"></div>
+                    <div>Automotive</div>
+                </li>
+                <li>
+                    <div><img class="service-images"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/apartments.yji-4ebcd0443f1c093467b36dfb28348ede.png"
+                            alt="Apartments" loading="auto" height="104"></div>
+                    <div>Apartments</div>
+                </li>
+                <li>
+                    <div><img class="service-images"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/sewingalterations.yji-0532dc9364c798b089288dcb4c2e7e37.png"
+                            alt="Sewing &amp; Alterations" loading="auto" height="104"></div>
+                    <div>Sewing & Alerations</div>
+                </li>
+                <li>
+                    <div><img class="service-images"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/plumbing.yji-3c0c66bdd7b2c4e39ecc84d31122055d.png"
+                            alt="Plumbing" loading="auto" height="104"></div>
+                    <div>Plumbing</div>
+                </li>
+                <li>
+                    <div><img class="service-images"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/locksmiths.yji-768ec474edb9376b598062fac6cf0866.png"
+                            alt="Keys &amp; Locksmiths" loading="auto" height="104"></div>
+                    <div>Keys & Locksmiths</div>
+                </li>
+                <li>
+                    <div><img class="service-images"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/mobilephonerepair.yji-ec70dbd8fe90ee10647c0239f3cb6944.png"
+                            alt="Mobile Phone Repair" loading="auto" height="104"></div>
+                    <div>Mobile Phone Repair</div>
+                </li>
+                <li>
+                    <div><img class="service-images"
+                            src="https://s3-media0.fl.yelpcdn.com/assets/public/laundromat.yji-a3f629343175e0cdf32f9b635fe2f131.png"
+                            alt="Laundromat" loading="auto" height="104">e</div>
+                    <div>Laundrormat</div>
+                </li>
+            </ul>
+            <div style="display: flex; justify-content: space-around; position: relative; bottom: 90px; color: red;font-size: 0px;">               
+        </section>
+        <div class="yelp-button">
+            Open in the Yelp App
+        </div>
+        <h2 style="margin-left:10px; margin-bottom:10px">Hot New Businesses Nearby</h2>
+        <section class="business">
+
+            <ul>
+                <li class="each-menu">
+                    <div>
+                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/L14FNnTvOsezf6wDI_uh5g/ms.jpg"
+                            class="menu-images">
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>1011 Sip Tea</li>
+                            <li style="display: flex;">
+                                <div style="width:102px; height: 15px;overflow: hidden;"><img class="rating-star-mobile"
+                                        id="001" height="30"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                        width="10" alt="5.0 star rating"></div>
+                                <div class="review-number" style="color: black;">5 reviews</div>
+                            </li>
+                            <li>BUbble Tea, Cpffee & Tea</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="each-menu">
+                    <div>
+                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/7zCRi3nmhblzQkMB37ra9w/ms.jpg"
+                            class="menu-images">
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Dreamer's Kitchen</li>
+                            <li style="display: flex;">
+                                <div style="width:102px; height: 15px;overflow: hidden;"><img class="rating-star-mobile"
+                                        id="001" height="30"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                        width="10" alt="5.0 star rating"></div>
+                                <div class="review-number" style="color: black;">11 reviews</div>
+                            </li>
+                            <li>BUbble Tea, Cpffee & Tea</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="each-menu">
+                    <div>
+                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/L14FNnTvOsezf6wDI_uh5g/ms.jpg"
+                            class="menu-images">
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>1011 Sip Tea</li>
+                            <li style="display: flex;">
+                                <div style="width:102px; height: 15px;overflow: hidden;"><img class="rating-star-mobile"
+                                        id="001" height="30"
+                                        src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yelp_design_web.yji-9bec2045845c24d3bff3ddb582884eda.png"
+                                        width="10" alt="5.0 star rating"></div>
+                                <div class="review-number" style="color: black;">6 reviews</div>
+                            </li>
+                            <li>BUbble Tea, Cpffee & Tea</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="more-section">
+            View More New Businesses
+        </section>
+        <footer class="mobile-footer">
+            <div style="padding-top: 10px;">Languages</div>
+            <div style="color: #0073bb;">English<svg xmlns="http://www.w3.org/2000/svg" width="14" fill="#0073bb"
+                    height="14" viewBox="0 0 14 14" class="icon_svg">
+                    <path d="M7 9L3.5 5h7L7 9z"></path>
+                </svg></div>
+            <div style="padding-top: 10px;">Countries</div>
+            <div style="color: #0073bb;">United States<svg xmlns="http://www.w3.org/2000/svg" width="14" fill="#0073bb"
+                    height="14" viewBox="0 0 14 14" class="icon_svg">
+                    <path d="M7 9L3.5 5h7L7 9z"></path>
+                </svg></div>
+            <ul class="footer-selections" style="padding-top: 10px;">
+                <li>About</li>
+                <li>Blog</li>
+                <li>Support</li>
+                <li>Terms</li>
+                <li>Privacy Policy</li>
+            </ul>
+            <div style="color: #0073bb;" style="padding-top: 10px;">Add a Business on Yelp</div>
+            <div class="copyright" style="padding-top: 10px;">Copyright © 2004–2020 Yelp Inc. Yelp, <img
+                    src="https://s3-media0.fl.yelpcdn.com/assets/public/logo_desktop_xsmall_outline.yelp_styleguide.yji-17089be275f0e32eb065304790b0c35e.png"
+                    alt="Yelp logo" class="main-footer_logo-copyright"
+                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/logo_desktop_xsmall_outline@2x.yelp_styleguide.yji-0aade8725c91582a386d6d01dc973b74.png 2x">,
+                <img src="https://s3-media0.fl.yelpcdn.com/assets/public/burst_desktop_xsmall_outline.yelp_styleguide.yji-58cfc999e1f5da75e75ddf71c868c656.png"
+                    alt="Yelp burst" class="main-footer_logo-burst"
+                    srcset="https://s3-media0.fl.yelpcdn.com/assets/public/burst_desktop_xsmall_outline@2x.yelp_styleguide.yji-dcb526e86d86cc0427ef2e8287d0aa17.png 2x">
+                and related marks are registered trademarks of Yelp.</div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
